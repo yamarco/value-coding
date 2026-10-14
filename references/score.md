@@ -39,7 +39,7 @@ and it does not count against them until its moment has passed.
 
 - **The opener, every session, one line**, right after the altitude tag:
   "Value score 7/12 · rogue on: the stake (since 2026-10-02), the build gate."
-  In the unfiltered voice the book's word is allowed once: a low score is a
+  In the explicit voice the book's word is allowed once: a low score is a
   masturbation score, and the user chose it.
 - **`VALUE.md`**, under its own heading, with the twelve rails as a checklist, the
   rogue list, and the history: one line per session with the date and the score, so

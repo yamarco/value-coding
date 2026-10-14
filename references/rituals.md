@@ -14,8 +14,8 @@ the same session.
 ## Every session
 
 - **The daily question.** Ask once, in the user's voice: "Are we creating value today,
-  or masturbating?" (unfiltered) or "Is today for them, or for the mirror?"
-  (filtered). On first contact it follows the voice question; on every other day it
+  or masturbating?" (explicit) or "Is today for them, or for the mirror?"
+  (professional). On first contact it follows the voice question; on every other day it
   shares the opening message with the altitude reading and the action-item check.
   Take the one-word answer, write it to `JOURNAL.md` with the date, and get on with
   the day. Do not ask again until tomorrow. If the answer is the bad one, say so once

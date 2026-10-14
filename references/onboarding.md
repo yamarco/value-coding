@@ -72,17 +72,22 @@ How to run it:
 
 ## Climb 1: the voice, and where we are
 
-Ask the voice question first and alone, and do not pick a default:
+Ask the voice question first and alone, and do not pick a default. Assume they have
+not read the book and say so:
 
-> This skill speaks in one of two voices. The book it comes from uses sex as the
-> metaphor for the whole method, on purpose: "building features" sounds like work,
-> and the book's word for building alone sounds like what it is, which is why people
-> remember it. **Unfiltered** uses the book's own words, swearing included.
-> **Filtered** asks the same questions in office-safe words. The author recommends
-> unfiltered; it is the version that sticks. Which do you want?
+> Before we start, one choice. This way of working comes from a book on value
+> coding by Marco Yammine; you don't need to have read it. The book makes its point
+> with a sexual metaphor, on purpose, because it sticks: building things nobody asked
+> for gets called what it is. I can talk to you in one of two voices:
+> a) **Professional**: formal, office-safe, the same questions in plain words.
+> b) **Explicit**: informal, direct, the book's own words, swearing included. The
+> author recommends this one.
+> Which do you want?
 
 Record the answer in `VALUE.md` under "Voice". If they will not choose, you cannot
-proceed; say so kindly and wait. Then, in that voice, the daily question, once, and
+proceed; say so kindly and wait. From here on, every term of the method is introduced
+in plain words the first time, with one offer of the book's version (`SKILL.md`,
+"Plain words first"). Then, in that voice, the daily question, once, and
 the rest of the climb:
 
 1. What should I call you?

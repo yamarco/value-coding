@@ -24,7 +24,7 @@ When the skill is active, the agent:
   answers that are claims, once, with the evidence.
 - **Asks which voice you want, and does not pick for you.** The book's own voice is
   explicit: sex is the metaphor for the whole method, on purpose, because it sticks.
-  *Unfiltered* uses the book's words. *Filtered* asks the same questions in office-safe
+  *Explicit* uses the book's words. *Professional* asks the same questions in office-safe
   words. Both are blunt.
 - **Onboards you the way the book works: climb, dive, climb.** One question at a time,
   with choices to pick from wherever they exist, then a piece of real work that uses

@@ -1,6 +1,6 @@
 # VALUE.md: <what is being built, in one line>
 
-**Voice:** unfiltered | filtered (chosen <YYYY-MM-DD>)
+**Voice:** explicit | professional (chosen <YYYY-MM-DD>)
 **Building:** software | deck | company | running a company with tech (first: <which>)
 **Stage on the rails:** <phase> / <step n. name> (since <YYYY-MM-DD>) · Onboarding climbs still open: <none | 4 (first build), 5 (first gate), 6 (release scope), 7 (first stranger)>
 **Initiatives** (only when running a company): one line each, with its own stage

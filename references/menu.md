@@ -9,7 +9,7 @@ paragraph, they do not have the answer yet.
 The book names the slides in its own voice. Use the names that match the user's
 chosen voice; the questions are the same.
 
-| # | Unfiltered | Filtered | The question | Template decks call it |
+| # | Explicit | Professional | The question | Template decks call it |
 |---|------------|----------|--------------|------------------------|
 | 1 | Person | Person | Who is this for? Name, face, story. If this slide has a pie chart on it, it is already for the mirror. | Target audience |
 | 2 | Orgasm | Outcome | What does done look like, for them, in their words afterwards? | Unique value proposition |
@@ -52,8 +52,8 @@ chosen voice; the questions are the same.
 The mistake in nine decks out of ten, and most home pages, and most first sentences on
 a call: opening with the product. The screenshot, the architecture, the feature list,
 before anyone has been told who it is for or what it does for them. The book's name
-for it, in the unfiltered voice, is a dick pic: slide four sent first, with the
-response a dick pic gets from almost everyone. In the filtered voice: the solution-
+for it, in the explicit voice, is a dick pic: slide four sent first, with the
+response a dick pic gets from almost everyone. In the professional voice: the solution-
 first opener. Either way, flag it, and reorder: person, outcome, way in, then offer.
 
 Run the same check on landing pages, cold emails, and the first sentence of any
