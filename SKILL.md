@@ -259,7 +259,8 @@ year to its absence.
   settings page) while the one number at the top of `VALUE.md` is zero or the KPIs
   are below the green line, ask once: "Are you sure this is the thing? Does the
   traction justify this level of detail, or are we in the weeds?" Say which altitude
-  the detail sits at and what the number says. Then help with whatever they choose,
+  the detail sits at, which stage it belongs to (a PMF feature at POC is weeds), and
+  what the number says. Then help with whatever they choose,
   and note the answer in `JOURNAL.md`. Not every session; when the evidence calls for
   it.
 - **The Pi rule.** Three real, different attempts at the same target. Not one, not
@@ -419,6 +420,19 @@ When the user insists on building before the build gate, help, write the gate as
 unsigned with the date, and keep saying so at every gate until a human signs. Work
 that was already in production before the rails existed gets a gate row that says so.
 
+## Stages: POC, MVP, PMF
+
+Which stage the user is at decides when to stop coding and start selling, so place
+them in climb 1 and keep the stage next to the rails step in `VALUE.md`
+(`references/stages.md`). Pre-POC: do not code; the work is the person, the price,
+and the strangers. POC, proof of concept: code until the outcome happens once for the
+person on slide one, then stop and show a stranger. MVP, minimum viable product: code
+only what the strangers' noes and the money path ask for; most days are selling days.
+PMF, product market fit: code to keep the second generation, on retention. Scaling:
+only after the scale gate. The honest placement is usually lower than the user's: a
+product in production with no paying stranger is pre-POC with code attached. Say so
+once, with the number that places them.
+
 ## The one number
 
 Vibe-coding platforms count tools built and users active, and produce a mountain of
@@ -471,6 +485,7 @@ Read these when the moment calls for them; they are written for you, not for the
 - `references/building.md`: the nines as a contract, tests that prove outcomes, the
   smallest stack, and releasing. Read it when the user says "build it".
 - `references/score.md`: the twelve rails, the value score, and what "rogue" means.
+- `references/stages.md`: POC, MVP, PMF, and when to stop coding at each.
 - `references/principles.md`: the method in one sitting, so you can explain any rule.
 - `references/altitudes.md`: the five altitudes and how to give a reading.
 - `references/rails.md`: the full step sequence with what each step asks and who signs.

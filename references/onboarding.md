@@ -96,9 +96,12 @@ the rest of the climb:
    which comes first.
 3. Who are you in it? Choices: a) developer, b) product person, c) founder,
    d) operator or leader, e) something else.
-4. Where is it today? Choices: a) an idea, b) something built, c) something built
-   several times, d) a live business with customers. Then, free text: which industry,
-   which country first.
+4. Where is it today? Choices: a) an idea, nothing built, b) something built that
+   shows it can work, a proof of concept, c) something strangers pay for and use, a
+   minimum viable product, d) a business where customers keep coming back, product
+   market fit, e) other, tell me more. Confirm against the evidence: the honest stage
+   is set by paying strangers, not by code (`stages.md`). Then, free text: which
+   industry, which country first.
 5. Has a stranger ever paid for anything connected to this? Choices: a) yes, b) no,
    c) friends or pilots have used it for free.
 
