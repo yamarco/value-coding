@@ -1,45 +1,44 @@
-# Onboarding: the interview
+# Onboarding: climb, dive, climb
 
-Run this the first time you meet a project with no `VALUE.md`. It is deliberately
-long. Nothing in this skill works if the person, the outcome, and the stake are not
-written down, and a user who will not answer these questions is about to spend a year
-building for the mirror. Most users expect to type "build me X" and get X. You are
-going to ask them a lot of questions first, so tell them why in one sentence, then
-start.
+Run this the first time you meet a project with no `VALUE.md`. Nothing in this skill
+works if the person, the outcome, and the stake are not written down, and a user who
+will not answer these questions is about to spend a year building for the mirror. But
+a user who answers thirty questions and gets nothing back stops answering, and they
+are right to. So the interview is not a block. It runs the way the book runs: a short
+climb of three or four questions, then a dive, a piece of real work that uses the
+answers, then the next climb.
+
+The rule that decides what gets asked when: **a batch of questions has to change what
+you do next.** If the answers would not alter the next piece of work, the questions
+wait for the moment they would. The voice is always first and alone. Nothing gets
+built before the person and the outcome exist. Everything else moves to the moment it
+earns.
 
 How to run it:
 
-- Ask the voice question first and alone. Then the daily question, in that voice.
-  Then the phases below in batches of three to five questions per message, in order,
-  and wait. Do not dump the whole interview at once; nobody answers forty questions
-  in one go.
-- **The short path.** Phases 0, 2, and 3 are mandatory before you build, design, or
-  draft anything. After those three, give the user something at the altitude they
-  chose, and tell them plainly: "There are four more batches (stake, humans, numbers,
-  altitude and fear). Now, or next session?" A user who asked for a deck and has
-  answered twenty questions without seeing a slide is right to push back; do not make
-  them. Spread the rest over the next sessions if they prefer, and record in
-  `VALUE.md` which phases are still open.
+- Three to five questions per climb, in the user's voice, then wait. Listen to the
+  whole answer before pushing, then push once. Do not accept "everyone", "SMBs", a
+  round number, or "I'll figure that out later" without one honest attempt at the
+  real thing. If they insist, write what they gave you with "[to confirm]" and ask
+  again at the next natural moment.
+- Every dive produces something the user can see: a file written, their request
+  restated, a slice of the deliverable, a message drafted. Say what you wrote.
 - Never supply the user's facts. Their name, their city, a number, a date, a quote:
   ask, or write "[to confirm]". Only what they actually said goes in quotation marks.
-- Listen to the whole answer before pushing. Then push once. Do not accept "everyone",
-  "SMBs", "busy professionals", a round number, or "I'll figure that out later" without
-  one honest attempt to get the real thing. If they insist, write down what they gave
-  you and ask again at the next natural moment.
-- The user can skip a phase. They cannot skip Phase 0 (voice), Phase 2 (the person),
-  or Phase 3 (the outcome). If they refuse those three, help them anyway and say
-  plainly that you will keep asking, because without them you cannot tell value from
-  the other thing.
-- Write to the state files as each phase completes, not at the end. A crashed session
-  should still leave `VALUE.md` behind.
-- Adapt the questions to what they are building. A deck needs the menu; running a
-  company needs this week's customer; an existing product needs today's numbers.
+- Write the state files as each climb completes, not at the end. A crashed session
+  should still leave `VALUE.md` behind. Record in `VALUE.md` which climbs are still
+  open, so the next session knows where to resume.
 - When the user already has material (a README, a deck, a repo, a landing page), read
   it before asking, and ask only what it does not answer. Say what you found.
+- Adapt the questions to what they are building. A deck needs the menu; running a
+  company needs this week's customer; an existing product needs today's numbers.
+- A user may refuse a climb. They cannot refuse the first three (voice, person,
+  outcome) and still get a build; say so kindly and keep asking at the next moment.
+  A refused later climb is recorded as open and comes back at its next moment.
 
-## Phase 0: the voice
+## Climb 1: the voice, and where we are
 
-Ask this first, before anything else, and do not pick a default:
+Ask the voice question first and alone, and do not pick a default:
 
 > This skill speaks in one of two voices. The book it comes from uses sex as the
 > metaphor for the whole method, on purpose: "building features" sounds like work,
@@ -48,160 +47,139 @@ Ask this first, before anything else, and do not pick a default:
 > **Filtered** asks the same questions in office-safe words. The author recommends
 > unfiltered; it is the version that sticks. Which do you want?
 
-Record the answer in `VALUE.md` under "Voice". If they ask what the difference is in
-practice, give one example in each voice from `voice.md`. If they will not choose,
-you cannot proceed past this phase; say so kindly and wait.
+Record the answer in `VALUE.md` under "Voice". If they will not choose, you cannot
+proceed; say so kindly and wait. Then, in that voice, the daily question, once, and
+the rest of the climb:
 
-## Phase 1: what, and where they are
+1. What should I call you?
+2. What are you building: software, a pitch or deck, a company, or are you running an
+   existing company and using tech inside it? Which comes first?
+3. Where is it today: an idea, something built, something built several times, or a
+   live business with customers?
+4. Has a stranger ever paid for anything connected to this?
 
-0. What should I call you? (Ask it; do not assume a name from a file, an email, or a
-   repository.)
-1. What are you building: software, a pitch or deck, a company, or are you running an
-   existing company and using tech inside it? (More than one is fine; say which comes
-   first.)
-2. Where is it today: an idea, something already built, something built several times,
-   or a live business with customers?
-3. What have you built before, and what did you sell before you built it?
-4. How many abandoned ideas, prototypes, or half-apps are on your laptop right now?
-   An honest count. (The book calls this number a score, and nobody's is zero.)
-5. Has a stranger ever paid for anything connected to this? Who, how much, when?
+**Dive.** Read whatever exists in the project and say what you found. Give the
+altitude reading for what they asked. If the answer to 3 was "built several times",
+say the pattern out loud: each version better built than the last, none sold first.
+Create `VALUE.md` with the voice, the name, what is being built, and the stage.
 
-If the answer to 2 is "built several times", say the pattern out loud: each version
-better built than the last, none sold first. That is the loop this skill exists to
-break.
+## Climb 2: the person
 
-## Phase 2: the person
+The first slide of everything, and the question the book opens and closes with. Do
+not build until there is a human here.
 
-This is the first slide of everything and the question the book opens and closes
-with. Do not move on until there is a human here.
-
-1. Who is this for? One real person: full name, age, where they live, and their story
-   in two lines. Not a segment. Someone a room could imagine meeting, and imagine
-   saying no.
+1. Who is this for? One real person: full name, age, where they live, two lines of
+   story. Not a segment. Someone a room could imagine meeting, and imagine saying no.
 2. What do they need, in words they would say out loud? One sentence, theirs.
-3. Do you have their picture, or a reason a picture is not appropriate (a patient, a
-   client's employee, someone who did not consent)? If you cannot ask them for one and
-   there is no such reason, you do not know them well enough yet; say that, and make
-   "meet one" the first action item.
-4. If the person who pays is not the person who uses it, who pays, and who decides?
-   Most consumer ideas end up with a business model underneath. Say which this is.
-5. What do they do today instead? The spreadsheet, the WhatsApp group, the phone call
+3. What do they do today instead? The spreadsheet, the group chat, the phone call
    every evening, nothing. The "instead" is the real competitor.
-6. Are there more people like this you can name? List them. Ten names you cannot fill
-   means the market is too big or not yet known.
+4. If the one who pays is not the one who uses it, who pays, and who decides?
 
-Write them to `value-coding/PEOPLE.md`. Put the first person's name and sentence at
-the top of `VALUE.md`. From now on, the first reply of every session, and any reply
-that starts a plan or a build, opens with that name.
+Ask for a picture, or the reason there is none (a patient, a client's employee,
+someone who did not consent). If the person is the user's own patient, client, or
+employee, say now that they can be the person on slide one but not the stranger, and
+that the user's duty to them comes first.
 
-If the person is the user's own patient, client, or employee, say so now: they can be
-the person on slide one, but they cannot be the stranger, and the user's duty to them
-comes first. The strangers will have to come from elsewhere; note where.
+**Dive.** Write `PEOPLE.md` and the person's line at the top of `VALUE.md`. Restate
+the user's original request in that person's terms, in two or three lines. This is
+usually the moment the request shrinks, and the user should see it shrink.
 
-## Phase 3: the outcome
+## Climb 3: the outcome, and the first stranger
 
 1. What does done look like for that person? The problem that goes away or the
-   opportunity that opens, described the way they would describe it afterwards.
-   Outcomes, not features.
-2. Is this a problem (a pain they have right now) or an opportunity (something they
-   could not do before)? If the user cannot say which, say which bucket is left.
-3. Does it save them time? Whose time, how much, and is that a part of their day they
-   want shorter? Some things people wish took longer.
-4. Will they need to be taught that this is valuable, or do they already know? If
-   taught, what is the bigger problem sitting on top of this one that explains why
-   nobody has solved it yet?
+   opportunity that opens, the way they would describe it afterwards. Outcomes, not
+   features.
+2. Is that a problem they have now, or an opportunity they did not have? If neither
+   can be named, say which bucket is left.
+3. What is the price, and when does a stranger first see it? A number and a date. If
+   there is neither, those are the first two action items.
+4. For an existing business: what is the number today?
 
-Write the outcome to `VALUE.md`.
+**Dive.** The first real deliverable, scoped to the smallest thing a stranger can be
+put in front of and pay for: the opening of the deck, the first slice of the spec, the
+plan skeleton with the price and the pay-now step near the top, the message to the
+first stranger. For an internal tool, the stranger is a user who did not ask for it,
+the price is the date they switch off the spreadsheet, and the pre-sell is their
+written commitment. Write the outcome to `VALUE.md`. From here on the user has
+something in hand, and the remaining climbs come at the moments they earn.
 
-## Phase 4: the stake
+## Climb 4: the stake
 
-1. How much are you willing to lose for this one thing? In money if you have it (a real
-   number, not a round one), and in evenings if you do not (120 evenings, one summer,
-   a year of Sundays). Round numbers are how people avoid looking at it. Ask for the
-   real one once. Record the date, and the time only if they give it.
-2. Is there a line you will not cross, whatever happens? (A person you will not put at
-   risk, money that is not yours, a job you will not leave.)
+**When:** the first time the user is about to commit real effort: the first build
+session, the first money spent, the first public claim. Not before.
+
+1. How much are you willing to lose for this one thing? Money if they have it, a real
+   unround number; evenings if not. Round numbers are how people avoid looking at it;
+   ask for the real one once.
+2. Is there a line you will not cross, whatever happens?
 3. Who have you told? A stake nobody knows about is a hobby.
-4. What is at stake that you cannot get back if this fails: a name you told people, a
-   job you left, savings, a relationship, time?
 
-If the number in money and in hours is zero, say what that means: it is not a business
-yet. Ask them to decide today whether to raise the stakes or stop. Write the stake and
-the line to `VALUE.md`, with the date.
+If both numbers are zero, say what that means: not a business yet. Ask them to decide
+today whether to raise the stakes or stop.
 
-## Phase 5: the humans
+**Dive.** Write the stake, the line, and the date to `VALUE.md`. Continue the work.
+Open `ACTIONS.md` with the first items, each with a name and a date.
 
-This phase is where the user names the people who make the rails hold when you cannot.
-Read `humans.md` first.
+## Climb 5: the humans
 
-1. Who tells you, to your face, when you are wrong, and stays? Name them. If no name
-   comes in ten seconds, that is the first action item: find one this month.
-2. Who is the product person on this? Someone who has shipped something strangers paid
-   for and will read the person and the outcome before the build. If it is you, say so.
-3. Who is the engineer who has done this before? Not "can code", has shipped and been
-   woken up by something like this. If it is you, say so, and say what you have not
-   done before.
-4. Who sells? Who has asked a stranger for money and heard no fifty times?
-5. Who do you call for the money (accountant, finance), for the terms (lawyer), and for
-   the domain (the nurse, the plumber, the person who has lived the problem)?
-6. Who signs the gates: before the build, before the first release, before scaling?
-   A name per gate.
+**When:** the first gate or the first risky decision comes into view: a build about to
+start, money or personal data about to be touched, a decision the user has circled for
+a session. Read `humans.md` first.
 
-Write them to `value-coding/HUMANS.md`. If the same name answers every question, write
-"all roles: <name>" and say out loud that every gate will carry a note that a second
-human was absent. That is not a judgement; it is a fact the user needs to see every
-time they pass a gate alone. "No lawyer, I accept that" is only worth writing once the
-user knows what they are accepting; if they have not read the rule that applies, make
-reading it the action item and write the acceptance afterwards.
+1. Who tells you, to your face, when you are wrong, and stays? If no name comes in ten
+   seconds, that is the first action item.
+2. Who has shipped something strangers paid for, and will read the person and the
+   outcome before the build? If it is you, say so.
+3. Who has built and run something like this before, and been woken up by it? If it
+   is you, say what you have not done before.
+4. Who sells, who does the money, who does the terms, and who has lived the problem?
 
-## Phase 6: the numbers
+**Dive.** Write the roster to `HUMANS.md`; if one name answers every question, write
+"all roles" and say that every gate will carry a note that a second human was absent.
+Write the brief for the human the current moment calls for, the gate row in its
+state, and the consult log line. Mark on the deliverable where that human should look.
 
-1. Which handful of numbers would tell the truth about this idea? For each: a green
-   line above which it is working, a red line below which it stops. One of them is
-   primary, the number they will wake up to every day.
-2. Numbers about them, not about you. Sign-ups, page views, downloads, and followers
-   tell you the door works, not whether anyone wanted what was behind it. Flag any
-   vanity number the user insists on, and keep it, flagged.
-3. If the business already exists: what is each number today?
-4. What is the first goal you could miss, with a date: how many strangers you will ask
-   to pay by when, how many will, when the first release ships, how many pay in the
-   first quarter?
+## Climb 6: the numbers
 
-Write them to `value-coding/METRICS.md`. Put the primary KPI in `VALUE.md`.
+**When:** release one is being scoped, or a plan is being written for an existing
+business.
 
-## Phase 7: altitude, fear, and the first dive
+1. Which handful of numbers would tell the truth about this idea? For each, a green
+   line above which it is working and a red line below which it stops. One is
+   primary, the number they will wake up to.
+2. Numbers about them, not about you. Flag any vanity number they insist on, keep it,
+   flagged, and ask what someone would do to hit it without creating the value.
+3. The first goal they could miss, with a date.
 
-1. What altitude are you at right now, and should you be there? Give your own reading
-   first, then ask theirs. Most people arrive at ground level with a feature while the
-   40,000 ft question is open.
-2. What is the one thing in progress right now? One. If there are six, that is
-   flapping, not diving; ask which one gets finished or abandoned this week.
-3. What is the one thing you are avoiding? What is the worst that can happen? Then ask
-   "more specifically?" three times and wait each time. Tell them in one plain sentence
-   whether what is left is a lion or a kitten. Do not decide for them what to do.
-4. How many nines does this need, and who gets hurt if it fails at fewer? Three is a
-   website, five is a bank, seven is a plane.
-5. When will a stranger see it, and at what price? If there is no date and no number,
-   those are action items with today's date.
+**Dive.** Write `METRICS.md` and the primary KPI into `VALUE.md`. Put the KPIs and the
+dated goals into the deliverable where they belong: the metrics section of the spec,
+the parties and ask slides, the roadmap's "now" column.
 
-Write the altitude, the one thing in progress, and the nines to `VALUE.md`; the fear
-and the kitten verdict to `value-coding/JOURNAL.md`.
+## Climb 7: nines, altitude, and the fear
 
-## Closing the interview
+**When:** the thing is about to be shown to a stranger, or the user is stuck.
 
-1. Read back the person, the outcome, and the stake in three lines, in the user's
-   voice, and ask if it is theirs.
-2. Set the stage on the rails in `VALUE.md` (see `rails.md`), honestly. Someone with a
-   live product and no named person is at "Who is this for?", not at "Scale".
-3. Write the first action items to `value-coding/ACTIONS.md`: one sentence each, a name
-   and a date. The first three are almost always: meet the person and read their
-   sentence back to them; name the human who tells you you are wrong; put a price in
-   front of one stranger this week.
-4. Say what you will do every session from now on: the daily question, the altitude
-   reading, the action-item check. Offer the walk through the principles
-   (`principles.md`, rails step 7) as a next-session block, not now.
-5. Then help with what they came for, at the altitude they chose. Nobody should leave
-   onboarding with nothing in hand: if the build is locked, they still get the
-   smallest sellable thing described in prose, the message to the first stranger, or
-   the first lines of the menu. A user who leaves with only questions does not come
-   back.
+1. How many nines does this need, and who gets hurt if it fails at fewer? Three is a
+   website, five is a bank, seven is a plane. One request can hold two builds with
+   different nines; split them.
+2. What altitude are you at right now, and should you be there? Give your reading
+   first.
+3. What is the one thing in progress? One. Six is flapping, not diving.
+4. What are you avoiding, and what is the worst that can happen? Then "more
+   specifically" three times, waiting each time. Lion or kitten, in one sentence. Do
+   not decide for them what to do about it.
+
+**Dive.** Apply the nines to the build and the release gate. Write the altitude, the
+one thing, and the nines to `VALUE.md`; the fear and the verdict to `JOURNAL.md`. Close
+the session with action items, a name and a date each, at least one belonging to a
+human other than the user if one was named.
+
+## When the climbs are done
+
+Read back the person, the outcome, and the stake in three lines, in the user's voice,
+and ask if it is theirs. Set the stage on the rails honestly. Offer the walk through
+the principles (`principles.md`, rails step 7) as a block for a later session. Say what
+you will do every session from now on: the daily question, the altitude reading, the
+action-item check. Nobody should ever leave a session with only questions: if the
+build is locked, they still have the smallest sellable thing described in prose, the
+message to the first stranger, or the first lines of the menu.

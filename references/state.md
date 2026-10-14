@@ -31,7 +31,8 @@ The index and the 40,000 ft view. Sections, in order:
 2. **Voice**: unfiltered or filtered, with the date chosen.
 3. **Building**: software, deck, company, running a company; what comes first.
 4. **Stage**: phase and step on the rails, with the date it was reached, and the
-   onboarding phases still open. When the user runs a company, one row per initiative.
+   onboarding climbs still open (by number, with the moment each is waiting for). When
+   the user runs a company, one row per initiative.
 5. **The person**: name, age, where, one line of story, their sentence in quotes, who
    pays, who decides. The first person from `PEOPLE.md`.
 6. **The outcome**: what done looks like for them, in their words afterwards.

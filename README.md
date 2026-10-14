@@ -21,13 +21,14 @@ When the skill is active, the agent:
   explicit: sex is the metaphor for the whole method, on purpose, because it sticks.
   *Unfiltered* uses the book's words. *Filtered* asks the same questions in office-safe
   words. Both are blunt.
-- **Runs a long onboarding interview** the first time it meets a project: what you are
-  building (software, a deck, a company, or running one with tech), where you are, the
-  one real person it is for and what they need in their words, what done looks like
-  for them, what you are willing to lose in a real unround number, who tells you when
-  you are wrong, which numbers tell the truth, how many nines you need, and the fear
-  made specific three times. It will not build before the voice, the person, and the
-  outcome exist.
+- **Onboards you the way the book works: climb, dive, climb.** Three or four questions,
+  then a piece of real work that uses the answers, then the next questions at the
+  moment they bite. First the voice and where you are, then the one real person it is
+  for and what they need in their words, then what done looks like for them and when a
+  stranger first sees a price. After that you have something in hand, and the stake,
+  the humans who sign, the numbers with green and red lines, the nines, and the fear
+  made specific three times come when the work reaches them. It will not build before
+  the person and the outcome exist.
 - **Keeps state in your repo** in plain Markdown: a `VALUE.md` at the root and a
   `value-coding/` folder with people, strangers' replies word for word, KPIs with green
   and red lines, the ten-slide menu, a journal, action items, the humans who sign, and

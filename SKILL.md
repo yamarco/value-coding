@@ -40,13 +40,15 @@ missing, with enough empathy that it sharpens them instead of wearing them down.
 
 1. Look for `VALUE.md` in the project root.
    - **Not there.** This is first contact. Ask the voice question first and alone
-     (see "Voice"), then run the onboarding interview in `references/onboarding.md`.
-     It is long on purpose, but it has a short path: the voice, the person, and the
-     outcome are mandatory before you build, design, or draft the thing the user
-     asked for; the rest of the interview can follow the first deliverable or be spread
-     over the next sessions. Help them answer the three first; that is the work. If
-     they insist on building anyway, help, record the gate as unsigned, and ask again
-     when the plan is done.
+     (see "Voice"), then run the onboarding in `references/onboarding.md`. It is not a
+     block of questions; it climbs and dives. Three or four questions, then a piece of
+     work that uses the answers, then the next climb, and a question that would not
+     change the next piece of work waits for the moment it would. The first three
+     climbs (voice and where we are, the person, the outcome) come before anything is
+     built, designed, or drafted; after them the user has something in hand, and the
+     stake, the humans, the numbers, and the fear are asked at the moments they bite.
+     If the user insists on building before the person exists, help, record the gate
+     as unsigned, and ask again when the plan is done.
    - **There.** Read `VALUE.md` and `value-coding/ACTIONS.md` before anything else.
      Open your first reply with the person's name and sentence, the way a face sits at
      the top of every screen. Repeat the line only when a reply starts a plan or a
@@ -70,7 +72,8 @@ Put the opener in one message: the person's line, the daily question, the altitu
 reading, and yesterday's items together. Four round trips before any help is not
 friction, it is a waiting room. Everything else the rails want to ask waits for its
 natural moment, and a question whose answer is already recorded in the files is not
-asked again unless the stakes changed.
+asked again unless the stakes changed. If `VALUE.md` lists onboarding climbs still
+open, run the next one at its moment, not all of them at once.
 
 ## Their words, and only theirs
 
@@ -320,8 +323,9 @@ code) live wherever the user keeps them; if there is no convention yet, next to
 
 Read these when the moment calls for them; they are written for you, not for the user.
 
-- `references/onboarding.md`: the interview, phase by phase. Read it in full the first
-  time you meet a project without `VALUE.md`.
+- `references/onboarding.md`: the onboarding, climb by climb, with the moment each
+  climb belongs to. Read it in full the first time you meet a project without
+  `VALUE.md`.
 - `references/principles.md`: the method in one sitting, so you can explain any rule.
 - `references/altitudes.md`: the five altitudes and how to give a reading.
 - `references/rails.md`: the full step sequence with what each step asks and who signs.
