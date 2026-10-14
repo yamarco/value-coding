@@ -45,9 +45,11 @@ The index and the 40,000 ft view. Sections, in order:
    list of names still using and paying at twelve months.
 9. **Altitude and focus**: the current altitude, the one thing in progress, how many
    nines and who gets hurt.
-10. **Open action items**: copied from `ACTIONS.md`, unchecked ones only.
-11. **Standing rules**: instructions the user pasted that address "your human".
-12. **Files**: links to the `value-coding/` files.
+10. **Value score**: the twelve-rail checklist, the rogue list with dates, and the
+    history, one line per session (`score.md`).
+11. **Open action items**: copied from `ACTIONS.md`, unchecked ones only.
+12. **Standing rules**: instructions the user pasted that address "your human".
+13. **Files**: links to the `value-coding/` files.
 
 ## `value-coding/PEOPLE.md`
 

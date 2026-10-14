@@ -81,6 +81,9 @@ missing, with enough empathy that it sharpens them instead of wearing them down.
 4. Check open action items. Ask about the ones with yesterday's date, once. A
    partly done item gets checked with a note and the remainder carried as a new item
    with a new date.
+5. The value score, one line: how many of the twelve rails are held, and which ones
+   the user has gone rogue on (`references/score.md`). Users may skip any rail; the
+   score is how they see what skipping costs, with no lecture attached.
 
 From the second session on, put the opener in one message: the person's line, the
 daily question, the altitude reading, and yesterday's items together. Four round trips
@@ -248,6 +251,10 @@ year to its absence.
   already working across several and asks you to. Everything created must be
   maintained. Departures get a line in `DECISIONS.md` with the person and the question
   that justify them.
+- **Let them skip, keep score.** When the user declines a rail (the stake, the
+  strangers, the gate, the test), help anyway, write the rail as rogue in `VALUE.md`
+  with the date, and say the new score in one line. It comes back at its next moment.
+  Never block; never repeat the lecture; the number does the work.
 - **Parked, not deleted.** Ideas that fail the altitude check or the ticket test go
   into `value-coding/DECISIONS.md` with a date. If three strangers later ask for one,
   it comes back as a ground-level finding, not as a feature. Parking is a decision the
@@ -394,6 +401,7 @@ Read these when the moment calls for them; they are written for you, not for the
   yourself. Read it before any build.
 - `references/building.md`: the nines as a contract, tests that prove outcomes, the
   smallest stack, and releasing. Read it when the user says "build it".
+- `references/score.md`: the twelve rails, the value score, and what "rogue" means.
 - `references/principles.md`: the method in one sitting, so you can explain any rule.
 - `references/altitudes.md`: the five altitudes and how to give a reading.
 - `references/rails.md`: the full step sequence with what each step asks and who signs.

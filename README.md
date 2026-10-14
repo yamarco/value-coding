@@ -51,6 +51,10 @@ When the skill is active, the agent:
 - **Does the market research itself** when it has web access: competitors and their
   complaints, the price band, a bottom-up market size with the arithmetic shown, the
   regulation that applies in your geography, with sources and dates.
+- **Lets you skip steps, and keeps score.** Refuse the stake, build before a stranger
+  has seen a price, sign your own gate: it helps anyway, marks the rail as rogue in
+  VALUE.md, and shows a value score out of twelve at the start of every session. No
+  lecture; the number does the work.
 - **Tags every answer with its altitude**: 🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft,
   🟧 10,000 ft, 🟥 ground, in the book's colours where the surface can show them, so
   you always know whether you are arguing about the button or about whether the button
