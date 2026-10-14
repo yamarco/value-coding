@@ -34,6 +34,13 @@ How to run it:
 - When the request is a review of material that already exists (a deck, a plan, a
   spec, a page), the material answers most of climb 3: deliver the review right after
   climb 2 and fold the outcome and price into it.
+- Every question can be answered with "later, I want to build". Put it at the end of
+  any list longer than three choices, and accept it in any words. It ends the climb,
+  records what is open, states the score in one line, and starts the work. The
+  person and the outcome are the two things you ask for once more before code is
+  written, and if the answer is still "later", code is written with "for: nobody
+  named yet" on it. A user who answered the daily question with the bad word is in
+  build mode for the day: no climbs, the person's line and the score, and the work.
 - One question per message, in the user's voice, then wait. A climb is three to five
   questions, but they go one at a time; the list under each climb is the order, not a
   message. Offer choices whenever the answer has a natural set of them (stage, role,
@@ -57,9 +64,11 @@ How to run it:
   it before asking, and ask only what it does not answer. Say what you found.
 - Adapt the questions to what they are building. A deck needs the menu; running a
   company needs this week's customer; an existing product needs today's numbers.
-- A user may refuse a climb. They cannot refuse the first three (voice, person,
-  outcome) and still get a build; say so kindly and keep asking at the next moment.
-  A refused later climb is recorded as open and comes back at its next moment.
+- A user may refuse a climb. The voice cannot be skipped. The person and the outcome
+  can, with "later, I want to build"; the build then carries "for: nobody named yet",
+  rails 1 and 2 stay unheld, and you ask once more at the next natural moment, not
+  every message. A refused later climb is recorded as open and comes back at its next
+  moment.
 
 ## Climb 1: the voice, and where we are
 

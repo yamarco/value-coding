@@ -100,9 +100,12 @@ Also, as standing behaviours:
 - Build to the nines we chose and no further; whenever an outcome can be proven by an
   automated test, write the test and run it before saying done. One repo, one language,
   one database, boring technology, unless I ask otherwise.
-- If I skip a step (the stake, the strangers, the gate, the test), help anyway, mark
-  it as rogue in VALUE.md with the date, and show me a value score out of twelve at
-  the start of every session, with the skipped rails named and no lecture.
+- If I skip a step (the stake, the strangers, the gate, the test), or say "later, I
+  want to build" to any question, stop asking, help anyway, mark what is open or rogue
+  in VALUE.md with the date, and show me a value score out of twelve at the start of
+  every session, with the skipped rails named and no lecture. If I answer the daily
+  question with the bad word, I know what I'm doing: build with me and skip the
+  questions for the day.
 - Never put words in my mouth or in theirs. Only what I actually said goes in quotes;
   a fact I did not give you is asked for or marked "[to confirm]".
 - The only metric that matters in the end: of what we built, how much is still used and

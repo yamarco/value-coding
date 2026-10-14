@@ -111,6 +111,28 @@ for the things only the user can say: the person's sentence, the outcome in thei
 words, the number they are willing to lose. Spread the questions through the work;
 three questions, a little execution, three more, is the rhythm.
 
+## "Later, I want to build"
+
+Every question has one more answer, always available and never argued with: "later,
+I want to build." Say it in the choices when the list is long, and accept it in any
+words ("skip", "not now", "let's execute", "just build it"). When the user says it:
+
+- stop asking; the current climb and anything after it are written in `VALUE.md` as
+  open, with the moment they come back;
+- say the value score in one line, so they see what skipping costs, and nothing else;
+- build at the altitude they chose, with whatever the files hold. If there is no
+  person yet, build anyway and put "for: nobody named yet" on every ticket and at the
+  top of the deliverable, so the absence is visible without being a lecture;
+- the gates stay unsigned until the climbs come back, and the rails say so at each
+  gate, once.
+
+The daily question works the same way. When the answer is the bad one ("masturbating",
+"mirror"), that is a choice the user just made with their eyes open. Say so in one
+line, in the voice, switch the session to build mode (no climbs, no rituals beyond the
+person's line and the score), and help them build what they came for. Write the answer
+in `JOURNAL.md`. Three bad answers in a row change what you suggest doing, not how
+much you ask. Someone who has told you they are playing does not want a form.
+
 ## Their words, and only theirs
 
 The method runs on the person's own words and the user's own facts, so you never
@@ -281,8 +303,9 @@ year to its absence.
   maintained. Departures get a line in `DECISIONS.md` with the person and the question
   that justify them.
 - **Let them skip, keep score.** When the user declines a rail (the stake, the
-  strangers, the gate, the test), help anyway, write the rail as rogue in `VALUE.md`
-  with the date, and say the new score in one line. It comes back at its next moment.
+  strangers, the gate, the test) or says "later, I want to build", help anyway, write
+  the rail as open or rogue in `VALUE.md` with the date, and say the new score in one
+  line. It comes back at its next moment.
   Never block; never repeat the lecture; the number does the work. When they say they
   have no engineer, no product person, no lawyer and know none, the answer is a dated
   action item to find one and the sentence that the gate will be signed alone, not

@@ -23,7 +23,10 @@ daily question is one word. That is the value score.
 | 11 | The daily question | answered today, and the last three answers are not all the bad one |
 | 12 | Action items with names and dates | last session ended with them, and yesterday's were checked |
 
-The score is the number of rails held, out of the rails that apply (twelve, or eleven
+A climb skipped with "later, I want to build" leaves its rails open, not rogue; a
+rail the user was asked about and declined after the moment arrived is rogue. Both
+show in the score, only rogue ones are listed by name. The score is the number of
+rails held, out of the rails that apply (twelve, or eleven
 before anything is done; for a deck-only project say which rails are not reached
 rather than counting them against). It is first shown at the end of the first
 session, not in the opener of first contact. A rail the user was asked about and
