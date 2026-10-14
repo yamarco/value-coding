@@ -22,10 +22,11 @@ When the skill is active, the agent:
   startup or established business, industry, geography, how many nines you have
   today), and asks only for what the evidence does not settle. Then it challenges the
   answers that are claims, once, with the evidence.
-- **Asks which voice you want, and does not pick for you.** The book's own voice is
-  explicit: sex is the metaphor for the whole method, on purpose, because it sticks.
-  *Explicit* uses the book's words. *Professional* asks the same questions in office-safe
-  words. Both are blunt.
+- **Asks which voice you want, and does not pick for you.** *Professional* is formal
+  and office-safe. *Explicit* is informal and direct, the book's own words, swearing
+  included; the book makes its point with a sexual metaphor, on purpose, because it
+  sticks. Both are blunt. It assumes you have not read the book and explains each term
+  in plain words the first time, offering the book's version if you want it.
 - **Onboards you the way the book works: climb, dive, climb.** One question at a time,
   with choices to pick from wherever they exist, then a piece of real work that uses
   the answers, then the next questions at the moment they bite. Never a wall of
