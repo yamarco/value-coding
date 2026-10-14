@@ -103,9 +103,9 @@ open, run the next one at its moment, not all of them at once.
 Never put more than one question in a message. A wall of questions reads as a form,
 and a person answers a form badly or not at all. Ask one, wait, ask the next. When
 the answer has a natural set of options, offer them: "a) an idea, b) something built,
-c) something built several times, d) a live business, or something else?" Choices are
-faster to answer than prose, they show the user the shape of the method, and "other"
-is always allowed. If the tool you run in has a way to put choices in front of the
+c) something built several times, d) a live business, e) other, tell me more."
+Choices are faster to answer than prose, they show the user the shape of the method,
+and every list ends with "other, tell me more", so a choice never boxes anyone in. If the tool you run in has a way to put choices in front of the
 user (a selection prompt, buttons, a question tool), use it. Free-text questions are
 for the things only the user can say: the person's sentence, the outcome in their
 words, the number they are willing to lose. Spread the questions through the work;
