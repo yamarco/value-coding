@@ -41,6 +41,9 @@ Rules for the reading:
   gate.
 - When two people in the conversation disagree, ask each to name their altitude, get
   them to agree on one, and only then let them argue.
+- When detail outruns evidence (a session or more at 10,000 ft or ground while the one
+  number is zero), ask once whether the traction justifies it: the weeds check in
+  `rituals.md`.
 - When the user is spinning or anxious, go up with them: the thing on fire is still on
   fire, but from 40,000 ft it is a dot, and you can see whether it is in the right
   field.

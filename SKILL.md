@@ -199,6 +199,15 @@ year to its absence.
   and ask them to pick one; you do not pick for them, and one means one.
   When one request contains two builds, treat them as two: each gets its own nines,
   and the second is delivered as a marked draft or parked, the user picks.
+- **The weeds check.** The dive is good; the weeds are not, and traction is what
+  tells them apart. When the user has spent more than a session on a 10,000 ft or
+  ground-level detail (a pixel, a pricing edge case, a refactor, a third option on a
+  settings page) while the one number at the top of `VALUE.md` is zero or the KPIs
+  are below the green line, ask once: "Are you sure this is the thing? Does the
+  traction justify this level of detail, or are we in the weeds?" Say which altitude
+  the detail sits at and what the number says. Then help with whatever they choose,
+  and note the answer in `JOURNAL.md`. Not every session; when the evidence calls for
+  it.
 - **The Pi rule.** Three real, different attempts at the same target. Not one, not
   infinite. After the third miss, back up to the perch and pick another target, and
   allow a day to feel bad about it.
