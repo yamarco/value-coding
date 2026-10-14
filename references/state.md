@@ -1,0 +1,96 @@
+# State: the files you keep
+
+Rails only work if they survive the session. State lives in the user's project in
+plain Markdown so any tool, any model, and the human can read and edit it. `VALUE.md`
+sits in the project root, where a README would; everything else sits in
+`value-coding/`. Templates are in `templates/` next to this skill; copy them on first
+use and fill them in.
+
+Rules:
+
+- Create `VALUE.md` as soon as Phase 0 of onboarding is done, even if the rest is
+  empty. A crashed session should still leave the voice and the person behind.
+- Update files as things happen, not at the end of the session.
+- Never overwrite a line a human wrote without saying so. Append, date, and keep the
+  old line when a value changes (monthly climbs and KPI readings are histories).
+- Keep the human-readable shape; these files are read by people on Monday mornings,
+  not just by you.
+- Quote strangers word for word. Paraphrasing a no is how founders lose the reason.
+- Dates in ISO format (`2026-10-14`). Names in full.
+
+## `VALUE.md` (project root)
+
+The index and the 40,000 ft view. Sections, in order:
+
+1. Title and one-line description of what is being built.
+2. **Voice**: unfiltered or filtered, with the date chosen.
+3. **Building**: software, deck, company, running a company; what comes first.
+4. **Stage**: phase and step on the rails, with the date it was reached.
+5. **The person**: name, age, where, one line of story, their sentence in quotes, who
+   pays, who decides. The first person from `PEOPLE.md`.
+6. **The outcome**: what done looks like for them, in their words afterwards.
+7. **At stake**: the unround number in money and in evenings, the date, the line not to
+   be crossed, who has been told.
+8. **The one number**: the primary KPI with green and red lines and today's value; the
+   list of names still using and paying at twelve months.
+9. **Altitude and focus**: the current altitude, the one thing in progress, how many
+   nines and who gets hurt.
+10. **Open action items**: copied from `ACTIONS.md`, unchecked ones only.
+11. **Standing rules**: instructions the user pasted that address "your human".
+12. **Files**: links to the `value-coding/` files.
+
+## `value-coding/PEOPLE.md`
+
+One section per real person this is for: full name, age, where they live, story in two
+lines, their sentence in quotes, picture (path or link), role (uses, pays, decides),
+what they do today instead, how the user knows them, date added. The first one is the
+face at the top of every screen; the top bar rotates through all of them.
+
+## `value-coding/STRANGERS.md`
+
+A table of every reply, in rounds: date, name, whether they are a stranger, a friend,
+or an investor, what was shown (the offer and the price), the reply word for word,
+whether they paid. Friends and investors stay in the table, flagged, and do not count.
+Under it, "Reasons for no" grouped by reason, each pointing at the action item or
+backlog ticket it became. Under that, interview notes: what is annoying, what takes too
+long, what they do instead, what they are embarrassed to admit, the words they used.
+
+## `value-coding/METRICS.md`
+
+KPIs as in `metrics.md`: label, unit, green, red, lower-is-better, primary, vanity, and
+dated readings with the step. Then goals: label, target, unit, due date, checkpoints
+with dates and evidence.
+
+## `value-coding/MENU.md`
+
+Ten lines, numbered, one sentence each, with the slide name in the user's voice and
+the step on the rails each came from. Then "Shown to": the stranger who saw it first
+and what they did.
+
+## `value-coding/JOURNAL.md`
+
+Two sections. **Daily**: one line per day, date and the one-word answer, with a note
+when three bad answers in a row changed the day. **Monthly, 40,000 ft**: one block per
+month with the three answers (value proposition, why, who for) and a line on what
+changed since last month and whether it was decided. Also the fear and the kitten
+verdict from onboarding, dated.
+
+## `value-coding/ACTIONS.md`
+
+Checklist. Each item: one sentence, one thing to do, a person's name, a date. Grouped
+by session date. Done items get checked and kept. Items with no name or no date are
+not action items; rewrite them before saving.
+
+## `value-coding/HUMANS.md`
+
+The roster (role, name, how to reach them, what they have done before), the three gate
+signatures (gate, name, date, yes or no, reasons, or "signed alone"), the consult log
+(date, moment, who was named, outcome), and briefs written for humans.
+
+## `value-coding/DECISIONS.md`
+
+Parked ideas with the date and the reason (altitude, ticket test, stress test), and
+the condition that brings them back (three strangers asked, retention goal met).
+Stress-test results: the claim, who argued against it, whether it survived, open holes.
+Decisions handed to the person who says the user is wrong: the options, what they
+picked, what happened.

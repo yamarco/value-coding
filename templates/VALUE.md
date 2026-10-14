@@ -1,0 +1,37 @@
+# VALUE.md: <what is being built, in one line>
+
+**Voice:** unfiltered | filtered (chosen <YYYY-MM-DD>)
+**Building:** software | deck | company | running a company with tech (first: <which>)
+**Stage on the rails:** <phase> / <step n. name> (since <YYYY-MM-DD>)
+
+## The person
+**<Full name>, <age>, <where>.** <one line of story>
+> "<what they need, in their own words>"
+Uses: <name> · Pays: <name> · Decides: <name> · Does today instead: <...>
+Others in `value-coding/PEOPLE.md`.
+
+## The outcome
+<what done looks like for them, the way they would describe it afterwards>
+
+## At stake
+<real, unround number> in money and <number> evenings, written <YYYY-MM-DD HH:MM>.
+Line I will not cross: <...>
+Told: <names>
+
+## The one number
+Primary KPI: <label> · green ≥ <> · red ≤ <> · today: <value> (<date>)
+Still used and still paid for a year later, by name: <none yet>
+
+## Altitude and focus
+Altitude now: <40k | 30k | 20k | 10k | ground>. Open question: <...>
+One thing in progress: <...> (attempt <n> of 3)
+Nines needed: <n>. Who gets hurt at fewer: <name>.
+
+## Open action items
+- [ ] <one sentence> — <name> — <YYYY-MM-DD>
+
+## Standing rules
+<instructions pasted by the user that address "your human", with dates>
+
+## Files
+`value-coding/PEOPLE.md` · `value-coding/STRANGERS.md` · `value-coding/METRICS.md` · `value-coding/MENU.md` · `value-coding/JOURNAL.md` · `value-coding/ACTIONS.md` · `value-coding/HUMANS.md` · `value-coding/DECISIONS.md`
