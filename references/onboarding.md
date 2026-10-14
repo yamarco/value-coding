@@ -22,8 +22,15 @@ How to run it:
 - When the user's opening message or the evidence already answers climb 1, do not
   ask it; state it and go straight to climb 2. The restated request at the end of
   climb 2 is the first thing in the user's hands; climb 3 produces the deliverable.
-- At most four climbs in one session, unless the user has a real date or asks for
-  more. The later climbs wait for their moments, even if a moment arrives early.
+- At most four climbs in one session, unless the user has a real date, a gate that
+  must be signed before they act, or asks for more. The later climbs wait for their
+  moments, even if a moment arrives early. Climbs 4 and 5 usually bite at the same
+  moment (the first build); when they do, merge them into one short batch after the
+  deliverable.
+- For a deck, slide one is the climb-2 dive: the person, on the slide, before any
+  other question is asked.
+- When the user's name is in the evidence (a git author, a byline), confirm it in one
+  line instead of asking for it.
 - When the request is a review of material that already exists (a deck, a plan, a
   spec, a page), the material answers most of climb 3: deliver the review right after
   climb 2 and fold the outcome and price into it.
@@ -113,6 +120,8 @@ usually the moment the request shrinks, and the user should see it shrink.
    can be named, say which bucket is left.
 3. What is the price, in which currency, and when does a stranger first see it? A
    number and a date. If there is neither, those are the first two action items.
+   And who tells you, to your face, when you are wrong, and stays? One name, now,
+   because the first gate needs a signature before you act on any of this.
 4. How many nines does this need, and who gets hurt if it fails at fewer, or if the
    data leaks? Asked here because it shapes what gets built next. One request can
    hold two builds with different nines; split them.

@@ -69,7 +69,9 @@ question agree. When they do not, say both in the same line: "🟧 10,000 ft que
 (HTML, a UI, a styled document), colour the tag or the line rather than the square.
 In a plain-text surface with no emoji, write `[40k]`, `[30k]`, `[20k]`, `[10k]`,
 `[ground]`. Do not skip the tag because the answer is short; a one-line answer
-with a tag is the whole point.
+with a tag is the whole point. The square alone is not a tag; write the altitude
+next to it. When the person's line opens a session, the tag comes first and the
+person's line follows on the same line.
 
 ## Marking altitude in text
 

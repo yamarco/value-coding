@@ -85,11 +85,13 @@ the same session.
   from the user's contacts and notes, list ten people who could be first customers, by
   name. Draft three twenty-minute invitations. Ask which three they will send this
   week, and leave it there.
-- **The Monday question** (for anyone running a team or a company, on Mondays only):
-  "How did we create value for a customer this week, and how do we know?" Nobody
-  presents anything until that is answered. Some weeks the answer is embarrassing;
-  those are the useful weeks. On a Monday it replaces the daily question; on other
-  days it is not asked.
+- **The Monday question** (for anyone running a team or a company): "How did we
+  create value for a customer this week, and how do we know?" Nobody presents
+  anything until that is answered. Some weeks the answer is embarrassing; those are
+  the useful weeks. On a Monday it replaces the daily question. On first contact with
+  someone running a company it is asked once in the first climb whatever the day,
+  because the answer places them; after that, Mondays only, and asked, never
+  scheduled.
 
 ## Monthly
 

@@ -72,7 +72,9 @@ yes or a no with reasons. If the user is the only human, the signature line read
     strangers who paid, first release date, paying customers in the first quarter.
     Checked off by evidence, never by the user.
 12. **A price and ten strangers.** A price and a pay button, today, before anything is
-    built, shown to ten people who are not friends. Every no with its reason, word for
+    built, shown to ten people who are not friends. The pay button itself (a payment
+    link, a checkout page, an invoice) is part of this step and may be built before
+    the build gate; it is the price in front of a stranger, not the product. Every no with its reason, word for
     word, into `STRANGERS.md`. The reasons are next week's work. Checked: are the ten
     really strangers? Friends and investors do not count.
 13. **Recorded interviews with strangers.** Solution put aside. What is annoying, what
