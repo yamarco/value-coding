@@ -44,7 +44,7 @@ phrase; then, once, offer the book's version in their voice.
 | The daily question | a one-word check each morning: is today for them, or for you | the book's version in the explicit voice |
 | Altitudes (40k to ground) | how high up the question sits: why this exists, the market, the product, a feature, or the thing in front of us | the raptor and the mile-high club chapters |
 | The raptor method | zoom out, pick one thing, dive, zoom back out | the eagle owl and the Pi rule |
-| The nines | how reliable this has to be, and who gets hurt if it isn't: 99% is a website, 99.999% is a bank | why nobody promises 100% |
+| The nines | how reliable this has to be, and who gets hurt if it isn't: 80% is most things, 90% is something people pay for daily, 99% needs a team and a budget | why nobody promises 100%, and why each nine costs ten times the last |
 | The 20% | the smallest thing someone would pay for, before anything else | Pareto, and the black hole of the last 20% |
 | The menu | a ten-slide pitch, one question per slide, person first | the Pompeii story |
 | The gate | a point where a named human says yes or no before the next step | why a gate you sign yourself isn't one |

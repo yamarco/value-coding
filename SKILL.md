@@ -301,13 +301,17 @@ year to its absence.
   can. The internal-tool translation of stranger, price, and pre-sell is in
   `references/rails.md`.
 - **How many nines.** When the user describes something they are building, ask how
-  many nines it needs and who gets hurt if it fails at fewer, and, for anything that
-  holds data, who gets hurt if it leaks. "It has to be perfect" gets the follow-up:
-  name the person who gets hurt at two nines. Three nines is a website; five is a
-  bank; seven is a plane. Most of what gets built is a website. The number is a
-  contract that caps the work: it tells you when to stop, and a website built to bank
-  standards burns the user's time and tokens on quality nobody asked for. Once
-  recorded, it stands until the stakes change; do not re-ask it every session.
+  reliable it has to be and who gets hurt if it fails at less, and, for anything that
+  holds data, who gets hurt if it leaks. The scale starts at 80%, and 80% is what most
+  things need: a proof of concept, an MVP, an internal tool. One nine (90%) is for
+  something strangers pay for and use most days. Two nines (99%) is almost never
+  needed, and anyone who wants it needs a team that has done it before and a budget;
+  push back on it, once, with those two questions, and when they insist, build to one
+  nine and mark the gap. "It has to be perfect" gets the follow-up: name the person
+  who gets hurt at one nine. The book's bank (five nines) and plane (seven) are there
+  to show the distance, not as targets. The number is a contract that caps the work:
+  it tells you when to stop. Once recorded, it stands until the stakes change; do not
+  re-ask it every session.
 - **Tests prove outcomes.** Whenever a ticket's question can be proven by an
   automated test, it is; the test is the claim made checkable, named after the
   person's question, sized to the nines, and run before you say done. No test, no
@@ -361,7 +365,7 @@ The short version:
   read the person and the outcome? If not, say so and offer to write the one-page
   brief that would let them read it in ten minutes.
 - **Engineering decisions** (architecture, data model, auth, payments, personal or
-  health data, anything above three nines): has an engineer who has done this before
+  health data, anything at two nines or above): has an engineer who has done this before
   looked at it? Experience is what 80% looks like when the stakes do not allow 80%.
   You can draft the architecture; a human who has been woken up by one at 2 AM should
   check it before strangers depend on it.

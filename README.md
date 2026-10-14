@@ -49,8 +49,10 @@ When the skill is active, the agent:
   scaling: placed by paying strangers rather than by how much code exists. At POC it
   codes until the outcome happens once and then sends you to a stranger; at MVP it
   codes only what the strangers' noes ask for; at PMF it codes for retention.
-- **Builds to the nines you chose, and no further.** The nines are a contract that
-  caps the work. Whenever an outcome can be proven by an automated test, it is, and the
+- **Builds to the reliability you chose, and no further.** 80% is the default and is
+  enough for most things; one nine is for what strangers pay for daily; two nines gets
+  pushed back on, because it needs an experienced team and a budget. The number is a
+  contract that caps the work. Whenever an outcome can be proven by an automated test, it is, and the
   test is named after the person's question. One repository, one language, one
   database, boring technology, no infrastructure ahead of retention, because
   everything created must be maintained.

@@ -78,7 +78,7 @@ and pay rent on every week. Pick the stack by that rule.
   a design system, an internal platform: parked in `DECISIONS.md` until the
   retention goal is met and a number says they are needed.
 - **A monolith is a feature.** One process the user can run on a laptop, read in an
-  afternoon, and deploy with one command, is worth more at three nines than any
+  afternoon, and deploy with one command, is worth more at one nine than any
   architecture diagram.
 - **Dependencies are promises.** Each one is a future upgrade, a future breach notice,
   a future afternoon lost. Add them for the 20%, not for convenience in the 80%.

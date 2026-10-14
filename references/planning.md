@@ -43,7 +43,8 @@ One table, one row per ticket:
   in both and is the first candidate for the weekly ticket test.
 - **Human** names who in `HUMANS.md` must look before the ticket ships, if anyone.
 - **Test** names the automated test that proves the question, or "manual: <how>" when
-  none is possible, or "none at <n> nines" when the nines do not call for one.
+  none is possible. At 80% one test for the outcome is enough; the column never reads
+  "none".
 - Parked tickets keep their row with the date and the return condition, mirrored in
   `DECISIONS.md`.
 - The weekly random ticket test draws from this table and writes its result to

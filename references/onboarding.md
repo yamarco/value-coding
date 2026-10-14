@@ -158,11 +158,14 @@ usually the moment the request shrinks, and the user should see it shrink.
    now, because the first gate needs a signature before you act on any of this.
    Choices if they stall: a) a co-founder, b) a former boss, c) a friend in the
    trade, d) nobody comes to mind, e) other, tell me more.
-5. How many nines does this need? Choices: a) two, a prototype a stranger can see,
-   b) three, a website people pay for, c) five, money or personal data, d) seven, a
-   life depends on it, e) other, tell me more. Then: who gets hurt if it fails at
-   fewer, or if the data leaks? One request can hold two builds with different nines;
-   split them.
+5. How reliable does this have to be? Choices: a) 80%, it works for the path a
+   stranger will see and we fix it when it breaks (most things), b) one nine, 90%,
+   strangers pay for it and use it most days, c) two nines, 99%, money or personal
+   data, which needs an experienced team and a budget behind it, d) more than that,
+   a life or a licence depends on it, e) other, tell me more. Push back on c) and d)
+   once: who gets hurt at one nine, and who on the team has done this before? Then:
+   who gets hurt if it fails at fewer, or if the data leaks? One request can hold two
+   builds with different levels; split them.
 6. Does the thing touch any of these? Choices: a) health, b) money, c) children,
    d) personal data, e) a licensed profession, f) none, g) other, tell me more. For an
    existing business: what is the number today?
