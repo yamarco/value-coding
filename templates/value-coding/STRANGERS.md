@@ -7,7 +7,7 @@ not count toward anything.
 
 | Date | Name | Kind | Shown (offer, price) | Reply, word for word | Paid |
 |------|------|------|----------------------|----------------------|------|
-| <YYYY-MM-DD> | <name, age, where> | stranger / friend / investor | <...> | "<...>" | yes / no |
+| <YYYY-MM-DD> | <name, age, where> | stranger / friend / investor / assumed, never asked | <...> | "<...>" | yes / no |
 
 ## Reasons for no
 - "<reason>" (<n> people) → <action item or ticket>

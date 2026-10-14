@@ -9,8 +9,19 @@ start.
 
 How to run it:
 
-- Ask in batches of three to five questions per message, in order, and wait. Do not
-  dump the whole interview at once; nobody answers forty questions in one go.
+- Ask the voice question first and alone. Then the daily question, in that voice.
+  Then the phases below in batches of three to five questions per message, in order,
+  and wait. Do not dump the whole interview at once; nobody answers forty questions
+  in one go.
+- **The short path.** Phases 0, 2, and 3 are mandatory before you build, design, or
+  draft anything. After those three, give the user something at the altitude they
+  chose, and tell them plainly: "There are four more batches (stake, humans, numbers,
+  altitude and fear). Now, or next session?" A user who asked for a deck and has
+  answered twenty questions without seeing a slide is right to push back; do not make
+  them. Spread the rest over the next sessions if they prefer, and record in
+  `VALUE.md` which phases are still open.
+- Never supply the user's facts. Their name, their city, a number, a date, a quote:
+  ask, or write "[to confirm]". Only what they actually said goes in quotation marks.
 - Listen to the whole answer before pushing. Then push once. Do not accept "everyone",
   "SMBs", "busy professionals", a round number, or "I'll figure that out later" without
   one honest attempt to get the real thing. If they insist, write down what they gave
@@ -43,6 +54,8 @@ you cannot proceed past this phase; say so kindly and wait.
 
 ## Phase 1: what, and where they are
 
+0. What should I call you? (Ask it; do not assume a name from a file, an email, or a
+   repository.)
 1. What are you building: software, a pitch or deck, a company, or are you running an
    existing company and using tech inside it? (More than one is fine; say which comes
    first.)
@@ -66,8 +79,10 @@ with. Do not move on until there is a human here.
    in two lines. Not a segment. Someone a room could imagine meeting, and imagine
    saying no.
 2. What do they need, in words they would say out loud? One sentence, theirs.
-3. Do you have their picture? If you cannot ask them for one, you do not know them
-   well enough yet; say that, and make "meet one" the first action item.
+3. Do you have their picture, or a reason a picture is not appropriate (a patient, a
+   client's employee, someone who did not consent)? If you cannot ask them for one and
+   there is no such reason, you do not know them well enough yet; say that, and make
+   "meet one" the first action item.
 4. If the person who pays is not the person who uses it, who pays, and who decides?
    Most consumer ideas end up with a business model underneath. Say which this is.
 5. What do they do today instead? The spreadsheet, the WhatsApp group, the phone call
@@ -76,8 +91,12 @@ with. Do not move on until there is a human here.
    means the market is too big or not yet known.
 
 Write them to `value-coding/PEOPLE.md`. Put the first person's name and sentence at
-the top of `VALUE.md`. From now on, every reply that touches the build starts with
-that name.
+the top of `VALUE.md`. From now on, the first reply of every session, and any reply
+that starts a plan or a build, opens with that name.
+
+If the person is the user's own patient, client, or employee, say so now: they can be
+the person on slide one, but they cannot be the stranger, and the user's duty to them
+comes first. The strangers will have to come from elsewhere; note where.
 
 ## Phase 3: the outcome
 
@@ -99,7 +118,7 @@ Write the outcome to `VALUE.md`.
 1. How much are you willing to lose for this one thing? In money if you have it (a real
    number, not a round one), and in evenings if you do not (120 evenings, one summer,
    a year of Sundays). Round numbers are how people avoid looking at it. Ask for the
-   real one once.
+   real one once. Record the date, and the time only if they give it.
 2. Is there a line you will not cross, whatever happens? (A person you will not put at
    risk, money that is not yours, a job you will not leave.)
 3. Who have you told? A stake nobody knows about is a hobby.
@@ -131,7 +150,9 @@ Read `humans.md` first.
 Write them to `value-coding/HUMANS.md`. If the same name answers every question, write
 "all roles: <name>" and say out loud that every gate will carry a note that a second
 human was absent. That is not a judgement; it is a fact the user needs to see every
-time they pass a gate alone.
+time they pass a gate alone. "No lawyer, I accept that" is only worth writing once the
+user knows what they are accepting; if they have not read the rule that applies, make
+reading it the action item and write the acceptance afterwards.
 
 ## Phase 6: the numbers
 
@@ -177,5 +198,10 @@ and the kitten verdict to `value-coding/JOURNAL.md`.
    sentence back to them; name the human who tells you you are wrong; put a price in
    front of one stranger this week.
 4. Say what you will do every session from now on: the daily question, the altitude
-   reading, the action-item check. Then, and only then, help with what they came for,
-   at the altitude they chose.
+   reading, the action-item check. Offer the walk through the principles
+   (`principles.md`, rails step 7) as a next-session block, not now.
+5. Then help with what they came for, at the altitude they chose. Nobody should leave
+   onboarding with nothing in hand: if the build is locked, they still get the
+   smallest sellable thing described in prose, the message to the first stranger, or
+   the first lines of the menu. A user who leaves with only questions does not come
+   back.

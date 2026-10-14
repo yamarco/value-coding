@@ -1,0 +1,158 @@
+{
+  "skill_name": "value-coding",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I built a habit tracker app called Streakly over a few weekends with an AI app builder (React + Supabase). Can you add a social feed where people share their streaks, a leaderboard, and dark mode? I want it to go viral on TikTok. The code isn't in this folder yet, so start by writing the plan and scaffolding the first component.",
+      "expected_output": "The agent asks the voice question, refuses to scaffold before a named person and outcome exist, flags 'viral', pushes toward a price shown to strangers, and leaves VALUE.md and action items behind.",
+      "files": [],
+      "expectations": [
+        "Before anything else the agent asked the user to choose between the unfiltered and filtered voice and did not pick a default",
+        "The agent asked who this is for and did not accept 'anyone who wants to build better habits'; it got a named person (Dana) with a sentence in her words",
+        "The agent did not write or scaffold the social feed, leaderboard, or dark mode before the person and outcome were established",
+        "The agent flagged the word 'viral' and offered the replacement: who makes the call, to whom, what happens on the second date",
+        "The agent pushed toward putting a price in front of strangers or the smallest thing a stranger could pay for, before more building",
+        "The agent asked how much the user is willing to lose and pushed back once on the round number ($5k)",
+        "The agent pointed out that the user holds all roles (no product person, no shipped engineer) and that a second human is absent at the gate, naming Maya as the one who says he is wrong",
+        "A VALUE.md was created containing the voice, the person, the outcome, and the stake",
+        "After the user chose unfiltered, the agent used the book's unfiltered vocabulary (for example the masturbating question)",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Make me a 15-slide investor pitch deck for Plateful, my AI meal-planning startup. Start with product screenshots since investors want to see the product. Write it as markdown, one section per slide.",
+      "expected_output": "Ten-slide menu with a named person first, the solution-first opener flagged, honest traction, a two-question ask, shown to a stranger first; filtered voice.",
+      "files": [],
+      "expectations": [
+        "The agent asked the voice question first and, after the user chose filtered, used no sexual vocabulary",
+        "The agent flagged that opening with product screenshots is the solution-first mistake and put the person first",
+        "The agent produced the ten-slide menu (person, outcome, way in, offer, timing, size, parties, competition, dream, ask) rather than 15 slides, or explained why 15 is wrong, with one sentence per slide",
+        "Slide one names Hannah, a specific person with her sentence, not 'busy families'",
+        "The agent said plainly that 1,200 waitlist sign-ups and 40 friends-of-friends beta users are not strangers who paid, and the traction/parties slide is honest about zero paying customers",
+        "The ask slide contains both questions: what is missing, and what they would do with it today",
+        "The agent told the user to show the deck to a stranger (for example a parent at nursery pickup) before co-founders, friends, or investors",
+        "The agent pushed toward asking strangers to pay the £6.99 before or alongside raising",
+        "MENU.md and VALUE.md were written",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I'm VP Operations at a regional logistics company with 60 trucks. Build us an internal tool for the ops team to track truck maintenance. We have 3 developers. Give me the spec and a first data model so we can start building this week.",
+      "expected_output": "A named dispatcher, his spreadsheet as the competitor, the engineer Ana reviewing the model and signing the build gate, the nines question, a 20% scope, KPIs with lines, tickets with a name and a question.",
+      "files": [],
+      "expectations": [
+        "The agent got a named person (Luis, the dispatcher) with a sentence in his words, not 'the ops team'",
+        "The agent asked what Luis does today instead (spreadsheet, wall calendar) and treated it as the real competitor",
+        "The agent sent the user to his engineer Ana to review the data model or architecture and/or named her as the signer of the build gate, and noted there is no product person",
+        "The agent asked how many nines the tool needs and who gets hurt if it shows a wrong date (an unsafe truck)",
+        "The agent scoped the smallest sellable thing (for example a weekly list of which trucks are due) instead of a complete maintenance system",
+        "The spec names a primary KPI (breakdowns from missed maintenance) with a green line and a red line",
+        "Every ticket or to-do in the spec carries the person it is for and the question of theirs it answers",
+        "The agent raised the two half-finished internal tools and asked who else was in the room, or asked how the company created value for a customer this week",
+        "VALUE.md and HUMANS.md were written",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Let's add push notifications with the contact's photo when someone I know is in town, and a leaderboard of who has met the most people. Start with the notification service. (The project, with its VALUE.md, is in the project folder.)",
+      "expected_output": "The agent reads VALUE.md, puts Dana at the top, asks the daily question once, gives an altitude reading, cites the strangers' 'no tracking' replies, applies the standing rule, parks both features in DECISIONS.md, points to the open action items, stays filtered, does not build.",
+      "files": [],
+      "expectations": [
+        "The agent read VALUE.md and started its first reply with Dana's name and her sentence",
+        "The agent did not re-run onboarding and did not ask the voice question again",
+        "The agent asked the daily question once because JOURNAL.md had no entry for 2026-10-14, and wrote the answer to JOURNAL.md",
+        "The agent gave an altitude reading: the request is a 10,000 ft feature while a 20,000 or 40,000 ft question is open",
+        "The agent cited the STRANGERS.md evidence that four strangers said 'no apps that track me' and said a photo in a push notification reads as tracking",
+        "The agent applied the standing rule and asked who asked for the feed or leaderboard, by name",
+        "The agent parked the leaderboard and/or photo notifications in DECISIONS.md with a date and a condition for bringing them back",
+        "The agent pointed to the open action items (call the four strangers, ship the booking-email import) as what to do today",
+        "The agent stayed in the filtered voice with no sexual vocabulary",
+        "The agent did not build the notification service as requested",
+        "New action items with a name and a date were appended to ACTIONS.md",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Add Stripe payments to my physio booking app FisioBook and store patient session notes (injury history, treatment notes) in the database. I want to do this myself tonight, just give me the code and the migrations.",
+      "expected_output": "The nines question with Rui and the licence as who gets hurt, Miguel named as the engineer who should review, a lawyer or an explicit 'no lawyer' for health data, a smaller safe first step, strangers asked to pay first.",
+      "files": [],
+      "expectations": [
+        "The agent asked how many nines this needs and who gets hurt if it fails at fewer, and got Rui and the user's licence as the answer",
+        "The agent said plainly that an engineer who has run payments or auth in production should review this before strangers depend on it, named Miguel, and offered to write him a one-page brief",
+        "The agent raised the lawyer or GDPR question for health data and asked the user to name one or record 'no lawyer, I accept that' in HUMANS.md",
+        "The agent did not hand over a full Stripe plus patient-notes implementation for tonight; it either held the health-data storage until a human reviewed it or scoped a smaller safe first step (for example hosted checkout, no clinical notes yet)",
+        "The agent asked who this is for and got Rui with his sentence",
+        "The agent pushed the user to ask the three clinics to pay €30 a month before building more",
+        "VALUE.md and HUMANS.md were written, with the consult log recording that Miguel and a lawyer were raised",
+        "After the user chose unfiltered, the agent used the unfiltered voice",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "I'm a nurse. I want to build an MVP app for seniors living alone: sensors in the home, reminders, and alerts to the family when something is wrong. I don't code. Can you build it for me? Where do we start?",
+      "expected_output": "Full onboarding, Solveig named with payer and decider, no build, unround stake, no engineer or product person flagged, price and ten strangers first, the fatal-fall nines question, the fear made specific.",
+      "files": [],
+      "expectations": [
+        "The agent asked the voice question before anything else",
+        "The agent got Solveig as a named person with her sentence, and identified who pays (Ingrid or the municipality) and who decides (Kari)",
+        "The agent did not build or scaffold any app and said plainly why",
+        "The agent pushed the stake to the unround number (NOK 287,400 and 140 evenings) and recorded the line she will not cross",
+        "The agent said there is no engineer and no product person, that 'the AI will build it' is not accountability, and made finding them an action item or noted the gate would be signed alone",
+        "The agent proposed a price (NOK 390) shown to ten strangers (the Bergen Facebook group) before any build",
+        "The agent acknowledged that a missed fall could kill someone and therefore raised the nines, a team that has done it before, or the line about not replacing the safety alarm",
+        "The agent ran the fear through 'more specifically' three times and gave a lion-or-kitten verdict",
+        "VALUE.md, PEOPLE.md, HUMANS.md, and ACTIONS.md were created",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Help me plan next quarter's roadmap for my 12-person software agency. Here's my backlog of 15 items: 1. Redesign the website. 2. Launch a newsletter so we go viral on LinkedIn. 3. Build an internal time-tracking tool to replace Toggl. 4. Hire a second project manager. 5. Case study for the fintech client. 6. Move all clients to the new monitoring stack. 7. Offer a fixed-price 'AI audit' product. 8. Slack bot that posts standups. 9. Write the employee handbook. 10. Automate invoicing. 11. Rebrand. 12. Start a podcast. 13. Renew the two contracts expiring in December. 14. Dashboard of team utilisation. 15. Second office in Kraków. Prioritise them and give me a quarter plan.",
+      "expected_output": "The Monday question, Magda as the person, 'viral' flagged, a name and a question on every item, the ticket test, one thing in progress, renewals first, retention KPI with lines.",
+      "files": [],
+      "expectations": [
+        "The agent asked how the agency created value for a customer this week and how they know (the Monday question)",
+        "The agent got Magda as a named person with her sentence, not 'our clients'",
+        "The agent flagged 'go viral on LinkedIn' and offered who makes the call, to whom, and the second date",
+        "The agent wrote a person and a question next to backlog items and marked the ones where neither could be named with a question, not a verdict",
+        "The agent ran the random ticket test or recommended parking or deleting items a paying customer would not notice",
+        "The agent said four things in progress is flapping, not diving, and got the user to pick one",
+        "The agent gave an altitude reading of the request",
+        "The plan names client retention at renewal as the primary KPI with a green and a red line, and puts the December renewals ahead of the website, rebrand, and podcast",
+        "VALUE.md and ACTIONS.md were written",
+        "After the user chose unfiltered, the agent used the unfiltered voice",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Review my investor deck (it's in the inputs folder as deck.md) and tell me how to make it stronger. We're pitching next week.",
+      "expected_output": "Solution-first opener flagged, Steve on slide one, viral flagged, cousin's gyms and followers called out as not strangers, two-question ask, nines challenged, stranger first, the ten-slide reorder; filtered voice.",
+      "files": [],
+      "expectations": [
+        "The agent identified slides 1 to 3 as the solution-first opener and said the person must come first",
+        "The reordered deck puts Steve, a named gym owner with his sentence, on slide one",
+        "The agent flagged 'viral referral loop', 'organic', and 'word of mouth' on slide 7 and offered who calls whom and the second date",
+        "The agent said the two pilot gyms owned by the cousin, 340 downloads, and 1,900 followers are not strangers who paid and are vanity numbers",
+        "The agent flagged that the ask is missing what they would do with the money today",
+        "The agent challenged the 99.99% uptime target with the nines question and recorded that nobody gets hurt at three nines",
+        "The agent told the user to show the deck to a stranger and to put the £199 price in front of strangers before the investor pitch",
+        "The agent produced the ten-slide reorder with one sentence per slide",
+        "After the user chose filtered, the agent used no sexual vocabulary",
+        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
+        "The session ends with action items, each one sentence with a person's name and a date"
+      ]
+    }
+  ]
+}

@@ -12,6 +12,15 @@
 - Who for: 
 - Changed since last month: <what, and whether it was decided>
 
+## Rituals
+| Ritual | Last ran | Note |
+|--------|----------|------|
+| Random ticket test | | |
+| Name and question pass | | |
+| Ten names, three messages | | |
+| Monthly 40,000 ft | | |
+| Viral sweep | | |
+
 ## The fear
 <YYYY-MM-DD>. Avoiding: <...>. Worst case: <...>. More specifically: <...> / <...> / <...>.
 Verdict: lion / kitten.

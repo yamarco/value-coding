@@ -25,8 +25,11 @@ chosen voice; the questions are the same.
 ## Building it with the user
 
 - Build the deck from the ten questions, not from a template. One picture, one
-  sentence per slide. Write it to `MENU.md` as ten lines, each with the step on the
-  rails it came from.
+  sentence per slide; in a text-only deck the picture is one line describing the
+  image. One sentence means one, not four clauses chained with semicolons. Write it
+  to `MENU.md` as ten lines, each with the step on the rails it came from.
+- Slides the user still wants after the ten go in a marked appendix after slide ten,
+  never between them.
 - Point out any slide that answers none of the ten, say which question it is missing,
   and let the user decide whether it stays.
 - Slide one is a person with a name. If the user gives you a segment, go back to

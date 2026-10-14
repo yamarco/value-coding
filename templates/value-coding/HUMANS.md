@@ -12,11 +12,14 @@
 | Domain | | | |
 
 ## Gates
-| Gate | Signed by | Date | Yes / No | Reasons |
-|------|-----------|------|----------|---------|
-| Build | | | | |
-| Release | | | | |
-| Scale | | | | |
+States: signed · signed alone · pending (asked <name> on <date>) · unsigned, in production since <date> · passed before the rails, unsigned
+
+| Gate | State | Signed by | Date | Yes / No | Reasons |
+|------|-------|-----------|------|----------|---------|
+| First | | | | | |
+| Build | | | | | |
+| Release | | | | | |
+| Scale | | | | | |
 
 ## Consult log
 | Date | Moment | Who was named | Outcome |

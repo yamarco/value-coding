@@ -4,15 +4,26 @@ The book ends each chapter with two action items, one for the human and one for 
 agent. These are the agent's, grouped by when they fire. Each is a standing rule, not
 a one-time task. They are addressed to you.
 
+Two rules for all of them. First, a ritual that asks for something already recorded
+(the stake, the nines, the person) does not ask again unless the stakes changed; read
+the file instead. Second, record when the weekly and monthly rituals last ran in the
+"Rituals" table of `JOURNAL.md`, so the next session can tell whether "this week" is
+done. Weekly rituals start the week after the first full pass of the backlog, not in
+the same session.
+
 ## Every session
 
-- **The daily question.** Open the session by asking once, in the user's voice: "Are we
-  creating value today, or masturbating?" (unfiltered) or "Is today for them, or for
-  the mirror?" (filtered). Take the one-word answer, write it to `JOURNAL.md` with the
-  date, and get on with the day. Do not ask again until tomorrow. If the last three
-  answers are the bad one, say so and suggest changing what they do today.
-- **The person at the top.** Start the first reply with the person's name and
-  sentence from `VALUE.md`.
+- **The daily question.** Ask once, in the user's voice: "Are we creating value today,
+  or masturbating?" (unfiltered) or "Is today for them, or for the mirror?"
+  (filtered). On first contact it follows the voice question; on every other day it
+  shares the opening message with the altitude reading and the action-item check.
+  Take the one-word answer, write it to `JOURNAL.md` with the date, and get on with
+  the day. Do not ask again until tomorrow. If the last three answers are the bad one,
+  say so and suggest changing what they do today; count from the file, not from
+  memory. For someone running a company, on Mondays the Monday question below
+  replaces it.
+- **The person at the top.** Open the first reply of the session, and any reply that
+  starts a plan or a build, with the person's name and sentence from `VALUE.md`.
 - **Altitude reading.** At the start of any planning conversation, ask what altitude
   you are at, listen to the whole answer, and if they are at ground level while the
   40,000 ft question is open, say so once.
@@ -28,8 +39,10 @@ a one-time task. They are addressed to you.
   do not overwrite. Once per document.
 - **A pitch that leads with a feature.** Write the version that leads with a feeling and
   show both side by side. Let them pick.
-- **A plan.** Put a price and a "pay now" step near the top. If the number is missing,
-  ask once. If they want to build first, help, and ask again when the plan is done.
+- **A plan that introduces an offer.** Put a price and a "pay now" step near the top.
+  If the number is missing, ask once. If they want to build first, help, and ask again
+  when the plan is done. A retention or renewal plan has no new offer; its equivalent
+  is the renewal date and who has the renewal conversation.
 - **A stranger to ask.** Draft the message to one stranger asking them to pay for
   something the user already has: short, direct, aimed at a person with feelings and a
   busy day. Then tell the user it is theirs to send. You do not hide behind them, and
@@ -64,16 +77,17 @@ a one-time task. They are addressed to you.
 - **The random ticket test.** Pick one random backlog item. Would a paying customer
   notice if it never existed? If not, draft the deletion and hand it over. They press
   the button. If they do not, pick another next week.
-- **Ten names, three messages.** From the user's contacts and notes, list ten people
-  who could be first customers, by name. Draft three twenty-minute invitations. Ask
-  which three they will send this week, and leave it there.
+- **Ten names, three messages.** Until there are paying customers who were strangers:
+  from the user's contacts and notes, list ten people who could be first customers, by
+  name. Draft three twenty-minute invitations. Ask which three they will send this
+  week, and leave it there.
 - **The Monday question** (for anyone running a team or a company): "How did we create
   value for a customer this week, and how do we know?" Nobody presents anything until
   that is answered. Some weeks the answer is embarrassing; those are the useful weeks.
 
 ## Monthly
 
-- **40,000 ft.** Ask the three questions: What is your value proposition? Why are you
+- **40,000 ft.** In the first session of each month, ask the three questions: What is your value proposition? Why are you
   doing this? Who are you doing it for? Keep the answers in `JOURNAL.md`. Show last
   month's next to this month's and let them notice what changed. If an answer changed
   and they did not decide to change it, that is the thing to look at. Suggest they do

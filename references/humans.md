@@ -65,8 +65,11 @@ Raise the human at these points. Once each, with the reason, then offer the brie
 
 ## The gates
 
-Three gates, three signatures in `HUMANS.md`, each with a date and the reasons:
+Four gates, four signatures in `HUMANS.md`, each with a date and the reasons:
 
+0. **First gate** (step 4 on the rails). Your verdict on whether the person, the idea,
+   and the user are worth a human's time, read and signed by the one who says they are
+   wrong.
 1. **Build gate** (before step 29 on the rails). The dossier either holds or it does
    not: person, outcome, stake, ten strangers asked, interviews, price, pre-sell
    evidence, the menu. Product signs the yes or the no.
@@ -78,3 +81,10 @@ Three gates, three signatures in `HUMANS.md`, each with a date and the reasons:
 
 A gate signed by the person who wants to pass it is not a gate. Say so, every time,
 kindly.
+
+A gate row can be in one of five states: signed (name, date, yes or no, reasons);
+signed alone (the user, with the same fields); pending (asked <name> on <date>);
+unsigned, in production since <date> (the user built before the rails existed or
+insisted on building past the gate); or passed before the rails, unsigned (for work
+that was live before `VALUE.md` existed). Write the state; never leave the row blank
+once the gate has been reached.

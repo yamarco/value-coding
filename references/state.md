@@ -9,10 +9,15 @@ use and fill them in.
 Rules:
 
 - Create `VALUE.md` as soon as Phase 0 of onboarding is done, even if the rest is
-  empty. A crashed session should still leave the voice and the person behind.
+  empty. A crashed session should still leave the voice and the person behind. Create
+  the other files the first time something belongs in them, not all at once.
+- Nothing goes in these files that the user did not say or that the evidence does not
+  show. A fact you guessed is written "[to confirm]". Only the user's or a stranger's
+  actual words go in quotation marks.
 - Update files as things happen, not at the end of the session.
 - Never overwrite a line a human wrote without saying so. Append, date, and keep the
-  old line when a value changes (monthly climbs and KPI readings are histories).
+  old line when a value changes (monthly climbs and KPI readings are histories). An
+  unfilled template placeholder is not a line a human wrote; fill it and say so.
 - Keep the human-readable shape; these files are read by people on Monday mornings,
   not just by you.
 - Quote strangers word for word. Paraphrasing a no is how founders lose the reason.
@@ -25,12 +30,13 @@ The index and the 40,000 ft view. Sections, in order:
 1. Title and one-line description of what is being built.
 2. **Voice**: unfiltered or filtered, with the date chosen.
 3. **Building**: software, deck, company, running a company; what comes first.
-4. **Stage**: phase and step on the rails, with the date it was reached.
+4. **Stage**: phase and step on the rails, with the date it was reached, and the
+   onboarding phases still open. When the user runs a company, one row per initiative.
 5. **The person**: name, age, where, one line of story, their sentence in quotes, who
    pays, who decides. The first person from `PEOPLE.md`.
 6. **The outcome**: what done looks like for them, in their words afterwards.
-7. **At stake**: the unround number in money and in evenings, the date, the line not to
-   be crossed, who has been told.
+7. **At stake**: the unround number in money and in evenings, the date (and the time
+   only if the user gave it), the line not to be crossed, who has been told.
 8. **The one number**: the primary KPI with green and red lines and today's value; the
    list of names still using and paying at twelve months.
 9. **Altitude and focus**: the current altitude, the one thing in progress, how many
@@ -49,8 +55,9 @@ face at the top of every screen; the top bar rotates through all of them.
 ## `value-coding/STRANGERS.md`
 
 A table of every reply, in rounds: date, name, whether they are a stranger, a friend,
-or an investor, what was shown (the offer and the price), the reply word for word,
-whether they paid. Friends and investors stay in the table, flagged, and do not count.
+an investor, or "assumed, never asked" (a number the user counted on without asking),
+what was shown (the offer and the price), the reply word for word, whether they
+paid. Friends and investors stay in the table, flagged, and do not count.
 Under it, "Reasons for no" grouped by reason, each pointing at the action item or
 backlog ticket it became. Under that, interview notes: what is annoying, what takes too
 long, what they do instead, what they are embarrassed to admit, the words they used.
@@ -69,28 +76,34 @@ and what they did.
 
 ## `value-coding/JOURNAL.md`
 
-Two sections. **Daily**: one line per day, date and the one-word answer, with a note
+Three sections. **Daily**: one line per day, date and the one-word answer, with a note
 when three bad answers in a row changed the day. **Monthly, 40,000 ft**: one block per
 month with the three answers (value proposition, why, who for) and a line on what
-changed since last month and whether it was decided. Also the fear and the kitten
-verdict from onboarding, dated.
+changed since last month and whether it was decided. **Rituals**: when each weekly and
+monthly ritual last ran (random ticket test, name-and-question pass, ten names,
+monthly climb, viral sweep). Also the fear and the kitten verdict from onboarding,
+dated.
 
 ## `value-coding/ACTIONS.md`
 
 Checklist. Each item: one sentence, one thing to do, a person's name, a date. Grouped
-by session date. Done items get checked and kept. Items with no name or no date are
-not action items; rewrite them before saving.
+by session date. Done items get checked and kept; a partly done item is checked with a
+note and its remainder carried as a new item with a new date. Items with no name or no
+date are not action items; rewrite them before saving. The names are ones the user
+gave; when a human was named in the session, at least one item is theirs.
 
 ## `value-coding/HUMANS.md`
 
-The roster (role, name, how to reach them, what they have done before), the three gate
-signatures (gate, name, date, yes or no, reasons, or "signed alone"), the consult log
-(date, moment, who was named, outcome), and briefs written for humans.
+The roster (role, name, how to reach them, what they have done before), the four gate
+rows (first, build, release, scale) each in one of the states listed in `humans.md`,
+the consult log (date, moment, who was named, outcome), and briefs written for humans.
 
 ## `value-coding/DECISIONS.md`
 
 Parked ideas with the date and the reason (altitude, ticket test, stress test), and
-the condition that brings them back (three strangers asked, retention goal met).
+the condition that brings them back (three strangers asked, retention goal met). The
+random ticket test results: date, the item drawn, the question asked, the user's
+answer, what happened.
 Stress-test results: the claim, who argued against it, whether it survived, open holes.
 Decisions handed to the person who says the user is wrong: the options, what they
 picked, what happened.

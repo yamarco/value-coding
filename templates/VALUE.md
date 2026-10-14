@@ -2,7 +2,8 @@
 
 **Voice:** unfiltered | filtered (chosen <YYYY-MM-DD>)
 **Building:** software | deck | company | running a company with tech (first: <which>)
-**Stage on the rails:** <phase> / <step n. name> (since <YYYY-MM-DD>)
+**Stage on the rails:** <phase> / <step n. name> (since <YYYY-MM-DD>) · Onboarding phases still open: <none | 4, 5, 6, 7>
+**Initiatives** (only when running a company): one line each, with its own stage
 
 ## The person
 **<Full name>, <age>, <where>.** <one line of story>
@@ -14,7 +15,7 @@ Others in `value-coding/PEOPLE.md`.
 <what done looks like for them, the way they would describe it afterwards>
 
 ## At stake
-<real, unround number> in money and <number> evenings, written <YYYY-MM-DD HH:MM>.
+<real, unround number> in money and <number> evenings, written <YYYY-MM-DD, time if given>.
 Line I will not cross: <...>
 Told: <names>
 
