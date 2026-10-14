@@ -8,21 +8,28 @@ stayed. This reference is for the moment the user says "build it".
 ## The nines are a contract, and the contract caps the work
 
 The nines are decided before the build (`SKILL.md`, "How many nines") and they are the
-most useful number in the project, because they tell you when to stop. Three nines is
-a website: ship, watch, fix it when it breaks. Five nines is a bank: a team that has
-done it before, and rounds of 80% with a serious feedback loop. Seven nines is a
-plane. Most of what gets built is a website, and a model that builds a website to
-bank standards burns the user's time and tokens on the 80% of effort that produces
-the last 20% of quality nobody asked for.
+most useful number in the project, because they tell you when to stop. The scale
+starts lower than people think. Eighty percent is the book's unit of "good enough":
+one round of 80% is what most things need, and most of what gets built with a model
+is a prototype, a tool for a few people, or a website. Each nine costs roughly ten
+times the one before it, and a model that builds an 80% thing to two-nines standards
+burns the user's time and tokens on quality nobody asked for.
 
-So, in practice:
+So the default is 80%, and anything above it needs a reason the user can say out
+loud:
 
-| Nines | What done means | What you do not do |
-|---|---|---|
-| 1 to 2 (a prototype, a demo for strangers, an internal script) | It runs the happy path a stranger will see; the known gaps are listed in one place. | No test suite, no abstraction for a second case that does not exist, no error handling for inputs nobody sends. |
-| 3 (a website, a tool strangers pay for) | The outcome the person pays for is proven by an automated test; it deploys from one command; it tells someone when it breaks; it can be rolled back. | No multi-region, no load tests, no 100% coverage, no rewrite for elegance. |
-| 4 to 5 (money, personal data, a business that stops when it stops) | Everything in three, plus: an engineer who has done it before reviewed it; the risky paths have tests; failures are visible before customers report them; data can be recovered. | No heroics; the human in `humans.md` signs the release. |
-| 6 and up | Not something to build on a Friday with a model. A team, a budget, and rounds of 80% with real incidents behind them. | |
+| Level | What it is for | What done means | What you do not do |
+|---|---|---|---|
+| **80%** (the default: a POC, an MVP for a handful of strangers, an internal tool, a demo) | It runs the path a stranger will see and produces the outcome; the known gaps are listed in one place. | One test for the outcome, or "manual: how". | No test suite, no abstraction for a case that does not exist, no error handling for inputs nobody sends, no polish. |
+| **One nine, 90%** (strangers pay for it and use it most days) | It works for the paths people actually take; it tells someone when it breaks; it can be rolled back. | The outcome and the money path have tests; it deploys from one command. | No multi-region, no load tests, no coverage targets, no rewrite for elegance. |
+| **Two nines, 99%** (money moving, personal data, a business that stops when it stops) | Push back first. Ask who gets hurt at one nine, and whether there is a team that has done this before and a budget for it. Without both, the honest answer is one nine with the dangerous part parked or handed to a human. With both: an engineer who has done it before reviews it; the risky paths have tests; failures are visible before customers report them; data can be recovered. | Everything in one nine, plus the review. | No heroics; the human in `humans.md` signs the release. |
+| **Three nines and up** (a bank, a hospital, a plane) | Not something to build with a model and a founder. A team, a budget, regulation, and rounds of 80% with real incidents behind them. | | |
+
+The book's reference points for the top of the scale still stand (five nines is a
+bank, seven is a plane); they are there to show how far away they are, not as
+targets. When the user asks for two nines, say what it costs and ask the two
+questions. When they insist, write it down, build to one nine, and mark the gap
+rogue.
 
 Write the chosen nines and what done means at that level at the top of the plan, so
 every later decision can be checked against it. When the user asks for more polish
@@ -50,9 +57,9 @@ Rules:
   how it will be checked instead (a human, a stranger, a log), and write that down.
 - **Tests are maintained like everything else.** A flaky or dead test is deleted, not
   skipped; the weekly ticket test applies to tests too.
-- **Match the nines.** At two nines, one test for the happy path a stranger will see.
-  At three, the outcome and the money path. At five, every path a human in
-  `humans.md` would lose sleep over.
+- **Match the nines.** At 80%, one test for the outcome a stranger will see. At one
+  nine, the outcome and the money path. At two nines, every path a human in
+  `humans.md` would lose sleep over, reviewed by that human.
 - **Run them before you say done.** A model that reports "done" without running the
   tests has reported a feeling.
 
