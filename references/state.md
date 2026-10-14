@@ -8,12 +8,15 @@ use and fill them in.
 
 Rules:
 
-- Create `VALUE.md` as soon as Phase 0 of onboarding is done, even if the rest is
+- Create `VALUE.md` as soon as the voice is chosen in climb 1, even if the rest is
   empty. A crashed session should still leave the voice and the person behind. Create
   the other files the first time something belongs in them, not all at once.
 - Nothing goes in these files that the user did not say or that the evidence does not
-  show. A fact you guessed is written "[to confirm]". Only the user's or a stranger's
-  actual words go in quotation marks.
+  show. A fact you guessed is written "[to confirm]"; a fact copied from another state
+  file is written "[from VALUE.md]"; research you found is cited. Only the user's or a
+  stranger's actual words go in quotation marks; words the user reports someone else
+  said are written as reported. Green and red lines you propose are marked as
+  proposals until the user confirms them.
 - Update files as things happen, not at the end of the session.
 - Never overwrite a line a human wrote without saying so. Append, date, and keep the
   old line when a value changes (monthly climbs and KPI readings are histories). An
@@ -98,6 +101,18 @@ gave; when a human was named in the session, at least one item is theirs.
 The roster (role, name, how to reach them, what they have done before), the four gate
 rows (first, build, release, scale) each in one of the states listed in `humans.md`,
 the consult log (date, moment, who was named, outcome), and briefs written for humans.
+
+## `value-coding/BACKLOG.md` and `value-coding/ROADMAP.md`
+
+The board and the roadmap, as described in `planning.md`: tickets with a person, a
+question, an altitude, nines, a status, a human, and a test; milestones with goals,
+dates, gates, and the evidence that marks them done. Derived mostly by you, corrected
+by the user, moved as the work moves.
+
+## `value-coding/RESEARCH.md`
+
+What the user fixed (geography, demographics, language, currency, channel, regulated)
+and what you found yourself, each with a source and a date; estimates marked.
 
 ## `value-coding/DECISIONS.md`
 

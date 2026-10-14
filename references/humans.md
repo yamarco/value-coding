@@ -47,6 +47,7 @@ Raise the human at these points. Once each, with the reason, then offer the brie
 | The user has built for three sessions without a stranger seeing anything | Sales, Product | Three sessions of building, zero strangers. The door is closed. Who opens it this week? |
 | The user asks you to make a call only a human with skin in the game should make (quit the job, spend the savings, fire someone, sign the contract) | The one who says they are wrong, the relevant professional | I will give you my read. This is not mine to decide, and it should not be yours alone either. Who else hears it before you act? |
 | The user says "I'm the PM and the dev and the sales guy" | All | Fine. Written down. Every gate will say a second human was absent, and that is information, not a judgement. |
+| The person on slide one is the user's own patient, client, employee, or the user's employer is the payer or decider | The one who says they are wrong, Law if a duty of care applies | Say so: the person can be on slide one, never the stranger; the duty to them comes before the build; strangers come from elsewhere. |
 
 ## How to raise it
 
@@ -83,8 +84,10 @@ A gate signed by the person who wants to pass it is not a gate. Say so, every ti
 kindly.
 
 A gate row can be in one of five states: signed (name, date, yes or no, reasons);
-signed alone (the user, with the same fields); pending (asked <name> on <date>);
-unsigned, in production since <date> (the user built before the rails existed or
-insisted on building past the gate); or passed before the rails, unsigned (for work
-that was live before `VALUE.md` existed). Write the state; never leave the row blank
-once the gate has been reached.
+signed alone (the user, with the same fields); pending (your verdict given, <name>
+asked on <date>, or not yet asked); unsigned, in production since <date> (the user
+built before the rails existed or insisted on building past the gate); or passed
+before the rails, unsigned (for work that was live before `VALUE.md` existed). Write
+the state; never leave the row blank once the gate has been reached. When there is no
+product human, the one who says the user is wrong signs the build gate. For someone
+running a company, one set of gate rows per initiative.

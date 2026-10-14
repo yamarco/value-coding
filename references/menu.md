@@ -26,7 +26,9 @@ chosen voice; the questions are the same.
 
 - Build the deck from the ten questions, not from a template. One picture, one
   sentence per slide; in a text-only deck the picture is one line describing the
-  image. One sentence means one, not four clauses chained with semicolons. Write it
+  image. One sentence means one: a figure in parentheses is fine, a semicolon chain
+  is a paragraph in disguise. When honesty needs a second fact, it goes in the
+  speaker note, not the slide. Write it
   to `MENU.md` as ten lines, each with the step on the rails it came from.
 - Slides the user still wants after the ten go in a marked appendix after slide ten,
   never between them.
@@ -37,9 +39,13 @@ chosen voice; the questions are the same.
 - Slide seven includes the honest sales count. Zero strangers paid is a fact, not a
   weakness, if slide three says who will be asked and when.
 - Slide ten always has both questions. Almost every deck forgets the second.
-- Before anyone who loves the user sees it, it goes to one stranger. Record the
-  stranger's reaction in `STRANGERS.md`; "how much?" followed by silence is the sound
-  of real math.
+- Before anyone who loves the user sees it, it goes to one stranger. That means the
+  deck itself, not only the price: the co-founder, the partner, and the investor who
+  already believes all read it after a stranger has. Record the stranger's reaction
+  in `STRANGERS.md`; "how much?" followed by silence is the sound of real math.
+- When the request is a review of material that already exists (a deck, a page, a
+  plan), the material itself answers most of climb 3; deliver the review right after
+  the person is named and fold the outcome and price questions into it.
 
 ## The solution-first check
 

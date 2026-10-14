@@ -16,6 +16,17 @@ earns.
 
 How to run it:
 
+- Look before you ask (`evidence.md`). Read the repository, the docs, the deck, the
+  conversation. Anything they settle is not asked; it is stated with its evidence in
+  the first climb's dive, for the user to correct.
+- When the user's opening message or the evidence already answers climb 1, do not
+  ask it; state it and go straight to climb 2. The restated request at the end of
+  climb 2 is the first thing in the user's hands; climb 3 produces the deliverable.
+- At most four climbs in one session, unless the user has a real date or asks for
+  more. The later climbs wait for their moments, even if a moment arrives early.
+- When the request is a review of material that already exists (a deck, a plan, a
+  spec, a page), the material answers most of climb 3: deliver the review right after
+  climb 2 and fold the outcome and price into it.
 - Three to five questions per climb, in the user's voice, then wait. Listen to the
   whole answer before pushing, then push once. Do not accept "everyone", "SMBs", a
   round number, or "I'll figure that out later" without one honest attempt at the
@@ -53,13 +64,16 @@ the rest of the climb:
 
 1. What should I call you?
 2. What are you building: software, a pitch or deck, a company, or are you running an
-   existing company and using tech inside it? Which comes first?
+   existing company and using tech inside it? Which comes first? And who are you in
+   it: developer, product person, founder, operator?
 3. Where is it today: an idea, something built, something built several times, or a
-   live business with customers?
+   live business with customers? Which industry, which country first?
 4. Has a stranger ever paid for anything connected to this?
 
-**Dive.** Read whatever exists in the project and say what you found. Give the
-altitude reading for what they asked. If the answer to 3 was "built several times",
+Only the questions the evidence left open are asked; the rest are stated.
+
+**Dive.** Say what you found in the project and the conversation, each inference with
+its evidence, as a list to correct. Give the altitude reading for what they asked. If the answer to 3 was "built several times",
 say the pattern out loud: each version better built than the last, none sold first.
 Create `VALUE.md` with the voice, the name, what is being built, and the stage.
 
@@ -68,12 +82,18 @@ Create `VALUE.md` with the voice, the name, what is being built, and the stage.
 The first slide of everything, and the question the book opens and closes with. Do
 not build until there is a human here.
 
-1. Who is this for? One real person: full name, age, where they live, two lines of
-   story. Not a segment. Someone a room could imagine meeting, and imagine saying no.
-2. What do they need, in words they would say out loud? One sentence, theirs.
+1. Who is this for? One real person: full name (first name and an initial if they
+   have not consented to more), age, where they live, two lines of story. Not a
+   segment. Someone a room could imagine meeting, and imagine saying no.
+2. What do they need, in words they would say out loud? One sentence, theirs. A
+   sentence the user reports someone else said is written as reported, never as a
+   quote from that person.
 3. What do they do today instead? The spreadsheet, the group chat, the phone call
    every evening, nothing. The "instead" is the real competitor.
 4. If the one who pays is not the one who uses it, who pays, and who decides?
+5. Where, demographically, do the people like them live, what do they earn, what
+   language do they speak, and where will the first ten of them be found, by name of
+   the place?
 
 Ask for a picture, or the reason there is none (a patient, a client's employee,
 someone who did not consent). If the person is the user's own patient, client, or
@@ -91,12 +111,20 @@ usually the moment the request shrinks, and the user should see it shrink.
    features.
 2. Is that a problem they have now, or an opportunity they did not have? If neither
    can be named, say which bucket is left.
-3. What is the price, and when does a stranger first see it? A number and a date. If
-   there is neither, those are the first two action items.
-4. For an existing business: what is the number today?
+3. What is the price, in which currency, and when does a stranger first see it? A
+   number and a date. If there is neither, those are the first two action items.
+4. How many nines does this need, and who gets hurt if it fails at fewer, or if the
+   data leaks? Asked here because it shapes what gets built next. One request can
+   hold two builds with different nines; split them.
+5. For an existing business: what is the number today? Does the thing touch health,
+   money, children, personal data, or a licensed profession?
 
-**Dive.** The first real deliverable, scoped to the smallest thing a stranger can be
-put in front of and pay for: the opening of the deck, the first slice of the spec, the
+**Dive.** With web access, do the research first (`evidence.md`): competitors and
+their complaints, the price band, a bottom-up size for the chosen geography, the
+regulation that applies; write it to `RESEARCH.md` with sources and say what you
+found. Then the first real deliverable, scoped to the smallest thing a stranger can be
+put in front of and pay for, and the first draft of `BACKLOG.md` and `ROADMAP.md`
+derived from it (`planning.md`): the opening of the deck, the first slice of the spec, the
 plan skeleton with the price and the pay-now step near the top, the message to the
 first stranger. For an internal tool, the stranger is a user who did not ask for it,
 the price is the date they switch off the spreadsheet, and the pre-sell is their
@@ -155,13 +183,12 @@ business.
 dated goals into the deliverable where they belong: the metrics section of the spec,
 the parties and ask slides, the roadmap's "now" column.
 
-## Climb 7: nines, altitude, and the fear
+## Climb 7: altitude, focus, and the fear
 
 **When:** the thing is about to be shown to a stranger, or the user is stuck.
 
-1. How many nines does this need, and who gets hurt if it fails at fewer? Three is a
-   website, five is a bank, seven is a plane. One request can hold two builds with
-   different nines; split them.
+1. Do the nines from climb 3 still hold now that the thing exists? Three is a
+   website, five is a bank, seven is a plane.
 2. What altitude are you at right now, and should you be there? Give your reading
    first.
 3. What is the one thing in progress? One. Six is flapping, not diving.

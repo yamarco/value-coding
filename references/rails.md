@@ -16,12 +16,14 @@ rails per initiative, one stage and one set of gates each. Someone building only
 deck stops at "The menu" and comes back when they build. Someone with a real date may
 work a step ahead; the skipped steps are listed as open holes in `VALUE.md`.
 
-For an internal tool, three words translate. The **stranger** is a user who did not
-ask for it and owes the sponsor nothing: another shift, another location, the team
-down the hall. The **price** is what they give up to use it: the date they switch off
-the spreadsheet, the hours they commit, the budget line with their name on it. The
-**pre-sell** is a written commitment from a named person to use release one. "The
-boss wants it" is a friend's yes.
+For an internal tool, three words translate, with one rule. The person on slide one
+(the employee who will use it) is never the stranger. The **stranger** is a user
+elsewhere who did not ask for it and owes the sponsor nothing: another shift, another
+location, the team down the hall. The **price** is what they give up to use it: the
+date they switch off the spreadsheet, the hours they commit, the budget line with
+their name on it. The **pre-sell** is a written commitment from a named person to use
+release one. "The boss wants it" is a friend's yes. Ten strangers becomes ten such
+users, or every one there is if there are fewer.
 
 "Signs" means a named human writes their name and the date in `HUMANS.md` next to a
 yes or a no with reasons. If the user is the only human, the signature line reads

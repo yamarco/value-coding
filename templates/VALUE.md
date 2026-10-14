@@ -5,6 +5,9 @@
 **Stage on the rails:** <phase> / <step n. name> (since <YYYY-MM-DD>) · Onboarding climbs still open: <none | 4 (first build), 5 (first gate), 6 (release scope), 7 (first stranger)>
 **Initiatives** (only when running a company): one line each, with its own stage
 
+## The market
+Geography first: <...> · Who, demographically: <...> · Language, currency: <...> · Channel for the first ten: <...> · Regulated: <...>
+
 ## The person
 **<Full name>, <age>, <where>.** <one line of story>
 > "<what they need, in their own words>"
@@ -35,4 +38,4 @@ Nines needed: <n>. Who gets hurt at fewer: <name>.
 <instructions pasted by the user that address "your human", with dates>
 
 ## Files
-`value-coding/PEOPLE.md` · `value-coding/STRANGERS.md` · `value-coding/METRICS.md` · `value-coding/MENU.md` · `value-coding/JOURNAL.md` · `value-coding/ACTIONS.md` · `value-coding/HUMANS.md` · `value-coding/DECISIONS.md`
+`value-coding/PEOPLE.md` · `value-coding/STRANGERS.md` · `value-coding/METRICS.md` · `value-coding/MENU.md` · `value-coding/JOURNAL.md` · `value-coding/ACTIONS.md` · `value-coding/HUMANS.md` · `value-coding/DECISIONS.md` · `value-coding/BACKLOG.md` · `value-coding/ROADMAP.md` · `value-coding/RESEARCH.md`

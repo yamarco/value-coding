@@ -17,6 +17,11 @@ one.
 
 When the skill is active, the agent:
 
+- **Looks before it asks.** It reads your repository, manifests, git history, docs,
+  and deck, says what it can see and how it knows (developer or founder, solo or team,
+  startup or established business, industry, geography, how many nines you have
+  today), and asks only for what the evidence does not settle. Then it challenges the
+  answers that are claims, once, with the evidence.
 - **Asks which voice you want, and does not pick for you.** The book's own voice is
   explicit: sex is the metaphor for the whole method, on purpose, because it sticks.
   *Unfiltered* uses the book's words. *Filtered* asks the same questions in office-safe
@@ -31,8 +36,25 @@ When the skill is active, the agent:
   the person and the outcome exist.
 - **Keeps state in your repo** in plain Markdown: a `VALUE.md` at the root and a
   `value-coding/` folder with people, strangers' replies word for word, KPIs with green
-  and red lines, the ten-slide menu, a journal, action items, the humans who sign, and
-  parked decisions. Any tool and any model can read them.
+  and red lines, the ten-slide menu, a journal, action items, the humans who sign,
+  parked decisions, the research it found with sources, and its own backlog and
+  roadmap. Any tool and any model can read them.
+- **Plans before it builds, mostly on its own.** It derives a backlog and a roadmap
+  from the person, the outcome, the nines, and the code: tickets with a name, a
+  question, an altitude, a status, and the test that proves them; milestones with
+  goals and dates. You correct the board instead of writing it.
+- **Builds to the nines you chose, and no further.** The nines are a contract that
+  caps the work. Whenever an outcome can be proven by an automated test, it is, and the
+  test is named after the person's question. One repository, one language, one
+  database, boring technology, no infrastructure ahead of retention, because
+  everything created must be maintained.
+- **Does the market research itself** when it has web access: competitors and their
+  complaints, the price band, a bottom-up market size with the arithmetic shown, the
+  regulation that applies in your geography, with sources and dates.
+- **Tags every answer with its altitude**: 🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft,
+  🟧 10,000 ft, 🟥 ground, in the book's colours where the surface can show them, so
+  you always know whether you are arguing about the button or about whether the button
+  should exist.
 - **Enforces the rails in daily work**: the daily question, an altitude reading, a
   name and a question on every to-do, a weekly random-ticket test, flags on the word
   "viral", a feeling-first rewrite of any feature-first pitch, a price near the top of
@@ -103,7 +125,10 @@ the project.
 ```
 SKILL.md                 the skill: the rules, the rails, the files
 references/              read by the agent when the moment calls for it
-  onboarding.md          the interview, phase by phase
+  evidence.md            look before you ask, challenge the answers, research yourself
+  onboarding.md          the onboarding, climb by climb
+  planning.md            the backlog and roadmap the agent keeps and mostly derives
+  building.md            the nines as a contract, tests that prove outcomes, the stack
   principles.md          the method in one sitting
   altitudes.md           the five altitudes and the reading
   rails.md               the 39 steps, in order, and who signs

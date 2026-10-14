@@ -12,7 +12,8 @@
 | Domain | | | |
 
 ## Gates
-States: signed · signed alone · pending (asked <name> on <date>) · unsigned, in production since <date> · passed before the rails, unsigned
+States: signed · signed alone · pending (verdict given; <name> asked on <date>, or not yet asked) · unsigned, in production since <date> · passed before the rails, unsigned
+Running a company: one block of four rows per initiative.
 
 | Gate | State | Signed by | Date | Yes / No | Reasons |
 |------|-------|-----------|------|----------|---------|

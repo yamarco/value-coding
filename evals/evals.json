@@ -16,10 +16,11 @@
         "The agent pointed out that the user holds all roles (no product person, no shipped engineer) and that a second human is absent at the gate, naming Maya as the one who says he is wrong",
         "A VALUE.md was created containing the voice, the person, the outcome, and the stake",
         "After the user chose unfiltered, the agent used the book's unfiltered vocabulary (for example the masturbating question)",
-        "The session ends with action items, each one sentence with a person's name and a date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -37,10 +38,11 @@
         "The agent told the user to show the deck to a stranger (for example a parent at nursery pickup) before co-founders, friends, or investors",
         "The agent pushed toward asking strangers to pay the £6.99 before or alongside raising",
         "MENU.md and VALUE.md were written",
-        "The session ends with action items, each one sentence with a person's name and a date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -58,11 +60,12 @@
         "Every ticket or to-do in the spec carries the person it is for and the question of theirs it answers",
         "The agent raised the two half-finished internal tools and asked who else was in the room, or asked how the company created value for a customer this week",
         "VALUE.md and HUMANS.md were written",
-        "The session ends with action items, each one sentence with a person's name and a date",
+        "The user received the spec and data model in the same session, after at most the voice, person, and outcome questions plus one more batch",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
-        "The user received the spec and data model in the same session, after at most the voice, person, and outcome questions plus one more batch"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -82,10 +85,12 @@
         "The agent stayed in the filtered voice with no sexual vocabulary",
         "The agent did not build the notification service as requested",
         "New action items with a name and a date were appended to ACTIONS.md",
+        "The agent handled the partly done 2026-10-13 action item: checked it with a note and carried the remainder with a new date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
-        "The agent handled the partly done 2026-10-13 action item: checked it with a note and carried the remainder with a new date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -102,10 +107,11 @@
         "The agent pushed the user to ask the three clinics to pay €30 a month before building more",
         "VALUE.md and HUMANS.md were written, with the consult log recording that Miguel and a lawyer were raised",
         "After the user chose unfiltered, the agent used the unfiltered voice",
-        "The session ends with action items, each one sentence with a person's name and a date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -123,10 +129,11 @@
         "The agent acknowledged that a missed fall could kill someone and therefore raised the nines, a team that has done it before, or the line about not replacing the safety alarm",
         "The agent ran the fear through 'more specifically' three times and gave a lion-or-kitten verdict",
         "VALUE.md, PEOPLE.md, HUMANS.md, and ACTIONS.md were created",
-        "The session ends with action items, each one sentence with a person's name and a date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -145,10 +152,11 @@
         "The plan names client retention at renewal as the primary KPI with a green and a red line, and puts the December renewals ahead of the website, rebrand, and podcast",
         "VALUE.md and ACTIONS.md were written",
         "After the user chose unfiltered, the agent used the unfiltered voice",
-        "The session ends with action items, each one sentence with a person's name and a date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
       ]
     },
     {
@@ -166,10 +174,36 @@
         "The agent told the user to show the deck to a stranger and to put the £199 price in front of strangers before the investor pitch",
         "The agent produced the ten-slide reorder with one sentence per slide, no semicolon chains",
         "After the user chose filtered, the agent used no sexual vocabulary",
-        "The session ends with action items, each one sentence with a person's name and a date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
-        "The agent asked the user's own name instead of assuming one",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Add a billing page so clinics can pay me monthly. The code is in the project folder.",
+      "expected_output": "The agent reads the repo and states what it inferred with evidence (solo developer Lucía, Next.js and Prisma, Spain and Spanish UI, dental clinics, two free pilots, no tests, patient data with DNI), asks only the gaps, challenges the free pilots as not strangers who paid, proposes the nines and the tests, keeps the single repo and language, drafts a backlog and roadmap, and raises the engineer and the lawyer for payments and patient data.",
+      "files": [
+        "fixtures/dentaflow"
+      ],
+      "expectations": [
+        "Before asking onboarding questions, the agent stated what it inferred from the repository with the evidence for each inference (for example: one author in git, Next.js plus Prisma, Spanish UI and Spain, dental clinics, two free pilots, no test files, a DNI field on patients)",
+        "The agent did not ask questions the repository already answered (the stack, the industry, the country, the stage)",
+        "The agent said plainly that two free pilots at clinics are not strangers who paid and asked when a clinic will be asked to pay and at what price",
+        "The agent asked how many nines the billing page needs and who gets hurt if it fails or if patient data leaks, and recorded a number",
+        "The agent proposed or wrote an automated test that proves the billing outcome (a clinic can pay and the payment is recorded), named after the person's question",
+        "The agent kept the existing single repository, language, and database rather than proposing a new service, language, or infrastructure",
+        "The agent drafted BACKLOG.md and ROADMAP.md with tickets carrying a person, a question, a status, and a test, and asked the user to correct them rather than asking the user to plan",
+        "The agent raised an engineer who has run payments in production and a lawyer for patient data (DNI, notes) under Spanish and EU rules, once each, and logged them in HUMANS.md",
+        "The agent did research or offered to research Spanish dental practice management competitors and their pricing, with sources, or wrote what it would research in RESEARCH.md",
+        "The agent asked which voice the user wants before anything else and used it consistently",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "The agent asked the user's own name instead of assuming one from the git log"
       ]
     }
   ]
