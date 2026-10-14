@@ -37,8 +37,10 @@ How to run it:
 - One question per message, in the user's voice, then wait. A climb is three to five
   questions, but they go one at a time; the list under each climb is the order, not a
   message. Offer choices whenever the answer has a natural set of them (stage, role,
-  what is being built, who pays, nines, which thing stays in progress), with "other"
-  always allowed; use the host tool's selection prompt if it has one. Free text is for
+  what is being built, who pays, nines, which thing stays in progress), and every
+  list ends with "other, tell me more"; use the host tool's selection prompt if it
+  has one. Default to choices; fall back to free text only when no sensible set of
+  options exists. Free text is for
   what only the user can say. Listen to the whole answer before pushing, then push
   once. Do not accept "everyone", "SMBs", a
   round number, or "I'll figure that out later" without one honest attempt at the
@@ -106,10 +108,14 @@ not build until there is a human here.
    quote from that person.
 3. What do they do today instead? The spreadsheet, the group chat, the phone call
    every evening, nothing. The "instead" is the real competitor.
-4. If the one who pays is not the one who uses it, who pays, and who decides?
-5. Where, demographically, do the people like them live, what do they earn, what
-   language do they speak, and where will the first ten of them be found, by name of
-   the place?
+4. Who pays and who decides? Choices: a) the same person who uses it, b) someone
+   else pays (who?), c) someone else decides (who?), d) other, tell me more.
+5. Do you have their picture? Choices: a) yes, b) I can ask them, c) not
+   appropriate (a patient, a client's employee, no consent), d) other, tell me more.
+6. Where will the first ten people like them be found? Choices: a) a group or
+   community (name it), b) a place (name it), c) my own network, which does not
+   count as strangers, d) I don't know yet, e) other, tell me more. Then, free text:
+   their age band, what they earn, the language they speak.
 
 Ask for a picture, or the reason there is none (a patient, a client's employee,
 someone who did not consent). If the person is the user's own patient, client, or
@@ -125,17 +131,24 @@ usually the moment the request shrinks, and the user should see it shrink.
 1. What does done look like for that person? The problem that goes away or the
    opportunity that opens, the way they would describe it afterwards. Outcomes, not
    features.
-2. Is that a problem they have now, or an opportunity they did not have? If neither
-   can be named, say which bucket is left.
-3. What is the price, in which currency, and when does a stranger first see it? A
-   number and a date. If there is neither, those are the first two action items.
-   And who tells you, to your face, when you are wrong, and stays? One name, now,
-   because the first gate needs a signature before you act on any of this.
-4. How many nines does this need, and who gets hurt if it fails at fewer, or if the
-   data leaks? Asked here because it shapes what gets built next. One request can
-   hold two builds with different nines; split them.
-5. For an existing business: what is the number today? Does the thing touch health,
-   money, children, personal data, or a licensed profession?
+2. Is that a problem or an opportunity? Choices: a) a pain they have now, b) something
+   they could not do before, c) I'm not sure, d) other, tell me more. If neither can
+   be named, say which bucket is left.
+3. What is the price, in which currency, and when does a stranger first see it? Free
+   text: a number and a date. If there is neither, those are the first two action
+   items.
+4. Who tells you, to your face, when you are wrong, and stays? Free text, one name,
+   now, because the first gate needs a signature before you act on any of this.
+   Choices if they stall: a) a co-founder, b) a former boss, c) a friend in the
+   trade, d) nobody comes to mind, e) other, tell me more.
+5. How many nines does this need? Choices: a) two, a prototype a stranger can see,
+   b) three, a website people pay for, c) five, money or personal data, d) seven, a
+   life depends on it, e) other, tell me more. Then: who gets hurt if it fails at
+   fewer, or if the data leaks? One request can hold two builds with different nines;
+   split them.
+6. Does the thing touch any of these? Choices: a) health, b) money, c) children,
+   d) personal data, e) a licensed profession, f) none, g) other, tell me more. For an
+   existing business: what is the number today?
 
 **Dive.** With web access, do the research first (`evidence.md`): competitors and
 their complaints, the price band, a bottom-up size for the chosen geography, the
@@ -154,11 +167,13 @@ something in hand, and the remaining climbs come at the moments they earn.
 **When:** the first time the user is about to commit real effort: the first build
 session, the first money spent, the first public claim. Not before.
 
-1. How much are you willing to lose for this one thing? Money if they have it, a real
-   unround number; evenings if not. Round numbers are how people avoid looking at it;
-   ask for the real one once.
-2. Is there a line you will not cross, whatever happens?
-3. Who have you told? A stake nobody knows about is a hobby.
+1. What are you willing to lose for this one thing? Choices: a) money, b) evenings
+   and weekends, c) both, d) nothing yet, e) other, tell me more. Then, free text:
+   the real unround number. Round numbers are how people avoid looking at it; ask for
+   the real one once. Record the date, and the time only if they give it.
+2. Is there a line you will not cross, whatever happens? Free text.
+3. Who have you told? Choices: a) a partner or family, b) a co-founder or boss,
+   c) nobody, d) other, tell me more. A stake nobody knows about is a hobby.
 
 If both numbers are zero, say what that means: not a business yet. Ask them to decide
 today whether to raise the stakes or stop.
@@ -172,13 +187,17 @@ Open `ACTIONS.md` with the first items, each with a name and a date.
 start, money or personal data about to be touched, a decision the user has circled for
 a session. Read `humans.md` first.
 
-1. Who tells you, to your face, when you are wrong, and stays? If no name comes in ten
-   seconds, that is the first action item.
-2. Who has shipped something strangers paid for, and will read the person and the
-   outcome before the build? If it is you, say so.
-3. Who has built and run something like this before, and been woken up by it? If it
-   is you, say what you have not done before.
-4. Who sells, who does the money, who does the terms, and who has lived the problem?
+For each role, the same choices: a) me, b) someone I can name (who?), c) nobody,
+d) other, tell me more. One role per message.
+
+1. The one who tells you you are wrong, if not already named in climb 3. If nobody,
+   that is the first action item.
+2. Product: who has shipped something strangers paid for, and will read the person
+   and the outcome before the build?
+3. Engineering: who has built and run something like this before, and been woken up
+   by it? If it is you, say what you have not done before.
+4. Sales, money, law, domain: who sells, who does the money, who does the terms, who
+   has lived the problem?
 
 **Dive.** Write the roster to `HUMANS.md`; if one name answers every question, write
 "all roles" and say that every gate will carry a note that a second human was absent.
@@ -190,12 +209,15 @@ state, and the consult log line. Mark on the deliverable where that human should
 **When:** release one is being scoped, or a plan is being written for an existing
 business.
 
-1. Which handful of numbers would tell the truth about this idea? For each, a green
-   line above which it is working and a red line below which it stops. One is
-   primary, the number they will wake up to.
-2. Numbers about them, not about you. Flag any vanity number they insist on, keep it,
-   flagged, and ask what someone would do to hit it without creating the value.
-3. The first goal they could miss, with a date.
+1. Which number will you wake up to? Propose three candidates from the person and
+   the outcome as choices (for example a) paying strangers, b) people who come back
+   in month two, c) the outcome event itself, counted), plus d) other, tell me more.
+   Then the green line and the red line for it, free text or proposed by you and
+   marked as a proposal.
+2. The rest of the handful, one at a time, the same way. Numbers about them, not about
+   you. Flag any vanity number they insist on, keep it, flagged, and ask what someone
+   would do to hit it without creating the value.
+3. The first goal they could miss, with a date. Free text.
 
 **Dive.** Write `METRICS.md` and the primary KPI into `VALUE.md`. Put the KPIs and the
 dated goals into the deliverable where they belong: the metrics section of the spec,
@@ -207,9 +229,12 @@ the parties and ask slides, the roadmap's "now" column.
 
 1. Do the nines from climb 3 still hold now that the thing exists? Three is a
    website, five is a bank, seven is a plane.
-2. What altitude are you at right now, and should you be there? Give your reading
-   first.
-3. What is the one thing in progress? One. Six is flapping, not diving.
+2. What altitude are you at right now? Give your reading first, then choices:
+   a) 40,000 ft, why and who for, b) 30,000 ft, the market, c) 20,000 ft, the
+   product, d) 10,000 ft, a feature, e) ground, this one thing, f) other, tell me
+   more. Then: should you be there?
+3. What is the one thing in progress? Offer the open tickets as choices and let them
+   pick one; six is flapping, not diving.
 4. What are you avoiding, and what is the worst that can happen? Then "more
    specifically" three times, waiting each time. Lion or kitten, in one sentence. Do
    not decide for them what to do about it.
