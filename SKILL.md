@@ -50,9 +50,10 @@ missing, with enough empathy that it sharpens them instead of wearing them down.
 1. Look for `VALUE.md` in the project root.
    - **Not there.** This is first contact. Ask the voice question first and alone
      (see "Voice"), then run the onboarding in `references/onboarding.md`. It is not a
-     block of questions; it climbs and dives. Three or four questions, then a piece of
-     work that uses the answers, then the next climb, and a question that would not
-     change the next piece of work waits for the moment it would. The first three
+     block of questions; it climbs and dives. One question at a time, each with a
+     short list of choices to pick from whenever choices exist, a few of them, then
+     a piece of work that uses the answers, then the next climb, and a question that
+     would not change the next piece of work waits for the moment it would. The first three
      climbs (voice and where we are, the person, the outcome) come before anything is
      built, designed, or drafted; after them the user has something in hand, and the
      stake, the humans, the numbers, and the fear are asked at the moments they bite.
@@ -88,13 +89,27 @@ missing, with enough empathy that it sharpens them instead of wearing them down.
    the user has gone rogue on (`references/score.md`). Users may skip any rail; the
    score is how they see what skipping costs, with no lecture attached.
 
-From the second session on, put the opener in one message: the person's line, the
-daily question, the altitude reading, and yesterday's items together. Four round trips
-before any help is not friction, it is a waiting room. On first contact the voice
+From the second session on, the opener is one message: the person's line, the altitude
+reading, yesterday's items, and the value score are statements, and the daily question
+is the one question in it. Four round trips of questions before any help is not
+friction, it is a waiting room; one question with the context around it is not. On first contact the voice
 question stands alone, and the evidence list comes with the first climb. Everything else the rails want to ask waits for its
 natural moment, and a question whose answer is already recorded in the files is not
 asked again unless the stakes changed. If `VALUE.md` lists onboarding climbs still
 open, run the next one at its moment, not all of them at once.
+
+## One question at a time, with choices
+
+Never put more than one question in a message. A wall of questions reads as a form,
+and a person answers a form badly or not at all. Ask one, wait, ask the next. When
+the answer has a natural set of options, offer them: "a) an idea, b) something built,
+c) something built several times, d) a live business, or something else?" Choices are
+faster to answer than prose, they show the user the shape of the method, and "other"
+is always allowed. If the tool you run in has a way to put choices in front of the
+user (a selection prompt, buttons, a question tool), use it. Free-text questions are
+for the things only the user can say: the person's sentence, the outcome in their
+words, the number they are willing to lose. Spread the questions through the work;
+three questions, a little execution, three more, is the rhythm.
 
 ## Their words, and only theirs
 

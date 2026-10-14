@@ -26,9 +26,10 @@ When the skill is active, the agent:
   explicit: sex is the metaphor for the whole method, on purpose, because it sticks.
   *Unfiltered* uses the book's words. *Filtered* asks the same questions in office-safe
   words. Both are blunt.
-- **Onboards you the way the book works: climb, dive, climb.** Three or four questions,
-  then a piece of real work that uses the answers, then the next questions at the
-  moment they bite. First the voice and where you are, then the one real person it is
+- **Onboards you the way the book works: climb, dive, climb.** One question at a time,
+  with choices to pick from wherever they exist, then a piece of real work that uses
+  the answers, then the next questions at the moment they bite. Never a wall of
+  questions. First the voice and where you are, then the one real person it is
   for and what they need in their words, then what done looks like for them and when a
   stranger first sees a price. After that you have something in hand, and the stake,
   the humans who sign, the numbers with green and red lines, the nines, and the fear

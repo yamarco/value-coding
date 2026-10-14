@@ -91,7 +91,8 @@ own decisions read back correctly trusts the next question.
 
 Present the inferences as a short list the user can correct, each with its evidence,
 before the first climb's questions: "Here is what I can see. Tell me where I am
-wrong." Then ask only what is still open. A user who confirms five inferences has
+wrong." That list is one message with one question at the end of it (is this right?),
+not a list of questions. Then ask what is still open, one at a time. A user who confirms five inferences has
 answered five questions in one word.
 
 ## Challenge the answers

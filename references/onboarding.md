@@ -5,10 +5,10 @@ works if the person, the outcome, and the stake are not written down, and a user
 will not answer these questions is about to spend a year building for the mirror. But
 a user who answers thirty questions and gets nothing back stops answering, and they
 are right to. So the interview is not a block. It runs the way the book runs: a short
-climb of three or four questions, then a dive, a piece of real work that uses the
-answers, then the next climb.
+climb of a few questions asked one at a time, each with choices where choices exist,
+then a dive, a piece of real work that uses the answers, then the next climb.
 
-The rule that decides what gets asked when: **a batch of questions has to change what
+The rule that decides what gets asked when: **a climb's questions have to change what
 you do next.** If the answers would not alter the next piece of work, the questions
 wait for the moment they would. The voice is always first and alone. Nothing gets
 built before the person and the outcome exist. Everything else moves to the moment it
@@ -25,8 +25,8 @@ How to run it:
 - At most four climbs in one session, unless the user has a real date, a gate that
   must be signed before they act, or asks for more. The later climbs wait for their
   moments, even if a moment arrives early. Climbs 4 and 5 usually bite at the same
-  moment (the first build); when they do, merge them into one short batch after the
-  deliverable.
+  moment (the first build); when they do, run them back to back after the
+  deliverable, still one question at a time.
 - For a deck, slide one is the climb-2 dive: the person, on the slide, before any
   other question is asked.
 - When the user's name is in the evidence (a git author, a byline), confirm it in one
@@ -34,8 +34,13 @@ How to run it:
 - When the request is a review of material that already exists (a deck, a plan, a
   spec, a page), the material answers most of climb 3: deliver the review right after
   climb 2 and fold the outcome and price into it.
-- Three to five questions per climb, in the user's voice, then wait. Listen to the
-  whole answer before pushing, then push once. Do not accept "everyone", "SMBs", a
+- One question per message, in the user's voice, then wait. A climb is three to five
+  questions, but they go one at a time; the list under each climb is the order, not a
+  message. Offer choices whenever the answer has a natural set of them (stage, role,
+  what is being built, who pays, nines, which thing stays in progress), with "other"
+  always allowed; use the host tool's selection prompt if it has one. Free text is for
+  what only the user can say. Listen to the whole answer before pushing, then push
+  once. Do not accept "everyone", "SMBs", a
   round number, or "I'll figure that out later" without one honest attempt at the
   real thing. If they insist, write what they gave you with "[to confirm]" and ask
   again at the next natural moment.
@@ -70,12 +75,16 @@ proceed; say so kindly and wait. Then, in that voice, the daily question, once, 
 the rest of the climb:
 
 1. What should I call you?
-2. What are you building: software, a pitch or deck, a company, or are you running an
-   existing company and using tech inside it? Which comes first? And who are you in
-   it: developer, product person, founder, operator?
-3. Where is it today: an idea, something built, something built several times, or a
-   live business with customers? Which industry, which country first?
-4. Has a stranger ever paid for anything connected to this?
+2. What are you building? Choices: a) software, b) a pitch or deck, c) a company,
+   d) running an existing company with tech inside it; more than one is fine, say
+   which comes first.
+3. Who are you in it? Choices: a) developer, b) product person, c) founder,
+   d) operator or leader, e) something else.
+4. Where is it today? Choices: a) an idea, b) something built, c) something built
+   several times, d) a live business with customers. Then, free text: which industry,
+   which country first.
+5. Has a stranger ever paid for anything connected to this? Choices: a) yes, b) no,
+   c) friends or pilots have used it for free.
 
 Only the questions the evidence left open are asked; the rest are stated.
 
