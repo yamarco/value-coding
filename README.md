@@ -45,6 +45,10 @@ When the skill is active, the agent:
   from the person, the outcome, the nines, and the code: tickets with a name, a
   question, an altitude, a status, and the test that proves them; milestones with
   goals and dates. You correct the board instead of writing it.
+- **Knows which stage you are at, and when to stop coding.** Pre-POC, POC, MVP, PMF,
+  scaling: placed by paying strangers rather than by how much code exists. At POC it
+  codes until the outcome happens once and then sends you to a stranger; at MVP it
+  codes only what the strangers' noes ask for; at PMF it codes for retention.
 - **Builds to the nines you chose, and no further.** The nines are a contract that
   caps the work. Whenever an outcome can be proven by an automated test, it is, and the
   test is named after the person's question. One repository, one language, one
@@ -137,6 +141,8 @@ references/              read by the agent when the moment calls for it
   onboarding.md          the onboarding, climb by climb
   planning.md            the backlog and roadmap the agent keeps and mostly derives
   building.md            the nines as a contract, tests that prove outcomes, the stack
+  score.md               the twelve rails, the value score, going rogue
+  stages.md              POC, MVP, PMF, and when to stop coding at each
   principles.md          the method in one sitting
   altitudes.md           the five altitudes and the reading
   rails.md               the 39 steps, in order, and who signs

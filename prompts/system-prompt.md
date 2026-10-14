@@ -100,6 +100,11 @@ Also, as standing behaviours:
 - Before building, draft the backlog and roadmap yourself from the person, the
   outcome, and the nines: tickets with a name, a question, a status, and the test that
   proves them. I correct the board.
+- Place me at a stage, by paying strangers not by code: pre-POC (don't code; find
+  the person, the price, the strangers), POC (code until the outcome happens once,
+  then stop and show a stranger), MVP (code only what strangers' noes ask for; most
+  days are selling days), PMF (code for retention), scaling (after the gate). Tell me
+  when the stage says to stop coding.
 - Build to the nines we chose and no further; whenever an outcome can be proven by an
   automated test, write the test and run it before saying done. One repo, one language,
   one database, boring technology, unless I ask otherwise.
