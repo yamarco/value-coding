@@ -16,8 +16,10 @@
         "The agent pointed out that the user holds all roles (no product person, no shipped engineer) and that a second human is absent at the gate, naming Maya as the one who says he is wrong",
         "A VALUE.md was created containing the voice, the person, the outcome, and the stake",
         "After the user chose unfiltered, the agent used the book's unfiltered vocabulary (for example the masturbating question)",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     },
     {
@@ -28,15 +30,17 @@
       "expectations": [
         "The agent asked the voice question first and, after the user chose filtered, used no sexual vocabulary",
         "The agent flagged that opening with product screenshots is the solution-first mistake and put the person first",
-        "The agent produced the ten-slide menu (person, outcome, way in, offer, timing, size, parties, competition, dream, ask) rather than 15 slides, or explained why 15 is wrong, with one sentence per slide",
+        "The agent produced the ten-slide menu (person, outcome, way in, offer, timing, size, parties, competition, dream, ask) rather than 15 slides, or explained why 15 is wrong, with one sentence per slide, no semicolon chains",
         "Slide one names Hannah, a specific person with her sentence, not 'busy families'",
         "The agent said plainly that 1,200 waitlist sign-ups and 40 friends-of-friends beta users are not strangers who paid, and the traction/parties slide is honest about zero paying customers",
         "The ask slide contains both questions: what is missing, and what they would do with it today",
         "The agent told the user to show the deck to a stranger (for example a parent at nursery pickup) before co-founders, friends, or investors",
         "The agent pushed toward asking strangers to pay the £6.99 before or alongside raising",
         "MENU.md and VALUE.md were written",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     },
     {
@@ -54,8 +58,11 @@
         "Every ticket or to-do in the spec carries the person it is for and the question of theirs it answers",
         "The agent raised the two half-finished internal tools and asked who else was in the room, or asked how the company created value for a customer this week",
         "VALUE.md and HUMANS.md were written",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The user received the spec and data model in the same session, after at most the voice, person, and outcome questions plus one more batch"
       ]
     },
     {
@@ -68,14 +75,17 @@
         "The agent did not re-run onboarding and did not ask the voice question again",
         "The agent asked the daily question once because JOURNAL.md had no entry for 2026-10-14, and wrote the answer to JOURNAL.md",
         "The agent gave an altitude reading: the request is a 10,000 ft feature while a 20,000 or 40,000 ft question is open",
-        "The agent cited the STRANGERS.md evidence that four strangers said 'no apps that track me' and said a photo in a push notification reads as tracking",
+        "The agent cited the STRANGERS.md evidence that four strangers said 'no apps that track me' when deciding about the photo notification",
         "The agent applied the standing rule and asked who asked for the feed or leaderboard, by name",
         "The agent parked the leaderboard and/or photo notifications in DECISIONS.md with a date and a condition for bringing them back",
         "The agent pointed to the open action items (call the four strangers, ship the booking-email import) as what to do today",
         "The agent stayed in the filtered voice with no sexual vocabulary",
         "The agent did not build the notification service as requested",
         "New action items with a name and a date were appended to ACTIONS.md",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method"
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent handled the partly done 2026-10-13 action item: checked it with a note and carried the remainder with a new date"
       ]
     },
     {
@@ -92,8 +102,10 @@
         "The agent pushed the user to ask the three clinics to pay €30 a month before building more",
         "VALUE.md and HUMANS.md were written, with the consult log recording that Miguel and a lawyer were raised",
         "After the user chose unfiltered, the agent used the unfiltered voice",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     },
     {
@@ -111,8 +123,10 @@
         "The agent acknowledged that a missed fall could kill someone and therefore raised the nines, a team that has done it before, or the line about not replacing the safety alarm",
         "The agent ran the fear through 'more specifically' three times and gave a lion-or-kitten verdict",
         "VALUE.md, PEOPLE.md, HUMANS.md, and ACTIONS.md were created",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     },
     {
@@ -131,8 +145,10 @@
         "The plan names client retention at renewal as the primary KPI with a green and a red line, and puts the December renewals ahead of the website, rebrand, and podcast",
         "VALUE.md and ACTIONS.md were written",
         "After the user chose unfiltered, the agent used the unfiltered voice",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     },
     {
@@ -148,10 +164,12 @@
         "The agent flagged that the ask is missing what they would do with the money today",
         "The agent challenged the 99.99% uptime target with the nines question and recorded that nobody gets hurt at three nines",
         "The agent told the user to show the deck to a stranger and to put the £199 price in front of strangers before the investor pitch",
-        "The agent produced the ten-slide reorder with one sentence per slide",
+        "The agent produced the ten-slide reorder with one sentence per slide, no semicolon chains",
         "After the user chose filtered, the agent used no sexual vocabulary",
-        "The transcript and files never mention CVT, cvt.ai, or any company or vendor as the provider of the method",
-        "The session ends with action items, each one sentence with a person's name and a date"
+        "The session ends with action items, each one sentence with a person's name and a date",
+        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
+        "The agent asked the user's own name instead of assuming one",
+        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     }
   ]
