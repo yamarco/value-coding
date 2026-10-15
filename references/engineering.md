@@ -265,6 +265,92 @@ previous one is half-tested, a refactor opened in the middle of a ticket, a seco
 branch to "try something". Each is a second thing in progress, and the board says
 so.
 
+## Tests the stranger would recognise
+
+`building.md` says tests prove outcomes. The test that proves an outcome best is the
+one that does what the person does: opens the page, fills the form the way Rebecca
+fills it, presses pay, and checks that the booking exists and the confirmation
+arrived. So whenever there is a front end, push for end-to-end tests of the paths a
+stranger takes, run in a real browser, from the first ticket that has a screen:
+
+- **The money path and the outcome path first.** Sign in, do the thing, pay, see
+  the confirmation. One end-to-end test for each, named after the person's question,
+  is worth more than a hundred unit tests of helpers.
+- **Unit tests for the logic the outcome depends on**, the pricing rule, the date
+  arithmetic, the permission check; not for glue.
+- **They run before every release, on the staging environment**, against the same
+  build that will go to production, and a failure stops the release.
+- **Sized to the nines.** At 80%, one end-to-end test for the outcome a stranger
+  will see. At one nine, the outcome and the money path. At two nines, every path
+  the human in `humans.md` would lose sleep over.
+- **A test the user can watch.** When the host can show the browser or a recording
+  of the run, show it once: a user who has seen the test fill the form trusts "the
+  tests pass" the next hundred times.
+
+## Small releases the user can test one at a time
+
+A user handed ten changes at once cannot test them; they skim, say "looks fine", and
+the bug ships. A user handed one change can open it, try the one thing, and say yes
+or no in two minutes. So the unit of work the user sees is one ticket:
+
+- **One ticket, one release, one question.** Each ticket ends with a build the user
+  can open (locally or on staging) and a single sentence that says what to try and
+  what they should see: "Open the booking page as Rebecca, pick Tuesday, pay with the
+  test card; you should get the confirmation email within a minute." Nothing else
+  changed in that build, so a no is about that ticket.
+- **Never bundle.** When several tickets are ready, release them one after another,
+  each with its sentence, and wait for the answer before the next. The user's time to
+  test is the scarcest resource in the project; test fatigue is how bugs get a "fine".
+- **The user tests what the tests cannot prove.** Whatever the end-to-end test
+  covers is not asked of the user again; they test the feel, the words, the thing a
+  stranger would notice. Say which is which.
+- **A release note is the sentence, plus the reference.** The ticket's question, what
+  to try, how to tell it worked, and the log reference to quote if it did not.
+
+## Three environments, each on its own
+
+From the first deploy, three environments, isolated from each other, each able to
+run on its own:
+
+- **Local**: the user's machine, the whole thing running with one command, its own
+  database, test keys for payments and delivery, seeded with a few fake people so
+  the outcome can be tried without touching anyone real.
+- **Staging**: a real deploy, a real database with no real people in it, test keys,
+  the same build that will go to production, where the end-to-end tests run and the
+  user tests each ticket. Strangers never see it; a stranger's data never lands in
+  it.
+- **Production**: the strangers' environment. Nothing is tried here first. Live keys,
+  real data, backups, the log command pointed at it by default.
+
+Isolated means separate databases, separate keys, separate third-party accounts or
+test modes, and a configuration that cannot point one at another by accident: the
+environment is named in every log line and on every page of local and staging, so
+nobody tests on production by mistake. A replica is a replica: the same build, the
+same migrations in the same order, the same services, so what passes on staging
+passes on production. At 80%, local and production with a staging that is a second
+deploy of the same thing is enough; the point is that nothing reaches a stranger
+untried. Each environment deploys from one command.
+
+## Secrets
+
+- **Nothing secret in the repository, ever.** Keys, tokens, passwords, connection
+  strings: in a `.env` file that is in `.gitignore` from the first commit, with a
+  committed `.env.example` that lists every variable with a placeholder and a
+  comment. The agent checks the ignore file before the first commit and refuses to
+  commit a real key; a key that has been committed once is rotated, not deleted from
+  history.
+- **One `.env` per environment**, never shared, never copied from production to a
+  laptop.
+- **On the infrastructure, a secret manager**, not a file: AWS Secrets Manager, GCP
+  Secret Manager, Azure Key Vault, or the platform's own encrypted variables (the
+  managed hosts all have one). The application reads secrets from the environment at
+  start; the manager fills the environment. Nobody pastes a production key into a
+  chat, a ticket, or a prompt.
+- **Least access.** A key does one thing, for one environment, and is rotated when
+  someone who had it leaves. The agent asks for the key's scope before using it.
+- **Secrets never reach the logs.** The log library masks them; the agent checks the
+  first log lines for anything that looks like a key.
+
 ## What goes in `VALUE.md`
 
 Under "How it is built", one line each, filled by the agent from the evidence and
@@ -279,3 +365,8 @@ corrected by the user:
   went live.
 - **Bought:** the short list, each with the reason.
 - **Lanes:** one, or the named exception with its reconciliation cost.
+- **Environments:** local, staging, production, each with its one deploy command, or
+  which is missing and why.
+- **Secrets:** `.env` ignored, `.env.example` committed, and the secret manager used
+  in production.
+- **Tests:** the end-to-end tests for the outcome and the money path, by name.

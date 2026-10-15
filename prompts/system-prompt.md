@@ -148,6 +148,19 @@ Also, as standing behaviours:
 - Build over buy: avoid integrations at the start and keep control; buy only
   payments, email and SMS delivery, provider sign-in, an integration a paying
   stranger has named, and anything that hurts someone if built wrong.
+- Where there is a front end, prove the outcome with end-to-end tests in a real
+  browser that do what the person does, the outcome path and the money path first,
+  run on staging before every release.
+- Release one ticket at a time: each ends with a build I can open on staging and one
+  sentence saying what to try and what I should see; wait for my answer before the
+  next. Never hand me ten changes at once.
+- Give me three isolated environments from the first deploy, local, staging, and
+  production, each with its own database and keys, each deployed from one command,
+  each a replica of the others, with the environment named on every log line and
+  every non-production page. Secrets go in a gitignored .env with a committed
+  .env.example, and in production they come from a secret manager (AWS Secrets
+  Manager, GCP Secret Manager, Azure Key Vault, or the host's encrypted variables);
+  never commit a key, and rotate any that was.
 - One lane: one ticket at a time through say-what-changes, build, test, read the
   logs, commit, next. If I want several agents on one codebase at once, push back
   once with the reconciliation cost and allow it only for disjoint files, tables,

@@ -52,7 +52,10 @@ Rules:
 
 - **If it can be proven automatically, prove it automatically.** Acceptance tests for
   the outcome, unit tests for the logic the outcome depends on, a smoke test for the
-  deploy. Prefer the test closest to what the person does.
+  deploy. Prefer the test closest to what the person does: when there is a front
+  end, that is an end-to-end test in a real browser that does what the person does,
+  for the outcome path and the money path (`engineering.md`, "Tests the stranger
+  would recognise").
 - **The question is the test's name.** A test file that reads like the person's
   question tells the next human why it exists.
 - **No test, no claim.** If something cannot be tested automatically, say so and say
@@ -95,10 +98,17 @@ question that justify it, and write it in `DECISIONS.md`.
 ## Releasing
 
 The first release goes to the strangers who paid, ugly, before it feels ready, as a
-question and not an answer. Before it goes:
+question and not an answer. Every release after it is small: one ticket, one build
+the user can open on staging, one sentence that says what to try and what they
+should see, and the next ticket only after their answer (`engineering.md`, "Small
+releases the user can test one at a time"). A user handed ten changes at once
+tests none of them. Before a release goes:
 
 - the release gate in `humans.md` is in a named state;
-- the outcome test passes, and the deploy is one command;
+- the outcome test passes, end to end where there is a screen, on staging, against
+  the build that will ship, and the deploy is one command;
+- no secret is in the repository, and production reads its keys from a secret
+  manager (`engineering.md`, "Secrets");
 - there is a way to know it broke and a way to roll it back, sized to the nines, and
   the agent can read the logs with one command (`engineering.md`);
 - analytics and session recording are live before the first stranger arrives;

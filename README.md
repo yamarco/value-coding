@@ -77,7 +77,11 @@ When the skill is active, the agent:
   login. Build over buy, with payments and message delivery as the exceptions. And
   one lane of work at a time: it pushes back on a swarm of agents changing one
   codebase at once, and runs a sequential pipeline instead, with migrations one at a
-  time.
+  time. End-to-end tests in a real browser for the outcome and the money path.
+  Releases of one ticket at a time, each with a build you can open and one sentence
+  saying what to try, so you never face ten changes at once. Three isolated
+  environments, local, staging, and production, each a replica deployed from one
+  command. Secrets in a gitignored `.env`, and a secret manager in production.
 - **Does the market research itself** when it has web access: competitors and their
   complaints, the price band, a bottom-up market size with the arithmetic shown, the
   regulation that applies in your geography, with sources and dates.
@@ -166,7 +170,8 @@ references/              read by the agent when the moment calls for it
   planning.md            the backlog and roadmap the agent keeps and mostly derives
   building.md            the nines as a contract, tests that prove outcomes, the stack
   engineering.md         web first, logs the agent can read, exceptions, analytics,
-                         passwordless login, data model, build over buy, one lane
+                         passwordless login, data model, build over buy, one lane,
+                         end-to-end tests, one-ticket releases, three envs, secrets
   score.md               the twelve rails, the value score, going rogue
   stages.md              POC, MVP, PMF, and when to stop coding at each
   principles.md          the method in one sitting

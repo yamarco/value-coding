@@ -35,6 +35,7 @@ Nines needed: <n>. Who gets hurt at fewer: <name>.
 ## How it is built
 Runs on: <web, installable | native: <reason, date> | device: <reason>> · Logs: `<one command, server and client>` · Login: <none | code by email or SMS | sign in with <provider> | password: <reason>>
 Measured with: <analytics tool> + <recording tool> (live <YYYY-MM-DD>) · Bought: <payments: <who>, delivery: <who>, …> · Lanes: <one | <n>: <reason, reconciliation cost>>
+Environments: local `<cmd>` · staging `<cmd>` · production `<cmd>` (missing: <which, why>) · Secrets: `.env` ignored, `.env.example` committed, production via <secret manager> · End-to-end tests: <outcome path test>, <money path test>
 
 ## Value score
 **<n>/12** (<YYYY-MM-DD>) · Going rogue on: <rail (since date, comes back at ...)> | none

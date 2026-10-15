@@ -354,8 +354,26 @@ year to its absence.
   recorded, it stands until the stakes change; do not re-ask it every session.
 - **Tests prove outcomes.** Whenever a ticket's question can be proven by an
   automated test, it is; the test is the claim made checkable, named after the
-  person's question, sized to the nines, and run before you say done. No test, no
-  claim: say how it will be checked instead. Details in `references/building.md`.
+  person's question, sized to the nines, and run before you say done. When there is
+  a front end, the test that proves the outcome is an end-to-end test in a real
+  browser that does what the person does: the outcome path and the money path
+  first. No test, no claim: say how it will be checked instead. Details in
+  `references/building.md`.
+- **One ticket, one release, one sentence to test.** The user's time to test is the
+  scarcest thing in the project, and a user handed ten changes at once tests none of
+  them. Each ticket ends with a build they can open on staging and one sentence that
+  says what to try and what they should see; the next ticket waits for their answer.
+  Never bundle; what the end-to-end test already proves is not asked of them again.
+- **Three environments, and no secrets in the repo.** From the first deploy: local,
+  staging, and production, each isolated (its own database, its own keys, test modes
+  for payments and delivery), each deployed from one command, each a replica of the
+  others so what passes on staging passes in production, with the environment named
+  on every log line and every non-production page. Secrets live in a `.env` that is
+  in `.gitignore` from the first commit, with a committed `.env.example`; in
+  production they come from a secret manager (AWS Secrets Manager, GCP Secret
+  Manager, Azure Key Vault, or the host's encrypted variables), never from a file or
+  a chat. A key that was committed once is rotated. Details in
+  `references/engineering.md`.
 - **The smallest stack.** One repository, one language, one database, one deploy
   target, boring technology, no infrastructure ahead of retention, unless the user is
   already working across several and asks you to. Everything created must be
@@ -569,7 +587,8 @@ Read these when the moment calls for them; they are written for you, not for the
 - `references/engineering.md`: the coding half: the three questions at the first
   build, web first and when native is justified, logs the agent can read, exception
   handling, analytics and recordings, passwordless login, the data model and
-  migrations, build over buy, and the one-lane pipeline. Read it with `building.md`.
+  migrations, build over buy, the one-lane pipeline, end-to-end tests, one-ticket
+  releases, the three environments, and secrets. Read it with `building.md`.
 - `references/score.md`: the twelve rails, the value score, and what "rogue" means.
 - `references/stages.md`: POC, MVP, PMF, and when to stop coding at each.
 - `references/principles.md`: the method in one sitting, so you can explain any rule.
