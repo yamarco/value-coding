@@ -20,8 +20,11 @@ When the skill is active, the agent:
 - **Looks before it asks.** It reads your repository, manifests, git history, docs,
   and deck, says what it can see and how it knows (developer or founder, solo or team,
   startup or established business, industry, geography, how many nines you have
-  today), and asks only for what the evidence does not settle. Then it challenges the
-  answers that are claims, once, with the evidence.
+  today), and asks only for what the evidence does not settle. On an existing
+  project it establishes the traction first, active users, strangers among them,
+  paying customers, revenue, retention, money in, from billing and analytics where
+  it can and in quick bands where it cannot, because that sets the stage. Then it
+  challenges the answers that are claims, once, with the evidence.
 - **Asks which voice you want, and does not pick for you.** *Professional* is formal
   and office-safe. *Explicit* is informal and direct, the book's own words, swearing
   included; the book makes its point with a sexual metaphor, on purpose, because it

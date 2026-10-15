@@ -55,6 +55,9 @@ The index and the 40,000 ft view. Sections, in order:
    only if the user gave it), the line not to be crossed, who has been told.
 8. **The one number**: the primary KPI with green and red lines and today's value; the
    list of names still using and paying at twelve months.
+8b. **Traction today** (existing projects): active users and how many are strangers,
+   paying customers, monthly revenue, three-month retention, money in, each with the
+   date and the source; the band from the onboarding until a real number replaces it.
 9. **Altitude and focus**: the current altitude, the one thing in progress, how many
    nines and who gets hurt.
 9b. **How it is built** (software only): where it runs, the one command that reads

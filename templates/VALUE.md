@@ -27,6 +27,9 @@ Told: <names>
 Primary KPI: <label> · green ≥ <> · red ≤ <> · today: <value> (<date>)
 Still used and still paid for a year later, by name: <none yet>
 
+## Traction today
+<YYYY-MM-DD> · Active users: <band or number> (strangers: <n>) · Paying: <n> · Revenue/month: <amount, currency> · Still here after 3 months: <share | unknown> · Money in: <bootstrapped | friends and family | angels or fund | grant or customer prepaying> · Source: <billing, analytics, README, user's word [to confirm]>
+
 ## Altitude and focus
 Altitude now: <40k | 30k | 20k | 10k | ground>. Open question: <...>
 One thing in progress: <...> (attempt <n> of 3)

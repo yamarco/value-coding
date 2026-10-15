@@ -318,12 +318,13 @@
       "files": [
         "fixtures/dentaflow"
       ],
-      "simulated_user": "Lucía, 34, Valencia, DentaFlow developer (see fixtures/dentaflow). Voice if asked: \"explicit, I've read the book.\" New or existing: \"existing, it's all in the folder.\" Will be annoyed if asked anything the repo shows. If asked what she wants help with: \"deciding what to build next.\" Daily question answer: \"them.\" Person on slide one if pushed: Marta Sanz, 41, Clínica Sanz, two chairs, recalls from a paper diary on Sunday nights.",
+      "simulated_user": "Lucía, 34, Valencia, DentaFlow developer (see fixtures/dentaflow). Voice if asked: \"explicit, I've read the book.\" New or existing: \"existing, it's all in the folder.\" Will be annoyed if asked anything the repo shows. If asked what she wants help with: \"deciding what to build next.\" Daily question answer: \"them.\" Person on slide one if pushed: Marta Sanz, 41, Clínica Sanz, two chairs, recalls from a paper diary on Sunday nights. Traction if asked: about 30 active users across the two pilot clinics' staff, nobody paying, no revenue, bootstrapped; retention: \"the two clinics still use it\".",
       "expectations": [
         "The agent's first message asked the voice question alone, with the two voices described in plain words and no default picked",
         "The agent's second question, alone, asked whether this is a new project, an existing one, or a new piece inside an existing one, with lettered choices",
         "After the user said existing, the agent read the repository before asking anything else and stated what it inferred with the evidence for each inference (one author, Next.js plus Prisma, Spanish UI and Spain, dental clinics, two free pilots, no tests, a DNI field)",
         "The agent did not ask the stack, the industry, the country, or the stage; it stated them from the evidence and let the user correct",
+        "After reading the repository, and before asking who the person is, the agent established the traction (active users, strangers among them, paying customers, revenue, retention, money in) with choices in bands, and said which stage the numbers place the project at (pre-POC or POC with code attached, not MVP)",
         "The agent asked the daily question once, after the voice and the new-or-existing question",
         "The agent asked who the one real person is and recorded Marta Sanz's sentence in her words",
         "The agent said the two free pilots are not strangers who paid and asked when a clinic will see a price",

@@ -116,6 +116,36 @@ corrected, not asked. If they answer c), the existing thing is the context and t
 new piece is what the onboarding is about; say so. If they answer a), the climb
 runs in full. Record the answer in `VALUE.md` under "Building".
 
+For an existing project, the next thing to know, before the person and before any
+work, is the traction: it decides the stage, the stage decides whether today is a
+building day or a selling day, and nothing else in the onboarding is worth much
+until it is on the table. Look first: billing data, a payments integration with
+live keys, invoices, a customer list, analytics, a CRM, a dashboard, the README's
+own claims. Then ask only what the evidence left open, one at a time, with choices,
+and bands rather than exact figures so it goes fast; write each answer to `VALUE.md`
+under "Traction today" with the date and the source:
+
+1. How many people use it today, actively, not signed up? Choices: a) nobody yet,
+   b) under 10, c) 10 to 100, d) 100 to 1,000, e) over 1,000, f) other, tell me
+   more. Then, if any: how many of them are strangers rather than friends, pilots,
+   or your own customers for an older offer?
+2. How many of them pay? Choices: a) nobody, b) 1 to 5, c) 6 to 20, d) 21 to 100,
+   e) over 100, f) other, tell me more.
+3. Revenue per month, roughly, in the local currency? Choices: bands you propose
+   from the price and the paying count, plus "nothing yet" and "other, tell me
+   more".
+4. Of the people who started three months ago, how many are still here? Choices:
+   a) I don't know, b) most, c) about half, d) few, e) too early to say, f) other,
+   tell me more. "I don't know" is an action item, not a failure.
+5. Money in, if any: a) bootstrapped, b) friends and family, c) angels or a fund,
+   d) a grant or a customer prepaying, e) other, tell me more; pick all that apply.
+
+Say what the numbers place them at (`stages.md`): forty sign-ups and nobody paying
+is pre-POC with code attached, not an MVP; six paying strangers for three months is
+an MVP with a retention question. Say it once, then move on. A number the user gives
+without a source is written "[to confirm]"; a number the evidence contradicts gets
+the challenge, once.
+
 Then the daily question, once, and the rest of the climb:
 
 1. What should I call you?

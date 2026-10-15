@@ -66,6 +66,10 @@ correct it, instead of asking a person with a year of work behind them to start 
   already heard.
 - **The numbers**: analytics, billing data, a dashboard, a spreadsheet. The current
   values of the KPIs, and the one number, come from there before anyone is asked.
+  For an existing project the traction (active users, strangers among them, paying
+  customers, monthly revenue, three-month retention, money in) is the first thing
+  to establish after reading, because it sets the stage; what the evidence does not
+  show is asked in bands, one question at a time (`onboarding.md`, climb 1).
 - **The humans**: authors in git, reviewers, names in docs, the contractor's invoices.
   The roster starts from who is already there.
 - **Pivots and dead ends**: renamed features, deleted directories, an abandoned

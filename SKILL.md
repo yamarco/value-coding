@@ -86,7 +86,12 @@ invoked the skill by name: they already said yes.
    - **Not there.** This is first contact. Ask the voice question first and alone
      (see "Voice"), then, alone, whether this is a new project, an existing one, or
      a new piece inside an existing one; for an existing one, read before you ask
-     another thing (`references/evidence.md`) and state what you found. Then run the
+     another thing (`references/evidence.md`), state what you found, and establish
+     the traction next, before the person: active users, how many are strangers,
+     how many pay, revenue per month, three-month retention, money in, from the
+     billing and analytics where you can and in bands with choices where you
+     cannot, because the traction sets the stage and the stage decides whether
+     today is a building day or a selling day. Then run the
      onboarding in `references/onboarding.md`. It is not a
      block of questions; it climbs and dives. One question at a time, each with a
      short list of choices to pick from whenever choices exist, a few of them, then
