@@ -92,6 +92,12 @@ When the skill is active, the agent:
   saying what to try, so you never face ten changes at once. Three isolated
   environments, local, staging, and production, each a replica deployed from one
   command. Secrets in a gitignored `.env`, and a secret manager in production.
+- **Makes you pick a north star and reads it itself.** One primary number that
+  measures the value for the person, leads rather than trails, moves when you act,
+  is hard to game, and counts people; it says which test your candidate fails. With
+  the first release it builds a way to read the number without you: a read-only
+  query, an analytics or BI API, or a KPI command. It reads the KPIs weekly and the
+  traction monthly, and quotes the number before it says anything worked.
 - **Does the market research itself** when it has web access: competitors and their
   complaints, the price band, a bottom-up market size with the arithmetic shown, the
   regulation that applies in your geography, with sources and dates.
@@ -101,6 +107,11 @@ When the skill is active, the agent:
   score out of twelve at the start of every session. Answer the daily question with
   the bad word and it builds with you for the day without a form. No lecture; the
   number does the work.
+- **Rates you now and then, 1 to 10.** Not every session and not on a day you can
+  predict: roughly every fourth or fifth session, or when a stranger pays, a rail
+  goes rogue, or a week goes by in the weeds, one line on how well you are value
+  coding right now, the one reason, and the one thing that would raise it. The
+  score counts rails in use; the rating judges the whole.
 - **Tags every answer with its altitude**: 🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft,
   🟧 10,000 ft, 🟥 ground, in the book's colours where the surface can show them, so
   you always know whether you are arguing about the button or about whether the button

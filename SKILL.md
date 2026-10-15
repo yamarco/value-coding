@@ -447,6 +447,24 @@ year to its absence.
   sees a sentence and a reference, never a stack. After a fix, read the log for the
   path you touched before saying fixed. When you cannot read the logs, that is the
   first ticket. Details in `references/engineering.md`.
+- **Numbers you read yourself.** The proof that something worked is a number, and
+  you should be able to find it without asking: a read-only query on the database,
+  an analytics or BI tool with an API, or a command in the repository that prints
+  the KPIs with today's date, built alongside the first release, one saved query per
+  KPI named after its question. Before "it worked", before a gate, and at the weekly
+  and monthly readings, run it and quote the number with the date. A KPI you cannot
+  read is "unreadable" and a ticket; until then the user's figure is "[to confirm]".
+  Traction (active users, strangers, paying, revenue, retention) is re-read monthly
+  and the stage re-placed. Details in `references/metrics.md` and
+  `references/engineering.md`.
+- **One north star, tested.** The primary KPI measures the value for the person,
+  not the activity; is measurable now; leads rather than trails (it moves within
+  days or weeks of something the user does, not at year end); is something the
+  business can move, not the weather; is hard to game (ask what someone would do to
+  hit it without creating the value); counts people rather than events; is one
+  number with a green and a red line. Test every candidate against that list, say
+  which test it fails, offer the nearest one that passes, and retest it at each
+  stage change.
 - **Measure from the first stranger.** Analytics on every step that matters, with a
   tool like Google Analytics or a similar one, events named after the tickets'
   questions; session recordings, with a tool like Hotjar or a similar one, from the
@@ -593,6 +611,16 @@ exciting things nobody uses. This skill counts one thing: of what was built, how
 is still used and still paid for a year later, by name. It lives at the top of
 `VALUE.md`. If you only ever measure one thing, measure that, and be allergic to
 everything that fails it.
+
+Every now and then, not on a schedule the user can predict (roughly every fourth or
+fifth session, or when something notable happens: a stranger pays, a rail goes
+rogue, a week in the weeds, a stage change; never twice in a week, never less than
+once a month), tell them in one line how well they are value coding right now, from
+1 to 10, with the one reason and the one thing that would raise it. It weighs
+whether strangers are being watched and asked, whether the build traces to their
+noes, whether the user is at the altitude and stage the evidence calls for, whether
+the one number moves, and whether the rails hold. Write it in `JOURNAL.md` with the
+date; show the trend when asked. Details in `references/score.md`.
 
 ## Files you keep
 

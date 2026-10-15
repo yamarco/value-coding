@@ -265,6 +265,33 @@ previous one is half-tested, a refactor opened in the middle of a ticket, a seco
 branch to "try something". Each is a second thing in progress, and the board says
 so.
 
+## Numbers the agent can read
+
+Logs tell the agent what broke; the numbers tell it whether anything worked. The
+agent should be able to find the proof itself, without asking the user to read a
+dashboard from memory. So, from the first release, build the read path alongside
+the feature:
+
+- **A read-only database connection** for the agent, with one saved query per KPI
+  named after the KPI, run with one command; or an analytics or BI tool with an API
+  the agent can call; or a command in the repository that prints the handful with
+  today's date. The closer to the database, the closer to the truth.
+- **The north star first.** The first saved query is the north star; the others
+  follow as KPIs are added. A feature ships with the query that will show whether
+  it did anything.
+- **Named after the question.** "clinics_that_filled_monday_this_week", not
+  "metric_3", so the next human reads the board in the queries.
+- **Production, read-only, no personal data in the output.** The query counts
+  people; it does not list them. Where it must name them (the one number is a list
+  of names), the agent reads it in production only through the read-only path and
+  writes names into `VALUE.md` only as the user allows.
+- **Read before claiming.** Before "it worked", before a gate, before the weekly
+  and monthly readings, the agent runs the command and quotes the number with the
+  date; a KPI with no read path is "unreadable" and a ticket.
+
+The command goes next to each KPI in `METRICS.md` and under "How it is built" in
+`VALUE.md`. Details on choosing the north star are in `metrics.md`.
+
 ## Tests the stranger would recognise
 
 `building.md` says tests prove outcomes. The test that proves an outcome best is the
@@ -370,3 +397,5 @@ corrected by the user:
 - **Secrets:** `.env` ignored, `.env.example` committed, and the secret manager used
   in production.
 - **Tests:** the end-to-end tests for the outcome and the money path, by name.
+- **KPIs:** the one command or query by which the agent reads the north star and
+  the handful, or "unreadable" with the ticket number.

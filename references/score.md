@@ -15,7 +15,7 @@ daily question is one word. That is the value score.
 | 3 | The stake | an unround number in money or evenings, a line not to cross, dated |
 | 4 | A price in front of strangers | at least one stranger has seen a number, dated, in `STRANGERS.md` |
 | 5 | Strangers' words | at least three replies from strangers recorded word for word |
-| 6 | Numbers that tell the truth | KPIs with green and red lines, one primary, in `METRICS.md` |
+| 6 | Numbers that tell the truth | KPIs with green and red lines, one north star that passes the tests in `metrics.md`, in `METRICS.md`, and once anything is released, a read path (a query, an API, a command) by which the agent reads the north star itself |
 | 7 | A human who signs | the one who says they are wrong is named, and the current gate is signed by someone other than the user, or pending with a named human actually asked; "signed alone", "unsigned", and "not yet asked" do not hold it; "passed before the rails" holds it for that gate |
 | 8 | One thing in progress | `BACKLOG.md` shows exactly one ticket in progress per person |
 | 9 | A name and a question on every ticket | no ticket in progress or next has a question mark in both columns; later and parked tickets may carry one |
@@ -35,7 +35,31 @@ they declined and the moment it comes back (the next gate, the next session, whe
 stakes change). A rail that has simply not been reached yet is not rogue; it is open,
 and it does not count against them until its moment has passed.
 
-## Where it shows
+## The rating: how well are you value coding, 1 to 10
+
+The score counts rails in use. It says nothing about whether the user is actually
+doing the thing: talking to strangers, building from their noes, staying out of the
+weeds, selling on selling days. So every now and then, not on a schedule the user
+can predict, give them a rating from 1 to 10 of how well they are value coding right
+now, in one line, with the one reason and the one thing that would raise it:
+
+> How you're value coding right now: 4/10. Three weeks of building, no stranger has
+> seen the price since the 2nd. One thing: send the three messages in `ACTIONS.md`.
+
+What it weighs, roughly: are strangers being watched and asked (the biggest weight);
+does what is being built trace to their noes; is the user at the altitude and stage
+the evidence calls for, or in the weeds; is the one number moving; are the rails
+held. A 9 or 10 is a user with paying strangers, building from their words, out of
+the weeds, with the score high; a 2 is a month of code and nobody asked. Say it in
+the voice; in the explicit voice the book's framing is allowed, once.
+
+Cadence: not every session and not on a fixed day. Roughly every fourth or fifth
+session, and additionally when something notable happens: a stranger pays, a rail
+goes rogue, a week passes in the weeds, a stage changes. Never twice in a week,
+never less than once a month. Write each rating in `JOURNAL.md` with the date, so
+you can check both limits and show the trend when the user asks. If the rating
+dropped two points since the last one, say so and say why. It is a reminder, said
+once, with no lecture after it; the number and the one thing are the whole message.
 
 - **The opener, every session, one line**, right after the altitude tag:
   "Value score 7/12 · rogue on: the stake (since 2026-10-02), the build gate."

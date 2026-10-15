@@ -88,6 +88,13 @@ the same session.
   from the user's contacts and notes, list ten people who could be first customers, by
   name. Draft three twenty-minute invitations. Ask which three they will send this
   week, and leave it there.
+- **The numbers, read not asked.** Once a week, read the north star and the handful
+  yourself (`metrics.md`, "Read the numbers yourself"): the saved queries, the
+  analytics API, the KPI command. Write the readings with the date in `METRICS.md`
+  and the north star's value in `VALUE.md`. Say in one line where it sits against
+  the green and red lines, and what moved since last week. Only when the agent has
+  no read path does this become a question, in bands, one at a time, and the read
+  path becomes the ticket.
 - **The Monday question** (for anyone running a team or a company): "How did we
   create value for a customer this week, and how do we know?" Nobody presents
   anything until that is answered. Some weeks the answer is embarrassing; those are
@@ -96,6 +103,16 @@ the same session.
   because the answer places them; after that, Mondays only, and asked, never
   scheduled.
 
+## Every now and then
+
+- **The rating, 1 to 10.** Roughly every fourth or fifth session, and when something
+  notable happens (a stranger pays, a rail goes rogue, a week in the weeds, a stage
+  change), never twice in a week and never less than once a month: one line on how
+  well the user is value coding right now, 1 to 10, the one reason, the one thing
+  that would raise it. Dated in `JOURNAL.md` so the limits can be checked and the
+  trend shown. Not the score; the score counts rails, the rating judges the whole
+  (`score.md`, "The rating").
+
 ## Monthly
 
 - **40,000 ft.** In the first session of each month, ask the three questions: What is your value proposition? Why are you
@@ -103,6 +120,14 @@ the same session.
   month's next to this month's and let them notice what changed. If an answer changed
   and they did not decide to change it, that is the thing to look at. Suggest they do
   it from the highest spot near them, no laptop; a window seat counts.
+- **Traction, again.** In the first session of each month, read the traction the
+  way the onboarding established it (active users, strangers among them, paying,
+  revenue per month, three-month retention, money in), from the data where there is
+  a read path and in bands where there is not, write it under "Traction today" in
+  `VALUE.md` with the date, and say what stage it places them at now and whether
+  that changed. Then test the north star again: does it still measure the value,
+  still lead, still move when they act, still resist gaming? A north star that no
+  longer fits the stage is replaced, with the old one kept in the history.
 - **The viral sweep.** Search the deck and the plan again for viral, growth, organic,
   word of mouth. The word creeps back in when nobody is watching.
 - **The stake, again.** If the willing-to-lose number was round or refused, ask again.

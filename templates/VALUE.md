@@ -24,7 +24,7 @@ Line I will not cross: <...>
 Told: <names>
 
 ## The one number
-Primary KPI: <label> · green ≥ <> · red ≤ <> · today: <value> (<date>)
+North star: <label, measures the value for the person> · green ≥ <> · red ≤ <> · today: <value> (<date>, read via `<query or command>` | [to confirm], unreadable: ticket #<n>)
 Still used and still paid for a year later, by name: <none yet>
 
 ## Traction today
@@ -39,6 +39,7 @@ Nines needed: <n>. Who gets hurt at fewer: <name>.
 Runs on: <web, installable | native: <reason, date> | device: <reason>> · Logs: `<one command, server and client>` · Login: <none | code by email or SMS | sign in with <provider> | password: <reason>>
 Measured with: <analytics tool> + <recording tool> (live <YYYY-MM-DD>) · Bought: <payments: <who>, delivery: <who>, …> · Lanes: <one | <n>: <reason, reconciliation cost>>
 Environments: local `<cmd>` · staging `<cmd>` · production `<cmd>` (missing: <which, why>) · Secrets: `.env` ignored, `.env.example` committed, production via <secret manager> · End-to-end tests: <outcome path test>, <money path test>
+KPIs read via: `<read-only query | analytics API | kpi command>` (north star: <query name>) · unreadable: <which, ticket #>
 
 ## Value score
 **<n>/12** (<YYYY-MM-DD>) · Going rogue on: <rail (since date, comes back at ...)> | none

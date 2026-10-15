@@ -313,11 +313,18 @@ state, and the consult log line. Mark on the deliverable where that human should
 **When:** release one is being scoped, or a plan is being written for an existing
 business.
 
-1. Which number will you wake up to? Propose three candidates from the person and
-   the outcome as choices (for example a) paying strangers, b) people who come back
-   in month two, c) the outcome event itself, counted), plus d) other, tell me more.
-   Then the green line and the red line for it, free text or proposed by you and
-   marked as a proposal.
+1. Which number will you wake up to, the north star? Propose three candidates from
+   the person and the outcome as choices (for example a) paying strangers still here
+   in month two, b) people for whom the outcome happened this week, counted by name,
+   c) the outcome event itself, counted), plus d) other, tell me more. Test the pick
+   against `metrics.md`, "The north star": it measures the value for the person,
+   it is measurable now, it leads rather than trails, the business can move it, it is
+   hard to game, it counts people, it is one number. Say which test a candidate
+   fails and offer the nearest one that passes. Then the green line and the red line
+   for it, proposed by you and marked as a proposal. Then: how will I read it myself?
+   Choices: a) a read-only query on the database, b) an analytics or BI tool with an
+   API, c) a command or endpoint in the repository, d) nowhere yet, make it a ticket,
+   e) other, tell me more.
 2. The rest of the handful, one at a time, the same way. Numbers about them, not about
    you. Flag any vanity number they insist on, keep it, flagged, and ask what someone
    would do to hit it without creating the value.

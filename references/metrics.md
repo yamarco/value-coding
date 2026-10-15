@@ -26,6 +26,58 @@ paid at the real price, still paying at twelve months. Numbers about you: sign-u
 page views, downloads, followers, waitlist, story points, tickets closed. The second
 kind tells you the door works, not whether anyone wanted what was behind it.
 
+## The north star
+
+Among the KPIs one is primary: the north star, the number the user wakes up to and
+the one at the top of `VALUE.md`. Most people pick it badly, so test every
+candidate against these before it is written down, and say which test it fails:
+
+- **It measures the value, not the activity.** It counts the person getting the
+  outcome (a thirsty row seen before the leaves, a chair filled on Monday, a client
+  who came back), not something the user did (features shipped, emails sent).
+- **It is measurable now**, from data the user has or can have within a week, by
+  the agent itself (below). A number nobody can read is a slogan.
+- **It leads, it does not only trail.** Annual revenue and twelve-month retention
+  are true and too late; by the time they move, the quarter is over. The north star
+  should move within days or weeks of a change the user makes, so the user can react.
+  Keep the trailing numbers as goals and gates, not as the daily number.
+- **The business has strong influence over it.** A number driven mostly by the
+  market, the season, or a partner's roadmap tells the user about the weather. The
+  north star should move when the user does something.
+- **It is hard to game.** Ask what someone would do to hit it without creating the
+  value (the cobra warning below). Sign-ups, downloads, page views, and story points
+  fail here; paying strangers who are still here next month do not.
+- **It counts people, not events**, where possible: "clinics that filled Monday
+  through the app this week", not "recalls sent". Events pile up; people leave.
+- **It is one number.** Two north stars is none. The rest of the handful supports
+  it.
+- **It has a green line and a red line**, so a reading is a verdict and not a mood.
+
+When the user's candidate fails a test, say which one, propose the nearest number
+that passes, and record both with the reason; the user picks. Revisit it at each
+stage change: a POC's north star is "the outcome happened for one stranger", an
+MVP's is paying strangers still here in month two, PMF's is retention.
+
+## Read the numbers yourself
+
+The agent should not depend on the user's memory of a dashboard. Build, from the
+first release, a path by which the agent can read the KPIs itself, and prefer
+whichever is closest to the truth:
+
+1. **The database**, with a read-only connection and one saved query per KPI, named
+   after the KPI, run with one command.
+2. **A BI or analytics tool** with an API or an export the agent can call (the
+   analytics tool from `engineering.md`, a warehouse, a dashboard with a query
+   endpoint).
+3. **A metrics endpoint or a command in the repository** (`make kpis`, a script)
+   that prints the handful with today's date.
+
+Write the command next to each KPI in `METRICS.md` and in `VALUE.md` under "How it
+is built". A KPI with no way for the agent to read it is marked "unreadable" and gets
+a ticket; until it is readable, every reading the user quotes is "[to confirm]".
+Before any gate, any weekly or monthly reading, and any claim that something
+worked, the agent runs the command and reads the number rather than asking.
+
 ## Goals
 
 Goals are numbers the user can miss, with dates: strangers asked by week three,

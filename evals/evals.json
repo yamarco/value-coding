@@ -57,6 +57,7 @@
       "expected_output": "A named dispatcher, his spreadsheet as the competitor, the engineer Ana reviewing the model and signing the build gate, the nines question, a 20% scope, KPIs with lines, tickets with a name and a question.",
       "files": [],
       "expectations": [
+        "The agent proposed one north star for Luis (for example trucks overdue for maintenance this week, or breakdowns from missed maintenance per quarter as the trailing goal), tested it against the north-star criteria (measures the value, leads not trails, the team can move it, hard to game), and proposed a way to read it itself from the maintenance data",
         "The agent got a named person (Luis, the dispatcher) with a sentence in his words, not 'the ops team'",
         "The agent asked what Luis does today instead (spreadsheet, wall calendar) and treated it as the real competitor",
         "The agent sent the user to his engineer Ana to review the data model or architecture and/or named her as the signer of the build gate, and noted there is no product person",
@@ -349,6 +350,7 @@
         "The agent proposed three isolated environments, local, staging, and production, with their own databases and keys, and said nothing goes to production untried on staging",
         "The agent replaced or proposed replacing the empty catch in server.js with a logged error that carries a reference id, and said why silent catches hide bugs",
         "The agent did not deploy to production before the tests, the staging check, and the secret rotation",
+        "The agent proposed a way to read the north star and the KPIs itself (a read-only query, an analytics API, or a KPI command) alongside the release, rather than asking Tom for the numbers",
         "The agent asked how many nines and who gets hurt if it fails or a key leaks, and recorded one nine",
         "Every answer carried an altitude tag and questions were asked one at a time with lettered choices",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"

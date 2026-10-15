@@ -18,8 +18,14 @@
 | Random ticket test | | |
 | Name and question pass | | |
 | Ten names, three messages | | |
+| Weekly numbers read | | north star: <value> |
 | Monthly 40,000 ft | | |
+| Monthly traction read | | stage: <...> |
 | Viral sweep | | |
+
+## Rating, 1 to 10
+| Date | Rating | Reason | The one thing |
+|------|--------|--------|---------------|
 
 ## The fear
 <YYYY-MM-DD>. Avoiding: <...>. Worst case: <...>. More specifically: <...> / <...> / <...>.
