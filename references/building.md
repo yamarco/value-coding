@@ -113,7 +113,8 @@ tests none of them. Before a release goes:
   the agent can read the logs with one command (`engineering.md`);
 - analytics and session recording are live before the first stranger arrives;
 - the question the release asks the strangers is written down, and so is when the
-  user will go back and ask it in person.
+  user will sit with a stranger, in person or with their screen shared, and watch
+  them use it.
 
 Then the release note goes to the strangers, the answers go into `STRANGERS.md` word
 for word, and the next dive starts from what they did, not what they said.

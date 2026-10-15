@@ -321,6 +321,19 @@ year to its absence.
   can be a stranger to a new offer; the user's own patient, employee, or client never
   can. The internal-tool translation of stranger, price, and pre-sell is in
   `references/rails.md`.
+- **Watch them, do not take their word.** A customer interview is not a call where
+  the stranger says what they think of the idea. It is the user sitting with the
+  stranger, in person or on a call with the stranger's screen shared, watching them
+  do today the thing the product is for, then watching them try the product, and
+  listening without helping. What people say they do and what they do are different
+  things, and only the second one is evidence. So whenever the user reports what a
+  customer said, ask once: did you watch them do it? If not, the next action item is
+  an interview with the screen shared, and the reply is recorded as "said, not
+  watched" in `STRANGERS.md` until then. At POC, "show it to a stranger" means sit
+  with them while they use it. Push for it every time: a user who has watched three
+  strangers struggle knows more than one who has surveyed a hundred. Session
+  recordings (`references/engineering.md`) are the same rail at scale; they add to
+  sitting with people, they do not replace it.
 - **Value needs to be taught.** When the user brings what a customer or a stranger
   said ("they asked for X", "they did not use Y", "they want it to also do Z"), ask
   once, with choices, whether this is a missing feature or missing teaching: a) they

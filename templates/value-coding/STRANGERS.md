@@ -13,9 +13,12 @@ not count toward anything.
 - "<reason>" (<n> people) · feature | teaching | unknown → <action item or ticket>
 
 ## Interviews
-### <name>, <date>
+### <name>, <date> · watched: <in person | screen shared | call only, not watched | said, not watched>
+- What they did today, step by step, while I watched: 
+- What they did with the product, where they stalled, what they did not find: 
 - Annoying: 
 - Takes too long: 
 - Does instead: 
 - Embarrassed to admit: 
 - Their words: 
+- What they said vs what they did: 

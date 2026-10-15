@@ -77,10 +77,14 @@ yes or a no with reasons. If the user is the only human, the signature line read
     the build gate; it is the price in front of a stranger, not the product. Every no with its reason, word for
     word, into `STRANGERS.md`. The reasons are next week's work. Checked: are the ten
     really strangers? Friends and investors do not count.
-13. **Recorded interviews with strangers.** Solution put aside. What is annoying, what
-    takes too long, what they do instead, what they are embarrassed to admit. Video
-    where possible. Cross-checked by a human: the person is real, owes the user
-    nothing, the pain is real, they said what the user says they said.
+13. **Recorded interviews with strangers.** Solution put aside. The user sits with
+    the stranger, in person or with the stranger's screen shared, and watches them
+    do today the thing the product is for, without helping. What is annoying, what
+    takes too long, what they do instead, what they are embarrassed to admit, and
+    what they did that differs from what they said. Video where possible. An
+    interview where nobody watched anything is a conversation, recorded as such.
+    Cross-checked by a human: the person is real, owes the user nothing, the pain is
+    real, they said what the user says they said.
 14. **Existing alternatives and switching cost.** What they use now, including doing
     nothing; what it costs to change; why they would.
 

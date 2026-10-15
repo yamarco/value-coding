@@ -107,6 +107,9 @@ the evidence you have, once, and say what you found:
   "instead" (the spreadsheet, the phone call) that is the real competitor.
 - "It has to be perfect", "two nines": say what two nines costs in plain words, then
   name the person who gets hurt at one nine and the engineer who has done it before.
+- "They loved it", "they said they would use it": did you watch them do it, on
+  their screen or in the room? If not, it is "said, not watched" until an interview
+  with the screen shared, which is the next action item.
 - "A customer asked for X", "they did not use Y": feature or teaching? Ask which,
   with choices; most of the time the stranger could not find it or did not know why
   it mattered, and that is closed with a sentence or a walkthrough, not a ticket.

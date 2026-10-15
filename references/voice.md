@@ -51,6 +51,7 @@ phrase; then, once, offer the book's version in their voice.
 | Going rogue / the score | a count of how much of the method you're using, out of twelve | what skipping costs |
 | The weeds | spending days on detail when nobody has paid yet | the dive versus the bushes |
 | Building for the mirror | building because it feels good, not because someone asked | the explicit voice's word for it |
+| Watch them, don't take their word | a customer interview is sitting with a stranger, in person or with their screen shared, watching them do the task and try the product, not a call where they say what they think | why what people say and what they do are different things |
 | Value needs to be taught | when a customer asks for something, first ask whether they could not find it or did not know why it matters; teaching reaches everyone, a feature serves one | why saying yes to every customer is how products drown |
 | Web first / PWA | a website that installs like an app and ships a fix in a minute, instead of a store app that waits for a review | why speed to a stranger beats the App Store early on |
 | Logs the agent can read | a record of what the running thing did, in one place, that your model can read with one command to find the bug instead of guessing | why "should be fine now" is a feeling |

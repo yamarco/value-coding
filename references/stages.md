@@ -22,7 +22,8 @@ when the keyboard closes.
   keep score.
 - **POC: code until the outcome happens once, then stop.** One path, one person, the
   thing it does, ugly. The moment it works for the person on slide one, the keyboard
-  closes and the next ticket is "show it to a stranger". A POC with settings, roles,
+  closes and the next ticket is "sit with a stranger while they use it", in person
+  or with their screen shared, watching and not helping. A POC with settings, roles,
   dark mode, or a second feature is an MVP nobody asked for.
 - **MVP: code only what the strangers' noes ask for.** Every ticket traces to a
   stranger's reply in `STRANGERS.md` or to the money path, and each no is first

@@ -62,6 +62,11 @@ When the skill is active, the agent:
   test is named after the person's question. One repository, one language, one
   database, boring technology, no infrastructure ahead of retention, because
   everything created must be maintained.
+- **Pushes you to watch customers, not just ask them.** A customer interview is
+  sitting with a stranger, in person or with their screen shared, watching them do
+  the task today and then try the product, listening without helping. When you
+  report what a customer said, it asks once whether you watched them do it, and if
+  not, the screen-shared interview becomes the next action item.
 - **Asks whether value needs to be taught before it builds the feature.** When you
   bring what a customer said, it asks once whether they could not find it, did not
   know why it mattered, or whether it really does not exist. Most people give up on

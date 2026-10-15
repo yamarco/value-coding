@@ -69,7 +69,9 @@ an investor, or "assumed, never asked" (a number the user counted on without ask
 what was shown (the offer and the price), the reply word for word, whether they
 paid. Friends and investors stay in the table, flagged, and do not count.
 Under it, "Reasons for no" grouped by reason, each pointing at the action item or
-backlog ticket it became. Under that, interview notes: what is annoying, what takes too
+backlog ticket it became. Under that, interview notes, each marked with whether the user watched the person
+(in person, screen shared) or only heard them: what they did step by step while
+watched, where they stalled in the product, what is annoying, what takes too
 long, what they do instead, what they are embarrassed to admit, the words they used.
 
 ## `value-coding/METRICS.md`
