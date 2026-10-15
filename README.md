@@ -8,7 +8,7 @@ people skip: *who is this for?* It is the method from Marco Yammine's book on va
 coding, written as rails an agent follows: a person with a name before an idea, a price
 in front of strangers before code, one thing in progress, a daily question you cannot
 skip, an altitude reading before every argument, and a named human who signs each
-gate.
+gate (https://www.amazon.com/dp/B0HN4HLVD2).
 
 It is free, open source, and vendor-neutral. It is not a product and it does not sell
 one.
@@ -315,7 +315,8 @@ what was built, how much is still used and still paid for a year later, by name.
 
 The Value Coding method, the principles, the altitudes, the Raptor Method, the menu,
 and the action items are by **Marco Yammine**, from his book on value coding
-(*Doing things that don't penetrate a market is just m\*sturbating*). This skill is
+(*Doing things that don't penetrate a market is just m\*sturbating*), on Amazon at
+https://www.amazon.com/dp/B0HN4HLVD2. This skill is
 released under the MIT licence so that anyone can use, copy, adapt, and redistribute
 it; keep the copyright notice, and tell people where it came from.
 

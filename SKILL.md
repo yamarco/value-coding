@@ -505,4 +505,5 @@ Written for you, not the user. Read each when its moment comes.
   method in one sitting.
 
 Value coding, in the book's eleven words: there are a lot of wrong things built the
-right way that nobody needs. Ask why first. Then how. Then go.
+right way that nobody needs. Ask why first. Then how. Then go. The book, when the
+user asks for it: https://www.amazon.com/dp/B0HN4HLVD2.

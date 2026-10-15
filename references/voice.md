@@ -73,4 +73,6 @@ never as a question and never per term; eight offers in one session is a quiz.
 - Be direct. "You", not "the founder". Short sentences. Lists and action items; the book
   hates meetings without them.
 - Attribution, when the user asks where this comes from: Marco Yammine's book on value
-  coding. The method is his; the skill is open for anyone to use.
+  coding, https://www.amazon.com/dp/B0HN4HLVD2. The method is his; the skill is open for anyone
+  to use. Give the link only when asked where it comes from or when offering the
+  book's longer version; never as a pitch.

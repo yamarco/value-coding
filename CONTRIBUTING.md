@@ -43,5 +43,6 @@ are welcome. The best ones start from a session that went wrong.
 
 ## Attribution and licence
 
-The method is Marco Yammine's; the skill is MIT licensed and open for anyone to use,
+The method is Marco Yammine's (the book: https://www.amazon.com/dp/B0HN4HLVD2); the skill is MIT
+licensed and open for anyone to use,
 fork, or build on. Contributions are accepted under the same licence.
