@@ -43,7 +43,9 @@ When the skill is active, the agent:
   `value-coding/` folder with people, strangers' replies word for word, KPIs with green
   and red lines, the ten-slide menu, a journal, action items, the humans who sign,
   parked decisions, the research it found with sources, and its own backlog and
-  roadmap. Any tool and any model can read them.
+  roadmap. They are committed with the project, and a one-line pointer goes into
+  the project's agent instructions file, so any tool and any model, with or without
+  the skill, reads them before working.
 - **Plans before it builds, mostly on its own.** It derives a backlog and a roadmap
   from the person, the outcome, the nines, and the code: tickets with a name, a
   question, an altitude, a status, and the test that proves them; milestones with
@@ -127,6 +129,13 @@ git clone https://github.com/yamarco/value-coding ~/.claude/skills/value-coding
 Or inside one project: clone into `.claude/skills/value-coding`. Then say "build me
 something" and watch it ask who it is for.
 
+Installed globally, the skill does not take over every conversation. When the agent
+judges that a request is about building, planning, pitching, or running something,
+and the project has no `VALUE.md` yet, it asks once whether you want to use Value
+Coding here. "Not for this project" writes one line to the project's agent
+instructions file so nobody asks again. Call it by name (`/value-coding`) and it
+starts without asking.
+
 **Codex, Cursor, Windsurf, Cline, Aider, and other agents that read repo
 instructions**
 
@@ -190,8 +199,17 @@ references/              read by the agent when the moment calls for it
   state.md               the state files and how to keep them
 templates/               VALUE.md and the value-coding/ files, empty
 prompts/system-prompt.md the short version for tools without skills
-evals/                   test prompts used to check the skill behaves
+evals/                   twenty scenarios with simulated users and expectations,
+                         the grader prompt, fixtures, and the results history
+CONTRIBUTING.md          how to add a scenario or a rail
 ```
+
+## Contributing
+
+The evals in `evals/` are the skill's own tests: twenty scenarios, each with a
+simulated user and a list of things the agent must observably do, graded from the
+transcript. The most useful contribution is a scenario from a session that went
+wrong. `CONTRIBUTING.md` and `evals/README.md` have the format and the method.
 
 ## The one number
 

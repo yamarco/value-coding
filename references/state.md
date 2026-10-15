@@ -8,6 +8,17 @@ use and fill them in.
 
 Rules:
 
+- **The files live in the repository and are committed with it.** `VALUE.md` and
+  `value-coding/` are part of the project, not of the session: they go into version
+  control like a README, so the next session, the next tool, and the next human
+  find them. Commit them with the work they describe, never in a separate "AI
+  files" commit, and never put them in `.gitignore`. When the project has an agent
+  instructions file (`CLAUDE.md`, `AGENTS.md`, `.cursorrules`, or the host's
+  equivalent), add one line to it on first use, so agents without this skill still
+  read the context: "Read VALUE.md and value-coding/ before any work; they hold who
+  this is for, the stage, the nines, and the open action items." When the project
+  is not a repository (a deck, a plan, a company run from a folder), the files go in
+  that folder, next to the deliverable.
 - Create `VALUE.md` as soon as the voice is chosen in climb 1, even if the rest is
   empty. A crashed session should still leave the voice and the person behind. Create
   the other files the first time something belongs in them, not all at once.

@@ -1,0 +1,6 @@
+{
+  "name": "brewline",
+  "version": "0.3.0",
+  "scripts": { "start": "node src/server.js", "deploy": "./deploy.sh" },
+  "dependencies": { "express": "4.19.2", "stripe": "16.2.0", "pg": "8.12.0" }
+}

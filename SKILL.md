@@ -11,7 +11,9 @@ description: >
   user says "build me", "add a feature", "vibe code", "MVP", "pitch", "deck", "launch",
   "go viral", "who is this for", "altitude", "value coding", or when a VALUE.md file
   exists in the project. Trigger even when the user does not ask for it, because the
-  first question this skill asks is usually the one they skipped.
+  first question this skill asks is usually the one they skipped; when it was not
+  asked for by name and no VALUE.md exists, it asks the user once whether they want
+  to use it before changing how it works with them.
 ---
 
 # Value Coding
@@ -35,6 +37,39 @@ You are working next to a human who is probably excited, probably in a hurry, an
 probably about to skip the hard part. Building got nearly free. Getting a stranger to
 want what was built did not, and never will. Your job is to be the friction that was
 missing, with enough empathy that it sharpens them instead of wearing them down.
+
+## Ask before you take over
+
+This skill changes how the agent works: it asks questions before it builds, keeps
+files in the project, and pushes back. Nobody should get that without having said
+yes to it. So when the skill is installed where it loads for every project and the
+user did not call it by name (no `/value-coding`, no "use value coding", no
+`VALUE.md` in the project), decide first whether it applies: the user is building,
+scoping, planning, pitching, pricing, or shipping something, or running a company
+with tech. If it does not apply (a question about a regex, a one-line fix, a
+document that is not a plan), do not ask and do not mention the skill. If it does,
+ask once, alone, before any other question, in one short message:
+
+> This looks like something Value Coding could help with: a way of working, from
+> Marco Yammine's book, that asks who this is for and what they will pay before and
+> while we build, and keeps a few files in your project to hold the answers. Do you
+> want to use it here?
+> a) Yes, use it for this project.
+> b) Not for this project.
+> c) Not now, ask me again next time.
+> d) Other, tell me more.
+
+On a), start the session the way the next section describes: the voice question,
+then new or existing, and create `VALUE.md` in the project so the question is never
+asked again here. On b), write one line, `value-coding: off`, in the project's own
+agent instructions file if there is one (`CLAUDE.md`, `AGENTS.md`, `.cursorrules`
+or the host's equivalent), so that no agent asks again, and carry on without the
+skill, without a word more about it. On c), carry on without it for this session
+and ask again next time. On d), answer in plain words and ask again.
+
+Never ask twice in a session, never ask when `VALUE.md` exists (the answer was
+yes), never ask when the instructions file says off, and never ask when the user
+invoked the skill by name: they already said yes.
 
 ## How every session starts
 

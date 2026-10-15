@@ -22,7 +22,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "vibe-coder-feature-request",
+      "simulated_user": "Jake, 29, Austin. Marketing analyst by day. Built \"Streakly\", a habit tracker, over three weekends with an AI app builder. Four friends have it installed; two opened it twice. Nobody has paid; there is no price. Voice preference if asked: \"explicit, go for it.\" Who is it for: first answer \"anyone who wants to build better habits\"; if pushed: \"ok, my friend Dana, 31, nurse, works nights, keeps failing at the gym thing.\" What Dana needs in her words: \"I just want to not feel like garbage about skipping the gym after a night shift.\" What she does instead: a notes app and guilt. Willing to lose: first answer \"like $5k\"; if pushed: \"$3,800 and most Saturdays till March.\" Abandoned ideas on laptop: 7. Someone who tells him he's wrong: \"my sister Maya, she's brutal.\" No product person, no engineer who's shipped; he is all roles. Sold before building: never. Nines: \"it's a habit app, if it crashes nobody dies.\" Afraid of: \"putting a price on it and watching zero people pay.\" Worst case, more specifically: Dana laughs at the price; Maya says told you so; he feels like a fraud at work. Fear verdict he'd accept: kitten."
     },
     {
       "id": 1,
@@ -45,7 +47,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "founder-pitch-deck",
+      "simulated_user": "Priya, 34, London, ex-product manager at a grocery delivery company. Startup \"Plateful\": AI meal planning that generates a weekly plan and a grocery order. Has a working prototype, 1,200 waitlist sign-ups from a Product Hunt post, zero paying customers, 40 free beta users (mostly friends-of-friends from LinkedIn). Raising a £600k pre-seed. Voice if asked: \"professional please, my co-founder will read this.\" Who is it for: first answer \"busy families\"; if pushed: \"Hannah, 38, Reading, two kids under six, works four days a week in NHS admin, orders a Tesco shop on Sunday night and hates every minute.\" Hannah's words: \"By Sunday evening I have no brain left and I still have to decide what we eat all week.\" She does today: a recurring Tesco order and a WhatsApp with her sister. Price: \"we were thinking £6.99 a month\"; nobody has been asked to pay. Willing to lose: \"£40k of our savings and a year.\" Her co-founder Tom (engineer) tells her when she is wrong. Wants 15 slides starting with product screenshots because \"investors want to see the product.\" Timing: she sat in the grocery delivery company when the retailer APIs opened up in 2025. Competition: Mealime, Hungryroot, Tesco's own planner. Dream: every family in the UK eats better without thinking about it. Ask: £600k; what she would do with it today: hire a second engineer. If asked for a stranger to show the deck to: \"I could show it to a mum at nursery pickup.\""
     },
     {
       "id": 2,
@@ -69,13 +73,17 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "leader-internal-tool",
+      "simulated_user": "Carlos, 47, Dallas, VP Operations at a 60-truck regional logistics company (about 60 employees). Wants an internal tool so the ops team can track truck maintenance. Has a dev team of three (lead: Ana, 8 years, has shipped the dispatch system; two juniors) and no product manager; \"I act as the PM.\" Voice if asked: \"professional, this is a work laptop.\" Who is it for: first answer \"the ops team\"; if pushed: \"Luis, 52, dispatcher, 20 years here, keeps maintenance in a spreadsheet and sticky notes, finds out a truck is overdue when the driver calls from the roadside.\" Luis's words: \"Just tell me which truck is going to bite us this week.\" Does today: Excel plus a wall calendar. Outcome: no roadside breakdowns from missed maintenance; last quarter there were six. Numbers: breakdowns from missed maintenance per quarter (today 6), on-time preventive services (today about 60%). Willing to lose: \"$80k budget and Ana's time for a quarter, plus my credibility with the CEO who already thinks IT projects never finish.\" Someone who tells him he's wrong: Ana. Lawyer: company counsel. Nines: \"if it goes down for an hour nobody dies, but if it shows the wrong date a truck could go out unsafe.\" Previous internal tools: two half-finished ones that nobody uses. Wants to start building this week."
     },
     {
       "id": 3,
       "prompt": "Let's add push notifications with the contact's photo when someone I know is in town, and a leaderboard of who has met the most people. Start with the notification service. (The project, with its VALUE.md, is in the project folder.)",
       "expected_output": "The agent reads VALUE.md, puts Dana at the top, asks the daily question once, gives an altitude reading, cites the strangers' 'no tracking' replies, applies the standing rule, parks both features in DECISIONS.md, points to the open action items, stays professional, does not build.",
-      "files": [],
+      "files": [
+        "fixtures/nearby"
+      ],
       "expectations": [
         "The agent read VALUE.md and started its first reply with Dana's name and her sentence",
         "The agent did not re-run onboarding and did not ask the voice question again",
@@ -95,7 +103,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "existing-project-session",
+      "simulated_user": "Eric, 38, Austin, solo founder of Nearby (see project/VALUE.md). Today is 2026-10-14. Daily answer if asked: \"them\". If asked who asked for push notifications with photos: \"nobody, I just think it'd be slick.\" If asked who asked for a leaderboard: \"nobody, but gamification works.\" Will accept parking both if given a reason. Wants to know what to do instead today."
     },
     {
       "id": 4,
@@ -117,7 +127,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "payments-and-health-data",
+      "simulated_user": "Sofia, 31, Lisbon, physiotherapist who learned to code with AI tools this year. Building \"FisioBook\", a booking app for her own clinic and two physio friends' clinics. Wants to add Stripe payments tonight and store patient session notes (injury history, treatment notes) in the app's database, \"I'll do it myself tonight, it's just a few prompts.\" Voice if asked: \"explicit, I'm Portuguese, we can take it.\" Who is it for: \"Rui, 58, Lisbon, chronic back pain, books by WhatsApp and forgets, no-shows twice a month\"; also her receptionist Ines who chases him. Rui's words: \"Just remind me and let me pay from the phone.\" Does today: WhatsApp and cash. Willing to lose: \"€4,000 and my evenings till Christmas.\" Someone who tells her she's wrong: her friend Miguel, a backend engineer at a bank, \"but I don't want to bother him.\" No lawyer. Nines: first answer \"it has to be perfect, it's health data\"; if asked who gets hurt: \"Rui, if his injury notes leak, and me, I could lose my licence.\" Paying customers: the three clinics would pay €30/month each, none asked yet. Has not read GDPR requirements for health data."
     },
     {
       "id": 5,
@@ -140,7 +152,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "nurse-non-technical-mvp",
+      "simulated_user": "Anniken, 44, Bergen, nurse for ten years, four in home care. Has never built a product. Wants \"an MVP app\" for seniors living alone: sensors and reminders, alerts to the family. Voice if asked: \"explicit, nurses have heard worse.\" Where she is: idea only, nothing built. Abandoned ideas: 0, \"this is the first one.\" Sold before building: never. Who is it for: first answer \"seniors living alone\"; if pushed: \"Solveig, 82, Bergen, six medications, proud, won't wear anything medical; her daughter Ingrid, 54, in Oslo, calls at 19:00 every night and lies awake when nobody answers.\" Solveig's words: \"I want to stay in my own house and I want Ingrid to stop worrying every evening.\" Pays: Ingrid, or the municipality. Decides: the home-care lead, Kari. Does today instead: a panic button in a drawer and the phone call. Outcome: Ingrid knows her mother is fine tonight; Solveig stays home two more years. Willing to lose: first \"about 300k kroner\"; if pushed: \"NOK 287,400 and 140 evenings.\" Line: nothing she builds replaces the existing safety alarm. Told: her husband. Someone who tells her she's wrong: \"my colleague Birgit.\" No engineer, no product person; \"I thought the AI would build it.\" Price idea: NOK 390/month; nobody asked. Ten strangers she could ask: adult children in a Bergen Facebook group. Numbers: active households, interviews confirming the pain, churn. Nines: \"if it misses a fall, someone could die\"; who gets hurt: Solveig. Afraid of: \"being laughed at by the municipality for selling gadgets.\" More specifically: Kari says no; her colleagues gossip; she loses the part-time shift. Verdict she'd accept: kitten."
     },
     {
       "id": 6,
@@ -164,13 +178,17 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "agency-quarter-roadmap",
+      "simulated_user": "Wojtek, 41, Warsaw, founder of a 12-person software agency, six years old, 14 active clients. Wants help planning next quarter's roadmap. Voice if asked: \"explicit.\" Backlog he will paste if asked (or has pasted): 1. Redesign the website. 2. Launch a newsletter so we go viral on LinkedIn. 3. Build an internal time-tracking tool to replace Toggl. 4. Hire a second project manager. 5. Case study for the fintech client. 6. Move all clients to the new monitoring stack. 7. Offer a fixed-price \"AI audit\" product. 8. Slack bot that posts standups. 9. Write the employee handbook. 10. Automate invoicing. 11. Rebrand. 12. Start a podcast. 13. Renew the two contracts expiring in December. 14. Dashboard of team utilisation. 15. Second office in Kraków. Who is it for: first \"our clients\"; if pushed: \"Magda, 39, CTO at the fintech client, pays us 40k a month, told me in September she doesn't know what we did last week.\" Magda's words: \"I need to be able to tell my board what you shipped, every Monday, in two lines.\" Value created for a customer this week, if asked: \"honestly, I don't know, we were in planning.\" Willing to lose: \"my Saturday mornings for the quarter and 150k PLN of margin.\" Someone who tells him he's wrong: Kasia, his COO. Thing in progress: four things at once. Primary KPI if asked: client retention at renewal (today 71%)."
     },
     {
       "id": 7,
-      "prompt": "Review my investor deck (it's in the inputs folder as deck.md) and tell me how to make it stronger. We're pitching next week.",
+      "prompt": "Review my investor deck (it's in the project folder as deck.md) and tell me how to make it stronger. We're pitching next week.",
       "expected_output": "Solution-first opener flagged, Steve on slide one, viral flagged, cousin's gyms and followers called out as not strangers, two-question ask, nines challenged, stranger first, the ten-slide reorder; professional voice.",
-      "files": [],
+      "files": [
+        "fixtures/loop-deck"
+      ],
       "expectations": [
         "The agent identified slides 1 to 3 as the solution-first opener and said the person must come first",
         "The reordered deck puts Steve, a named gym owner with his sentence, on slide one",
@@ -187,7 +205,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "deck-review-solution-first",
+      "simulated_user": "Ben, 30, Manchester, co-founder of Loop (deck in deck.md). Voice if asked: \"professional.\" Who is it for, if pushed: \"Steve, 51, owns a 400-member gym in Stockport, does his billing on Sunday nights in a spreadsheet, loses about 20 members a month and only notices when the direct debit bounces.\" Steve's words: \"Tell me who's about to quit before they do.\" Strangers who paid: none; the two pilots are free and belong to his cousin. Price idea: £199/month. Willing to lose: \"£30k and a year.\" Who tells him he's wrong: his co-founder Aisha. Nines: \"99.99%, investors expect it\"; who gets hurt at three nines: \"nobody, honestly, a gym can wait an hour.\" Timing: Steve's current software contract ends in March."
     },
     {
       "id": 8,
@@ -213,7 +233,9 @@
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one from the git log",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
-      ]
+      ],
+      "name": "existing-repo-billing",
+      "simulated_user": "Lucía, 34, Valencia, full-stack developer, ex-agency, building DentaFlow alone since June 2026 in evenings and two days a week. Voice if asked: \"explicit, I've read the book.\" Will be annoyed if asked things the repo already shows (stack, that she is solo, Spain, dental clinics, the two pilots): \"it's all in the README.\" Who is it for, if pushed past \"small dental clinics\": \"Marta Sanz, 41, owns Clínica Sanz, two chairs, does the recalls herself on Sunday nights from a paper diary.\" Marta's words: \"I just want the chairs full on Monday without me chasing people on Sunday.\" Pilots: both free, Ruzafa is her cousin's clinic; Sanz came via a friend. Nobody has been asked to pay. Price idea: €49/month. Willing to lose: \"€6,000 and the two days a week till March\"; if pushed: \"€5,800.\" Someone who tells her she is wrong: her former agency boss, Jordi. No lawyer; has not read anything about DNI or health data rules. Engineer who has run payments in production: \"me, once, at the agency, with Stripe.\" Nines: \"three, a clinic can wait an hour; but patient data leaking would end me.\" Afraid of: \"Marta saying €49 is too much and switching back to the diary.\" More specifically: she loses Sanz; her cousin stays out of pity; she goes back to the agency. Verdict she'd accept: kitten. Wants the billing page built tonight."
     },
     {
       "id": 9,
@@ -229,7 +251,9 @@
         "The agent proposed analytics and session recordings before the first stranger, with personal and payment fields masked",
         "The agent treated payments as the thing to buy and did not propose other third-party integrations at the start",
         "The agent asked one question per message with lettered choices ending in an 'other, tell me more' option, and every answer carried an altitude tag"
-      ]
+      ],
+      "name": "native-app-and-parallel-agents",
+      "simulated_user": "Nadia, 36, Leeds, owns a dog grooming salon with two groomers. Never built software; uses an AI coding tool since last month. Voice if asked: \"explicit, I run a salon, I've heard it all.\" Who is it for, if pushed past \"dog owners\": \"Claire, 44, Roundhay, cockapoo called Biscuit, books by texting me at 10pm and then forgets the slot.\" Claire's words: \"Just let me grab a slot and remind me, I don't want another app.\" Why native: first \"everyone has apps\"; if pushed on what a browser cannot do: \"nothing really, I suppose. I thought you needed an app to be real.\" Will accept a web app if told why. Why parallel agents: \"I saw a video where someone ran six agents and finished a startup in a day.\" Will accept one lane if the cost is explained. Price idea: deposit of £10 per booking; nobody asked. Willing to lose: \"£2,000 and my Sundays till Christmas.\" Someone who tells her she is wrong: her groomer Jess. Nines: \"it's dog grooming, 80% is fine.\" Login: \"people hate passwords, texting a code would be perfect.\" Paying someone else: \"only the card payments.\""
     },
     {
       "id": 10,
@@ -245,7 +269,9 @@
         "The agent wrote or proposed an automated test for the checkout outcome named after the person's question",
         "The agent did not present a guessed change as the fix; it said the fix would be confirmed by reading the logs for the checkout path after deploy",
         "Every answer carried an altitude tag, and the agent asked one question at a time with choices where it needed input"
-      ]
+      ],
+      "name": "checkout-fails-sometimes",
+      "simulated_user": "Lucía, 34, Valencia, the DentaFlow developer (see fixtures/dentaflow). Voice if asked: \"explicit.\" Today the clinics are complaining the checkout for the monthly plan fails sometimes; she has no logs beyond the hosting console, catches errors with empty catch blocks (\"I'll add logging later\"), and wants a fix tonight. If asked whether she can see the error: \"the host shows a 500 sometimes, that's all.\" If asked who reported it: \"Marta Sanz, twice this week, by WhatsApp: 'it just fails sometimes'.\" Nines for billing: one nine. Will accept logging first if told why it comes before the fix."
     },
     {
       "id": 11,
@@ -261,6 +287,163 @@
         "The agent pushed back hard on 99% with the two questions: who gets hurt at one nine, and who on the team has done this before",
         "If the user insisted on 99%, the agent said plainly that they were entering complexity and blind spots that are very hard without experienced professionals, made finding an engineer the first dated action item, built to one nine, and listed the gap as rogue",
         "Every question had lettered choices ending in 'other, tell me more', one question per message, and every answer carried an altitude tag"
+      ],
+      "name": "customer-feedback-and-two-nines",
+      "simulated_user": "Omar, 39, Dubai, founder of a reporting tool for small property managers, 11 paying customers at AED 300/month. Voice if asked: \"professional.\" The three who asked for Excel export: Fatima, Hassan, and a manager he only knows by email. If asked whether they could find the existing CSV export: \"there is a CSV export under settings, I don't think they saw it.\" If asked why the weekly summary is unused by the fourth customer: \"she said she didn't know what it was for.\" On 99%: first \"they're paying, it has to be 99%\"; if asked who gets hurt at one nine: \"nobody gets hurt, they'd just be annoyed\"; if asked who on the team has done this: \"it's me and a freelance developer\"; will insist once more, then accept one nine if the gap is written down and the action item to find an engineer is dated."
+    },
+    {
+      "id": 12,
+      "name": "beta-users-love-it-watch-them",
+      "prompt": "My beta users love it. Three of them told me on a call last week they'd definitely pay once we add team workspaces. Let's build team workspaces now.",
+      "expected_output": "The agent tags the altitude, checks whether the three are strangers, asks once whether the user watched them use it (screen shared or in person) or only heard them, marks the replies 'said, not watched', makes a screen-shared interview the next dated action item, asks the feature-or-teaching question about team workspaces, asks whether a price was shown, and does not start building until a stranger has been watched or the user says 'later, I want to build', in which case it builds and marks the rails open.",
+      "files": [],
+      "simulated_user": "Dev, 27, Bangalore, solo founder of a note-taking tool for consultants. Voice if asked: \"explicit.\" The three beta users: his college friend Arjun, Arjun's colleague, and a stranger from a Reddit thread. Nobody has paid; no price has been shown (\"we'll price it once teams are in\"). If asked whether he watched them use it: \"no, we talked on Google Meet, they told me what they thought.\" If asked whether they could not find or did not understand anything: \"the Reddit guy asked how sharing works, I explained it on the call.\" Will agree to two screen-shared sessions this week if asked. Person on slide one if pushed: \"Meera, 33, independent HR consultant in Pune, keeps client notes in WhatsApp and loses them.\" Meera's words: \"I just want to find what I promised a client three weeks ago.\"",
+      "expectations": [
+        "The agent asked once whether the user watched the three beta users use the product (screen shared or in person) or only heard them on a call, and did not accept 'they love it' as evidence",
+        "The agent said that only one of the three is a stranger and flagged the friend and the friend's colleague as not counting",
+        "The agent recorded or proposed recording the replies as 'said, not watched' in STRANGERS.md",
+        "The agent made a screen-shared interview with a stranger the next action item, with a name and a date",
+        "The agent asked, with choices, whether team workspaces is a missing feature or missing teaching, and picked up the Reddit user's sharing question as a possible teaching gap",
+        "The agent asked when a stranger first sees a price and did not accept 'we'll price it once teams are in' without a pushback",
+        "The agent did not start building team workspaces before a stranger was watched or the user said 'later, I want to build'",
+        "Every question had lettered choices ending in 'other, tell me more', one per message, and every answer carried an altitude tag",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "first-contact-existing-repo",
+      "prompt": "Can you help me with this project? The code is in the project folder.",
+      "expected_output": "First contact with a repository and no VALUE.md: the agent asks the voice question first and alone, then asks alone whether this is a new project, an existing one, or a new piece inside one, then reads the repository and states what it inferred with evidence (solo developer, Next.js and Prisma, Spain, dental clinics, two free pilots, no tests, DNI field), asks only the gaps, and does not ask the stack, the industry, or the country.",
+      "files": [
+        "fixtures/dentaflow"
+      ],
+      "simulated_user": "Lucía, 34, Valencia, DentaFlow developer (see fixtures/dentaflow). Voice if asked: \"explicit, I've read the book.\" New or existing: \"existing, it's all in the folder.\" Will be annoyed if asked anything the repo shows. If asked what she wants help with: \"deciding what to build next.\" Daily question answer: \"them.\" Person on slide one if pushed: Marta Sanz, 41, Clínica Sanz, two chairs, recalls from a paper diary on Sunday nights.",
+      "expectations": [
+        "The agent's first message asked the voice question alone, with the two voices described in plain words and no default picked",
+        "The agent's second question, alone, asked whether this is a new project, an existing one, or a new piece inside an existing one, with lettered choices",
+        "After the user said existing, the agent read the repository before asking anything else and stated what it inferred with the evidence for each inference (one author, Next.js plus Prisma, Spanish UI and Spain, dental clinics, two free pilots, no tests, a DNI field)",
+        "The agent did not ask the stack, the industry, the country, or the stage; it stated them from the evidence and let the user correct",
+        "The agent asked the daily question once, after the voice and the new-or-existing question",
+        "The agent asked who the one real person is and recorded Marta Sanz's sentence in her words",
+        "The agent said the two free pilots are not strangers who paid and asked when a clinic will see a price",
+        "Nothing written by the agent names any company or product as the provider of the method",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "committed-secrets-and-prod-only-deploy",
+      "prompt": "Deploy the new order-email feature to production for me tonight, the keys are already in the repo so it should just work. Code is in the project folder.",
+      "expected_output": "The agent reads the repo, finds a committed .env with live Stripe and SendGrid keys, a hardcoded fallback key in config, a deploy script that pushes straight to production, and an empty catch; it refuses to keep secrets in the repo, says the committed keys must be rotated (not just deleted from history), adds .env to .gitignore with a committed .env.example, proposes a secret manager for production, proposes a staging environment and a local environment before any production deploy, replaces the silent catch with a logged error and a reference id, and asks how many nines; it does not deploy untested code to production.",
+      "files": [
+        "fixtures/leaky"
+      ],
+      "simulated_user": "Tom, 42, Manchester, founder of Brewline (see fixtures/leaky), four paying offices, deploys straight to production. Voice if asked: \"explicit.\" If told the keys are in the repo: \"it's a private repo, who cares.\" Will accept rotating the keys if told why. If asked about staging: \"I've never had one, it's just me.\" If asked about nines: \"one nine, offices pay monthly and order daily.\" Who gets hurt if a key leaks: \"me, Stripe would be charged in my name.\" Person on slide one if asked: Priya, 35, office manager at a 40-person law firm, orders coffee on Fridays and forgets.",
+      "expectations": [
+        "The agent found the committed .env and the hardcoded live key fallback in config.js and said so with the file names",
+        "The agent said the committed keys must be rotated because they have been exposed, not only removed from the repository",
+        "The agent proposed a gitignored .env with a committed .env.example listing every variable with placeholders",
+        "The agent proposed a secret manager for production (AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, or the host's encrypted variables) rather than a file on the server",
+        "The agent proposed three isolated environments, local, staging, and production, with their own databases and keys, and said nothing goes to production untried on staging",
+        "The agent replaced or proposed replacing the empty catch in server.js with a logged error that carries a reference id, and said why silent catches hide bugs",
+        "The agent did not deploy to production before the tests, the staging check, and the secret rotation",
+        "The agent asked how many nines and who gets hurt if it fails or a key leaks, and recorded one nine",
+        "Every answer carried an altitude tag and questions were asked one at a time with lettered choices",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "five-features-one-weekend-release",
+      "prompt": "I've got five features ready on my branch: new onboarding flow, dark mode, CSV import, team invites, and a redesigned dashboard. Merge and deploy them all tonight and I'll test everything over the weekend.",
+      "expected_output": "The agent pushes back once on bundling five changes into one release because the user will face test fatigue and bugs will get a 'looks fine', proposes releasing one ticket at a time to staging with one sentence per ticket saying what to try and what to expect, asks which ticket a stranger would notice first, proposes end-to-end tests for the outcome and money paths so the user only tests what tests cannot prove, checks each feature for a name and a question and flags the ones without (dark mode), and runs the weeds check if the one number is zero.",
+      "files": [],
+      "simulated_user": "Hanna, 31, Stockholm, co-founder and only developer of a bookkeeping tool for freelancers; 23 paying users at SEK 149/month. Voice if asked: \"professional.\" Who asked for what, if asked: CSV import was asked by four paying users; team invites by one; dark mode and the dashboard redesign by nobody (\"I wanted them\"); the onboarding flow because \"people drop off, I think.\" If asked whether she watched anyone drop off: \"no, I saw it in the analytics funnel.\" Has unit tests, no end-to-end tests, no staging (\"I test on prod with my own account\"). Nines: one nine. Person on slide one: Jonas, 38, freelance photographer in Malmö, does his VAT the night before it is due.",
+      "expectations": [
+        "The agent pushed back once on releasing five features in one go and named the cost: the user cannot test ten changes at once, test fatigue, bugs that get a 'looks fine'",
+        "The agent proposed releasing one ticket at a time, each with a build the user can open and one sentence saying what to try and what they should see, waiting for the answer before the next",
+        "The agent asked which feature a paying stranger would notice first and ordered the releases by that, putting CSV import (asked by four paying users) ahead of dark mode and the redesign (asked by nobody)",
+        "The agent flagged dark mode and the dashboard redesign as tickets with no person and no question, and proposed parking or the ticket test rather than deleting on its own",
+        "The agent proposed end-to-end tests in a real browser for the outcome path and the money path, run on staging before each release, and said the user only tests what the tests cannot prove",
+        "The agent proposed a staging environment because the user tests on production with her own account",
+        "The agent asked whether she watched a user drop off in onboarding or only saw the funnel, and proposed a screen-shared session",
+        "Every answer carried an altitude tag and questions came one at a time with lettered choices",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "password-signup-and-three-integrations",
+      "prompt": "Build the signup and login with email and password, and integrate HubSpot for the CRM, Intercom for the chat widget, and LaunchDarkly for feature flags. We want to look professional from day one.",
+      "expected_output": "The agent proposes passwordless login (a code by email, a magic link, or provider sign-in) instead of a password form, with the reason, asks which person asked for each integration, applies build over buy (keep control, avoid integrations at the start; none of the three is on the exception list), offers the 20% version of each built in-house or parked with a return condition, checks the stage (pre-POC or POC) and says what 'professional from day one' costs in maintenance, and asks the three engineering questions one at a time.",
+      "files": [],
+      "simulated_user": "Marcus, 45, Chicago, ex-sales director, non-technical founder of a tool for independent insurance agents to follow up on quotes; idea plus a Figma prototype, nothing built, no paying strangers. Voice if asked: \"professional.\" Why password: \"that's how every app works.\" Will accept passwordless if told why. Who asked for HubSpot: \"nobody, but we'll need a CRM.\" Intercom: \"so it looks like a real company.\" LaunchDarkly: \"my technical advisor said we'd want flags.\" Will accept building the 20% or parking. Person on slide one if pushed: Denise, 52, independent agent in Naperville, loses quotes in her inbox and follows up by hand on Sunday. Denise's words: \"I just want to know which quotes are going cold before they do.\" Price idea: $79/month, nobody asked. Nines: 80%.",
+      "expectations": [
+        "The agent proposed a passwordless login (a code by email or SMS, a magic link, or sign in with a provider) instead of email and password, and gave the reason in plain words: a password form is where strangers leave and a breach waiting to happen",
+        "The agent asked, for each of HubSpot, Intercom, and LaunchDarkly, which person asked for it and what question it answers",
+        "The agent applied build over buy: said none of the three is on the short list of things to buy (payments, message delivery, provider sign-in, a paying stranger's named integration), named the cost of each integration in control and maintenance, and offered the in-house 20% or parking with a return condition",
+        "The agent placed the user at pre-POC or POC and said what the stage says about coding before a stranger has seen a price",
+        "The agent did not treat 'look professional from day one' as a reason, and said so without lecturing more than once",
+        "The agent asked the engineering questions (where it runs, how people get in, what is bought) one at a time, with choices, with 'pick all that apply' on what is bought",
+        "Every answer carried an altitude tag and the agent asked one question per message with lettered choices",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "pre-poc-full-platform",
+      "prompt": "Build me a full tutoring marketplace: tutor profiles, student matching with AI, in-app video calls, payments, reviews, scheduling, and a mobile app. Here's the idea, I have no code yet. Let's start with the matching algorithm.",
+      "expected_output": "The agent runs the onboarding one question at a time, places the user at pre-POC, says the stage says do not code yet, proposes the person, the price, and strangers first (a one-page offer and a pay button, or a mock-up a stranger can react to), pushes back on the mobile app (web first), pushes back on starting with matching (weeds, 10,000 ft detail with zero strangers), proposes buying payments and building the rest later, and when the user insists on building, builds the smallest sellable slice marked with the open rails and the score.",
+      "files": [],
+      "simulated_user": "Yusuf, 24, Istanbul, computer science graduate, first startup, no code yet. Voice if asked: \"explicit.\" Who is it for, if pushed past \"students and tutors\": \"Elif, 17, in Kadıköy, preparing for the university exam, her mother Ayşe, 46, pays for a private maths tutor she found through a neighbour and has no idea if he is any good.\" Ayşe's words: \"I want to know my money is buying her a better score, not just hours.\" Price idea: 15% commission; nobody asked. Strangers who paid: none. Willing to lose: \"my savings, about 90,000 lira, and the next six months.\" Someone who tells him he is wrong: his sister Zeynep. Nines: \"it has to be solid, 99%\"; who gets hurt at one nine: \"nobody really, a video call could drop.\" Why mobile: \"students live on their phones\"; what a browser cannot do: \"nothing I guess.\" If told not to code: will push back once (\"but the matching is the whole idea\") then accept finding three parents this week.",
+      "expectations": [
+        "The agent placed the user at pre-POC and said in plain words that the stage says do not build the product yet; the work is the person, the price, and the strangers",
+        "The agent proposed a one-page offer with a price and a pay button, or a mock-up a stranger can react to, before any code",
+        "The agent pushed back once on starting with the matching algorithm as a 10,000 ft detail with zero strangers, and named the altitude",
+        "The agent pushed back once on the mobile app before a stranger has paid and proposed a web app that installs from the browser, asking what a browser cannot do",
+        "The agent pushed back hard on 99%, said what two nines means in plain words, asked who gets hurt at one nine, and recorded 80% or one nine when the user could not name anyone",
+        "The agent named Ayşe as the one who pays and Elif as the one who uses, and recorded Ayşe's sentence in her words",
+        "The agent made finding and watching three parents this week the first action items, with names and dates",
+        "Every answer carried an altitude tag and the agent asked one question per message with lettered choices",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "monday-running-a-company",
+      "prompt": "It's Monday morning. I run a 30-person online furniture brand. Help me plan the week.",
+      "expected_output": "The agent runs the first-contact onboarding (voice alone, new or existing alone, then the climbs) adapted to running a company, asks the Monday question (what value did we create for a customer last week, in their words), asks for the one number, derives a week plan from the initiatives with one thing in progress per person, puts names and dates on every action item, flags items with no customer behind them, and tags altitudes.",
+      "files": [],
+      "simulated_user": "Lena, 44, Hamburg, CEO of a 30-person online furniture brand, EUR 6M revenue, five years old. Voice if asked: \"professional.\" New or existing: \"existing, a running company.\" Building: \"running a company with tech.\" Monday question, if asked what value was created for a customer last week: first \"we shipped the new configurator\"; if pushed for a customer's words: \"a customer in Munich wrote that the sofa arrived on the day we promised for once.\" One number: repeat purchase rate within 12 months, today 18%. Initiatives in flight: new configurator, a B2B line for offices, a loyalty programme, replatforming the shop, a TikTok campaign. If asked who asked for the loyalty programme: \"the agency.\" Who tells her she is wrong: her CFO, Jonas. Person on slide one if pushed: Katrin, 36, Munich, bought a sofa in March, waited nine weeks, nearly cancelled. Katrin's words: \"Tell me when it's actually coming and I'll wait.\"",
+      "expectations": [
+        "The agent asked the voice question alone first, then whether this is a new project or an existing one alone, and adapted the onboarding to running a company",
+        "The agent asked the Monday question (what value did we create for a customer last week) and did not accept 'we shipped the configurator' without asking for a customer's words",
+        "The agent asked for the one number and recorded repeat purchase rate at 18% with a proposed green and red line",
+        "The agent listed the five initiatives, asked which one is the one thing in progress for the leadership this week, and flagged the loyalty programme as having no customer behind it",
+        "The week plan ended with action items that each carry a name and a date",
+        "The agent asked one question per message with lettered choices ending in 'other, tell me more' and tagged every answer with its altitude",
+        "The agent recorded Katrin's sentence in her words as the person on slide one",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "iot-vineyard-sensors-device-logs",
+      "prompt": "We're building soil moisture sensors for vineyards, firmware plus a dashboard. The first ten devices go into a client's vineyard next month. Let's start with the firmware.",
+      "expected_output": "The agent runs the onboarding one question at a time, accepts the device as a legitimate reason for client-side code, insists that the devices buffer and ship logs and crashes to the same place as the server logs with device id and firmware version, proposes a web dashboard that installs from the browser rather than a native app, asks the nines and who gets hurt, asks whether the client has paid, proposes three environments including a test bench for devices, and keeps secrets off the devices' repo.",
+      "files": [],
+      "simulated_user": "Giulia, 38, Verona, agronomist turned founder; co-founder Marco (hardware engineer). Voice if asked: \"explicit.\" Stage: a working prototype on a bench; the first ten devices go to Cantina Rossi next month; the winery has signed a letter of intent and paid a EUR 2,000 deposit. Person on slide one: Pietro Rossi, 61, winemaker, checks moisture by walking the rows at 6am. Pietro's words: \"Tell me which rows are thirsty before I see it on the leaves.\" Nines: \"one nine; a missed reading costs a day, not a harvest.\" Who gets hurt if it fails: Pietro loses a day's irrigation decision. Dashboard: \"we wanted a native app for the field\"; what a browser cannot do: \"nothing, Pietro has a phone with a browser.\" Logs: \"the devices print to serial, we read them with a cable.\" Secrets: the WiFi password and the API token are in the firmware source. Someone who tells her she is wrong: Marco.",
+      "expectations": [
+        "The agent accepted the device as a legitimate reason for client-side code and did not push back on building firmware, but asked what the dashboard needs that a browser cannot do and proposed an installable web app for the field instead of a native app",
+        "The agent said the devices must buffer logs and crashes locally and ship them to the same place as the server logs when connected, with device id, firmware version, and the steps before a failure, and that a cable to a serial port is not a log the agent can read",
+        "The agent asked how many nines and who gets hurt, and recorded one nine with Pietro as the one who loses a day",
+        "The agent treated Cantina Rossi's signed letter and deposit as a stranger who committed and recorded it in STRANGERS.md",
+        "The agent proposed getting the API token and the WiFi password out of the firmware source into per-device provisioning or a secret store, and rotating the exposed token",
+        "The agent proposed isolated environments including a device test bench or staging fleet, so firmware is never tried first on the client's devices",
+        "The agent proposed an outcome test named after Pietro's question (a thirsty row shows on the dashboard before the leaves show it)",
+        "Every answer carried an altitude tag and the agent asked one question per message with lettered choices",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
       ]
     }
   ]
