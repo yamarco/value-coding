@@ -50,17 +50,6 @@ nothing to most people until they are hours:
 | Three nines, 99.9% | about forty-three minutes | a team, a budget, rehearsed recovery |
 | Four nines, 99.99% | about four minutes | not something to build with a model and a founder |
 
-Say the arithmetic whenever you say a level, because "pretty reliable" and "99%" mean
-nothing to most people until they are hours:
-
-| Level | Down, per month | Who it fits |
-|---|---|---|
-| 80% | about six days | a POC, a prototype, an internal tool, a demo |
-| One nine, 90% | about three days | something strangers pay for and use most days |
-| Two nines, 99% | about seven hours | money moving, a business that stops when it stops |
-| Three nines, 99.9% | about forty-three minutes | a team, a budget, rehearsed recovery |
-| Four nines, 99.99% | about four minutes | not something to build with a model and a founder |
-
 ## Tests prove outcomes
 
 Every feature carries the question of a named person it answers (`SKILL.md`, "A name

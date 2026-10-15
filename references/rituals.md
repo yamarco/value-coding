@@ -103,8 +103,6 @@ the same session.
   place of the daily question that day, because the answer places them; after that,
   Mondays only, and asked, never scheduled. Never both questions on one day. It is for
   someone whose work is running a company; a leader building an internal tool is
-  building, and gets the daily question. It is for
-  someone whose work is running a company; a leader building an internal tool is
   building, and gets the daily question.
 
 ## Every now and then

@@ -153,9 +153,6 @@ not build until there is a human here.
    else pays (who?), c) someone else decides (who?), d) other, tell me more. Two payers
    (a daughter or a municipality) is an answer: pick the one reachable this week as the
    first; for a marketplace there are two prices, what the person pays and what the
-   other side pays or gives up. Two payers
-   (a daughter or a municipality) is an answer: pick the one reachable this week as the
-   first; for a marketplace there are two prices, what the person pays and what the
    other side pays or gives up.
 5. Do you have their picture? Choices: a) yes, b) I can ask them, c) not
    appropriate (no consent), d) other, tell me more. Skip this question when the
@@ -232,10 +229,6 @@ contradict what the user just said; one query here has changed more sessions tha
 answer. Second, ask the north star question from climb 6 right now (which number will
 you wake up to, tested against the seven criteria), because for a running product it is
 the most useful question in the onboarding.
-
-The research below runs before the price question, not after, when web access exists;
-it stops at three sources per question, and what it could not find is said. When the
-user volunteers the fear at any point, run the three "more specifically" there.
 
 The research below runs before the price question, not after, when web access exists;
 it stops at three sources per question, and what it could not find is said. When the
