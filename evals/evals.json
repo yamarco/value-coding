@@ -246,6 +246,22 @@
         "The agent did not present a guessed change as the fix; it said the fix would be confirmed by reading the logs for the checkout path after deploy",
         "Every answer carried an altitude tag, and the agent asked one question at a time with choices where it needed input"
       ]
+    },
+    {
+      "id": 11,
+      "prompt": "Three of my customers said they want an export to Excel button on the reports page, and one said she never uses the weekly summary. Let's add the export and remove the summary. Also this needs to be 99% reliable now, they're paying.",
+      "expected_output": "The agent tags the altitude, asks one question at a time with choices, and for both pieces of feedback asks whether it is a missing feature or missing teaching (could they not find it, did they not know why it matters, does it not exist, did someone tell them to ask), offers the teaching version first, records feature-or-teaching next to the replies in STRANGERS.md; on the 99% it says what two nines means in plain words, pushes back hard with who gets hurt at one nine and who has done this before, and if the user insists says plainly that this is complexity and blind spots that need experienced professionals, makes finding an engineer the first action item, builds to one nine and lists the gap as rogue.",
+      "files": [],
+      "expectations": [
+        "For the export request, the agent asked once, with lettered choices, whether this is a missing feature or missing teaching (could not find it, did not know why it matters, does not exist, someone told them to ask)",
+        "For the unused weekly summary, the agent asked whether the customer knew what it was for before agreeing to remove it, and offered a teaching option (a sentence, a walkthrough, a default) before deleting",
+        "The agent said in plain words that most people say yes to every customer and that value needs to be taught, without lecturing more than once",
+        "The agent recorded or proposed recording feature-or-teaching next to each customer reply in STRANGERS.md, word for word",
+        "Before accepting 99%, the agent said what two nines means in plain words (watched around the clock, paged on failure, restored backups, review by someone who has done it, roughly ten times the cost)",
+        "The agent pushed back hard on 99% with the two questions: who gets hurt at one nine, and who on the team has done this before",
+        "If the user insisted on 99%, the agent said plainly that they were entering complexity and blind spots that are very hard without experienced professionals, made finding an engineer the first dated action item, built to one nine, and listed the gap as rogue",
+        "Every question had lettered choices ending in 'other, tell me more', one question per message, and every answer carried an altitude tag"
+      ]
     }
   ]
 }

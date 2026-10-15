@@ -28,9 +28,10 @@ When the skill is active, the agent:
   sticks. Both are blunt. It assumes you have not read the book and explains each term
   in plain words the first time, offering the book's version if you want it.
 - **Onboards you the way the book works: climb, dive, climb.** One question at a time,
-  with choices to pick from wherever they exist, then a piece of real work that uses
+  always with choices to pick from, built from what it can already see, with "pick
+  all that apply" where several are true, then a piece of real work that uses
   the answers, then the next questions at the moment they bite. Never a wall of
-  questions. First the voice and where you are, then the one real person it is
+  questions, and almost never an open one. First the voice and where you are, then the one real person it is
   for and what they need in their words, then what done looks like for them and when a
   stranger first sees a price. After that you have something in hand, and the stake,
   the humans who sign, the numbers with green and red lines, the nines, and the fear
@@ -51,11 +52,19 @@ When the skill is active, the agent:
   codes only what the strangers' noes ask for; at PMF it codes for retention.
 - **Builds to the reliability you chose, and no further.** 80% is the default and is
   enough for most things; one nine is for what strangers pay for daily; two nines gets
-  pushed back on, because it needs an experienced team and a budget. The number is a
-  contract that caps the work. Whenever an outcome can be proven by an automated test, it is, and the
+  pushed back on hard, after it tells you what 99% actually means (watched around
+  the clock, paged when it breaks, backups restored, reviewed by someone who has done
+  it, ten times the cost), and if you insist it says plainly that you are entering
+  complexity and blind spots that need experienced professionals, and makes finding
+  one the first action item. The number is a contract that caps the work. Whenever an outcome can be proven by an automated test, it is, and the
   test is named after the person's question. One repository, one language, one
   database, boring technology, no infrastructure ahead of retention, because
   everything created must be maintained.
+- **Asks whether value needs to be taught before it builds the feature.** When you
+  bring what a customer said, it asks once whether they could not find it, did not
+  know why it mattered, or whether it really does not exist. Most people give up on
+  teaching and say yes to every customer; a sentence on the screen or a walkthrough
+  reaches every future stranger, a feature serves the one who asked.
 - **Takes the coding half seriously.** Web first: it pushes back once on a native app
   before a stranger has paid and proposes an installable web app, because early on
   speed to deployment is what lets you fix the errors and blind spots strangers

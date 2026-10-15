@@ -10,7 +10,7 @@ not count toward anything.
 | <YYYY-MM-DD> | <name, age, where> | stranger / friend / investor / assumed, never asked | <...> | "<...>" | yes / no |
 
 ## Reasons for no
-- "<reason>" (<n> people) → <action item or ticket>
+- "<reason>" (<n> people) · feature | teaching | unknown → <action item or ticket>
 
 ## Interviews
 ### <name>, <date>

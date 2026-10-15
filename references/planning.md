@@ -68,7 +68,10 @@ one roadmap section per initiative.
 - When the user asks for something new, it becomes a ticket with a person and a
   question before it becomes code, and it goes where it belongs in the order, which
   is usually not the top.
-- When strangers answer, their noes become tickets at the top with the stranger's
+- A teaching ticket (a sentence on the screen, a walkthrough, an onboarding call, a
+  default) is a ticket like any other, with a name and a question, and it usually
+  outranks the feature it replaces.
+- When strangers answer, their noes, once sorted into feature or teaching, become tickets at the top with the stranger's
   name on them.
 - Every session's action items in `ACTIONS.md` point at ticket numbers where they
   concern the build.

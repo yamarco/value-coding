@@ -105,7 +105,11 @@ the evidence you have, once, and say what you found:
   one (see below).
 - "Nobody else does this": name the competitor you found in two minutes, or the
   "instead" (the spreadsheet, the phone call) that is the real competitor.
-- "It has to be perfect": name the person who gets hurt at two nines.
+- "It has to be perfect", "two nines": say what two nines costs in plain words, then
+  name the person who gets hurt at one nine and the engineer who has done it before.
+- "A customer asked for X", "they did not use Y": feature or teaching? Ask which,
+  with choices; most of the time the stranger could not find it or did not know why
+  it mattered, and that is closed with a sentence or a walkthrough, not a ticket.
 - "It will spread on its own": who makes the first call.
 - "I will do sales later": the build stays locked until a stranger commits.
 - "I'm the PM and the dev and the sales": written down, and said out loud at every

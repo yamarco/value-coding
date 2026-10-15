@@ -23,9 +23,10 @@ come back on their own.
 2. **How do people get in?** Choices: a) no login yet, a link is enough, b) a code
    by email or SMS, c) sign in with Google, Apple, or Microsoft, d) a password, e)
    other, tell me more. If they answer d, say why not (below).
-3. **What are you paying someone else to do?** Choices: a) nothing yet, b) payments,
-   c) email or SMS delivery, d) a specific integration someone has asked for by name,
-   e) other, tell me more. Anything beyond b and c gets the build-over-buy question.
+3. **What are you paying someone else to do?** Pick all that apply: a) nothing
+   yet, b) payments, c) email or SMS delivery, d) a specific integration someone has
+   asked for by name, e) other, tell me more. Anything beyond b and c gets the
+   build-over-buy question.
 
 Everything else in this file you decide yourself and say in one line; the user
 corrects it.

@@ -46,10 +46,15 @@ How to run it:
   message. Offer choices whenever the answer has a natural set of them (stage, role,
   what is being built, who pays, nines, which thing stays in progress), and every
   list ends with "other, tell me more"; use the host tool's selection prompt if it
-  has one. Default to choices; fall back to free text only when no sensible set of
-  options exists. Free text is for
-  what only the user can say. Listen to the whole answer before pushing, then push
-  once. Do not accept "everyone", "SMBs", a
+  has one, and its multi-select for the questions marked "pick all that apply".
+  Choices are the default for every question: the people who have used this skill
+  say the lists are the part that makes it usable, and an open question is the part
+  they skip. Before asking anything without choices, build the list from the
+  evidence (the locale in the code, the currency, the industry, the deck) and let
+  the user pick or correct. Free text is reserved for what only the user can say:
+  the person's sentence, the outcome in their words, the unround number, a name;
+  ask those in one line with the shape of a good answer. Listen to the whole answer
+  before pushing, then push once. Do not accept "everyone", "SMBs", a
   round number, or "I'll figure that out later" without one honest attempt at the
   real thing. If they insist, write what they gave you with "[to confirm]" and ask
   again at the next natural moment.
@@ -100,8 +105,11 @@ the rest of the climb:
    shows it can work, a proof of concept, c) something strangers pay for and use, a
    minimum viable product, d) a business where customers keep coming back, product
    market fit, e) other, tell me more. Confirm against the evidence: the honest stage
-   is set by paying strangers, not by code (`stages.md`). Then, free text: which
-   industry, which country first.
+   is set by paying strangers, not by code (`stages.md`). Then, which industry and
+   which country first: build both lists from the evidence (the locale and currency
+   in the code, the domain, the deck, the conversation) and offer them as choices
+   with "other, tell me more"; the evidence usually settles both and they are stated,
+   not asked.
 5. Has a stranger ever paid for anything connected to this? Choices: a) yes, b) no,
    c) friends or pilots have used it for free.
 
@@ -131,8 +139,11 @@ not build until there is a human here.
    appropriate (a patient, a client's employee, no consent), d) other, tell me more.
 6. Where will the first ten people like them be found? Choices: a) a group or
    community (name it), b) a place (name it), c) my own network, which does not
-   count as strangers, d) I don't know yet, e) other, tell me more. Then, free text:
-   their age band, what they earn, the language they speak.
+   count as strangers, d) I don't know yet, e) other, tell me more; pick all that
+   apply. Then their age band (a) under 25, b) 25 to 40, c) 40 to 60, d) over 60,
+   e) other), what they earn (bands in the local currency, proposed by you from the
+   geography), and the language they speak (proposed from the evidence), one at a
+   time, each with "other, tell me more".
 
 Ask for a picture, or the reason there is none (a patient, a client's employee,
 someone who did not consent). If the person is the user's own patient, client, or
@@ -151,24 +162,37 @@ usually the moment the request shrinks, and the user should see it shrink.
 2. Is that a problem or an opportunity? Choices: a) a pain they have now, b) something
    they could not do before, c) I'm not sure, d) other, tell me more. If neither can
    be named, say which bucket is left.
-3. What is the price, in which currency, and when does a stranger first see it? Free
-   text: a number and a date. If there is neither, those are the first two action
-   items.
-4. Who tells you, to your face, when you are wrong, and stays? Free text, one name,
-   now, because the first gate needs a signature before you act on any of this.
-   Choices if they stall: a) a co-founder, b) a former boss, c) a friend in the
-   trade, d) nobody comes to mind, e) other, tell me more.
-5. How reliable does this have to be? Choices: a) 80%, it works for the path a
-   stranger will see and we fix it when it breaks (most things), b) one nine, 90%,
-   strangers pay for it and use it most days, c) two nines, 99%, money or personal
-   data, which needs an experienced team and a budget behind it, d) more than that,
-   a life or a licence depends on it, e) other, tell me more. Push back on c) and d)
-   once: who gets hurt at one nine, and who on the team has done this before? Then:
-   who gets hurt if it fails at fewer, or if the data leaks? One request can hold two
-   builds with different levels; split them.
-6. Does the thing touch any of these? Choices: a) health, b) money, c) children,
-   d) personal data, e) a licensed profession, f) none, g) other, tell me more. For an
-   existing business: what is the number today?
+3. What is the price? Propose a band from the research as choices (a) under X a
+   month, b) X to Y, c) above Y, d) one-off, e) I have no idea yet, f) other, tell
+   me more), then the exact number as free text in one line, in the local currency.
+   Then: when does a stranger first see it? Choices: a) this week, before anything is
+   built, b) when the proof of concept works, c) when it is finished, d) I had not
+   thought about it, e) other, tell me more. If there is no number and no date, those
+   are the first two action items; if the answer is c), say what the rails say about
+   a price before a build.
+4. Who tells you, to your face, when you are wrong, and stays? Choices: a) a
+   co-founder, b) a former boss or mentor, c) a friend in the trade, d) a customer,
+   e) nobody comes to mind, f) other, tell me more. Then the name, one line, now,
+   because the first gate needs a signature before you act on any of this.
+5. How reliable does this have to be? Before the choices, one sentence on what the
+   levels mean, because most people say "two nines" without knowing what it costs.
+   Choices: a) 80%, it works for the path a stranger will see and we fix it when it
+   breaks (most things: a proof of concept, an MVP, an internal tool), b) one nine,
+   90%, strangers pay for it and use it most days, so it tells someone when it breaks
+   and can be rolled back, c) two nines, 99%, watched around the clock, someone paged
+   when it breaks, backups that have been restored, reviewed by an engineer who has
+   run something like it, about ten times the cost of one nine, d) more than that, a
+   life or a licence depends on it, e) other, tell me more. Push back hard on c) and
+   d), once: who gets hurt at one nine, and who on the team has done this before?
+   When they still insist, say plainly that they are entering complexity and blind
+   spots that are very hard to get through without experienced professionals, write
+   it down with the date, make finding that engineer the first action item, and
+   build to one nine with the gap listed as rogue. Then: who gets hurt if it fails at
+   fewer, or if the data leaks? One request can hold two builds with different
+   levels; split them.
+6. Does the thing touch any of these? Pick all that apply: a) health, b) money,
+   c) children, d) personal data, e) a licensed profession, f) none, g) other, tell
+   me more. For an existing business: what is the number today?
 
 **Dive.** With web access, do the research first (`evidence.md`): competitors and
 their complaints, the price band, a bottom-up size for the chosen geography, the
@@ -191,9 +215,13 @@ session, the first money spent, the first public claim. Not before.
    and weekends, c) both, d) nothing yet, e) other, tell me more. Then, free text:
    the real unround number. Round numbers are how people avoid looking at it; ask for
    the real one once. Record the date, and the time only if they give it.
-2. Is there a line you will not cross, whatever happens? Free text.
-3. Who have you told? Choices: a) a partner or family, b) a co-founder or boss,
-   c) nobody, d) other, tell me more. A stake nobody knows about is a hobby.
+2. Is there a line you will not cross, whatever happens? Choices: a) no debt,
+   b) savings never below a number (which?), c) I keep my job, d) my health or my
+   family's time, e) a date after which I stop, f) nothing is off limits, g) other,
+   tell me more; pick all that apply.
+3. Who have you told? Pick all that apply: a) a partner or family, b) a co-founder
+   or boss, c) a friend, d) nobody, e) other, tell me more. A stake nobody knows
+   about is a hobby.
 
 If both numbers are zero, say what that means: not a business yet. Ask them to decide
 today whether to raise the stakes or stop.
@@ -240,7 +268,10 @@ business.
 2. The rest of the handful, one at a time, the same way. Numbers about them, not about
    you. Flag any vanity number they insist on, keep it, flagged, and ask what someone
    would do to hit it without creating the value.
-3. The first goal they could miss, with a date. Free text.
+3. The first goal they could miss, with a date. Propose the goal from the primary
+   KPI and the stage (for example "three paying strangers") and offer the date as
+   choices: a) end of this month, b) in 90 days, c) a date you name, d) other, tell
+   me more.
 
 **Dive.** Write `METRICS.md` and the primary KPI into `VALUE.md`. Put the KPIs and the
 dated goals into the deliverable where they belong: the metrics section of the spec,

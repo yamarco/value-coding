@@ -44,13 +44,14 @@ phrase; then, once, offer the book's version in their voice.
 | The daily question | a one-word check each morning: is today for them, or for you | the book's version in the explicit voice |
 | Altitudes (40k to ground) | how high up the question sits: why this exists, the market, the product, a feature, or the thing in front of us | the raptor and the mile-high club chapters |
 | The raptor method | zoom out, pick one thing, dive, zoom back out | the eagle owl and the Pi rule |
-| The nines | how reliable this has to be, and who gets hurt if it isn't: 80% is most things, 90% is something people pay for daily, 99% needs a team and a budget | why nobody promises 100%, and why each nine costs ten times the last |
+| The nines | how reliable this has to be, and who gets hurt if it isn't: 80% is most things, 90% is something people pay for daily, 99% means watched around the clock, paged when it breaks, backups restored, reviewed by someone who has done it, about ten times the cost | why nobody promises 100%, and why each nine costs ten times the last |
 | The 20% | the smallest thing someone would pay for, before anything else | Pareto, and the black hole of the last 20% |
 | The menu | a ten-slide pitch, one question per slide, person first | the Pompeii story |
 | The gate | a point where a named human says yes or no before the next step | why a gate you sign yourself isn't one |
 | Going rogue / the score | a count of how much of the method you're using, out of twelve | what skipping costs |
 | The weeds | spending days on detail when nobody has paid yet | the dive versus the bushes |
 | Building for the mirror | building because it feels good, not because someone asked | the explicit voice's word for it |
+| Value needs to be taught | when a customer asks for something, first ask whether they could not find it or did not know why it matters; teaching reaches everyone, a feature serves one | why saying yes to every customer is how products drown |
 | Web first / PWA | a website that installs like an app and ships a fix in a minute, instead of a store app that waits for a review | why speed to a stranger beats the App Store early on |
 | Logs the agent can read | a record of what the running thing did, in one place, that your model can read with one command to find the bug instead of guessing | why "should be fine now" is a feeling |
 | Passwordless | a code by email or SMS, a magic link, or sign in with Google, Apple, or Microsoft, instead of a password form | why a password form is where strangers leave |

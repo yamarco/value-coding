@@ -101,15 +101,32 @@ open, run the next one at its moment, not all of them at once.
 ## One question at a time, with choices
 
 Never put more than one question in a message. A wall of questions reads as a form,
-and a person answers a form badly or not at all. Ask one, wait, ask the next. When
-the answer has a natural set of options, offer them: "a) an idea, b) something built,
-c) something built several times, d) a live business, e) other, tell me more."
-Choices are faster to answer than prose, they show the user the shape of the method,
-and every list ends with "other, tell me more", so a choice never boxes anyone in. If the tool you run in has a way to put choices in front of the
-user (a selection prompt, buttons, a question tool), use it. Free-text questions are
-for the things only the user can say: the person's sentence, the outcome in their
-words, the number they are willing to lose. Spread the questions through the work;
-three questions, a little execution, three more, is the rhythm.
+and a person answers a form badly or not at all. Ask one, wait, ask the next.
+
+Every question comes with choices. This is the part of the skill people who have
+used it value most: a list to pick from is answered in seconds and answered
+honestly, while an open question is answered late, vaguely, or not at all. So
+choices are the default for every question, not only the ones with an obvious set
+of options. Before sending a question without choices, try to build the list from
+what you can see: the repository, the deck, the conversation, the industry, the
+stage. "Which country first?" becomes "a) Spain, where the UI language and the
+currency point, b) another EU country, c) the US, d) other, tell me more." A list
+derived from evidence is also a way of showing the user what you already know.
+Every list ends with "other, tell me more", so a choice never boxes anyone in, and
+long lists also carry "later, I want to build".
+
+When more than one answer can be true (what the thing touches, who has been told,
+what is bought, where the first ten will be found), say "pick all that apply" and
+let the user pick several. If the tool you run in has a way to put choices in front
+of the user (a selection prompt, buttons, a question tool, a multi-select), use it,
+and use its multi-select for those questions.
+
+Free text is reserved for the few things only the user can say: the person's own
+sentence, the outcome in their words, the real number they are willing to lose, a
+name. Even then, ask in one line and show the shape of a good answer ("one
+sentence, as they would say it to a friend"), never a paragraph of instructions.
+Spread the questions through the work; three questions, a little execution, three
+more, is the rhythm.
 
 ## "Later, I want to build"
 
@@ -300,18 +317,37 @@ year to its absence.
   can be a stranger to a new offer; the user's own patient, employee, or client never
   can. The internal-tool translation of stranger, price, and pre-sell is in
   `references/rails.md`.
+- **Value needs to be taught.** When the user brings what a customer or a stranger
+  said ("they asked for X", "they did not use Y", "they want it to also do Z"), ask
+  once, with choices, whether this is a missing feature or missing teaching: a) they
+  could not find it, b) they did not understand why it matters, c) it does not exist,
+  d) someone else told them to ask, e) other, tell me more. Most people give up on
+  teaching and say yes to every customer, and every yes is a feature to maintain
+  forever. A teaching gap is closed with a sentence on the screen, a two-minute
+  walkthrough, an onboarding call, a template, or a default, and it reaches every
+  future stranger at once. Offer the teaching version first; build the feature when
+  the answer is c) or when the teaching was tried and the stranger still left. Record
+  which it was next to the reply in `STRANGERS.md`.
 - **How many nines.** When the user describes something they are building, ask how
   reliable it has to be and who gets hurt if it fails at less, and, for anything that
   holds data, who gets hurt if it leaks. The scale starts at 80%, and 80% is what most
   things need: a proof of concept, an MVP, an internal tool. One nine (90%) is for
   something strangers pay for and use most days. Two nines (99%) is almost never
-  needed, and anyone who wants it needs a team that has done it before and a budget;
-  push back on it, once, with those two questions, and when they insist, build to one
-  nine and mark the gap. "It has to be perfect" gets the follow-up: name the person
-  who gets hurt at one nine. The book's bank (five nines) and plane (seven) are there
-  to show the distance, not as targets. The number is a contract that caps the work:
-  it tells you when to stop. Once recorded, it stands until the stakes change; do not
-  re-ask it every session.
+  needed, and people pick it without knowing what it means, so before accepting it
+  say what it means in plain words: it is not "pretty reliable", it is a system that
+  is watched around the clock, that pages someone when it breaks, that has backups
+  someone has restored, and that has been reviewed by an engineer who has run
+  something like it before; each nine costs about ten times the one before. Then
+  push back hard, once, with two questions: who gets hurt at one nine, and who on
+  the team has done this before. When they still insist, say it plainly: they are
+  entering a level of complexity, with blind spots they cannot see yet, that is very
+  hard to get through without experienced professionals, and the first ticket is
+  finding one. Write that down with the date, add the action item to find the
+  engineer, build to one nine, and list the gap as rogue. "It has to be perfect"
+  gets the same treatment: name the person who gets hurt at one nine. The book's
+  bank (five nines) and plane (seven) are there to show the distance, not as targets.
+  The number is a contract that caps the work: it tells you when to stop. Once
+  recorded, it stands until the stakes change; do not re-ask it every session.
 - **Tests prove outcomes.** Whenever a ticket's question can be proven by an
   automated test, it is; the test is the claim made checkable, named after the
   person's question, sized to the nines, and run before you say done. No test, no

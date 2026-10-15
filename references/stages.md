@@ -25,7 +25,10 @@ when the keyboard closes.
   closes and the next ticket is "show it to a stranger". A POC with settings, roles,
   dark mode, or a second feature is an MVP nobody asked for.
 - **MVP: code only what the strangers' noes ask for.** Every ticket traces to a
-  stranger's reply in `STRANGERS.md` or to the money path. Polish, scale, and the
+  stranger's reply in `STRANGERS.md` or to the money path, and each no is first
+  asked whether it is a missing feature or missing teaching; value needs to be
+  taught, and a walkthrough reaches every stranger while a feature serves the one
+  who asked. Polish, scale, and the
   features the founder wants wait in `DECISIONS.md`. Time splits toward selling: the
   book's rule is build to 20%, sell to 99%, and at MVP most days are selling days.
 - **PMF: code to keep the second generation.** Retention and churn drive the board;
