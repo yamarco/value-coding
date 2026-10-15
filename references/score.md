@@ -61,13 +61,6 @@ Decided rails are listed by name but never counted as held. A rail is held only 
 the file condition in the table is met; the score line says which file when asked, and
 a score that ticks a rail the files do not back is a false number, which the user will
 forward to someone.
-- **Not held.** Reached, and none of the above: the condition is simply not met yet,
-  or the human was named but not yet asked. Counted in the denominator, not named.
-
-Decided rails are listed by name but never counted as held. A rail is held only when
-the file condition in the table is met; the score line says which file when asked, and
-a score that ticks a rail the files do not back is a false number, which the user will
-forward to someone.
 
 A climb skipped with "later, I want to build" leaves its rails open, not rogue. For a
 deck-only, document-only, retention, or client-build session, rails that cannot apply
