@@ -43,7 +43,9 @@ Rules:
   machine, record the path in `VALUE.md`. For a client build, ask once which repository
   the files belong in and default to one the client will not receive.
 - **Pasted profiles and CVs** (a LinkedIn page, a résumé) yield a first name, an
-  initial, a role, and the pain; nothing else is stored.
+  initial only when the surname is given, a role, and the pain; nothing else is stored.
+- **Never copy a harness or simulation marker** ("[invented]", "[simulated]") into a
+  project file; a fact you are unsure of is "[to confirm]".
 - Create `VALUE.md` as soon as the voice is chosen in climb 1, even if the rest is
   empty. A crashed session should still leave the voice and the person behind. Create
   the other files the first time something belongs in them, not all at once.

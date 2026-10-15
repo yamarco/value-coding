@@ -1,5 +1,5 @@
 datasource db { provider = "postgresql" url = env("DATABASE_URL") }
 generator client { provider = "prisma-client-js" }
-model Clinic { id String @id @default(cuid()) name String city String appointments Appointment[] patients Patient[] }
+model Clinic { id String @id @default(cuid()) name String city String email String? stripeSessionId String? appointments Appointment[] patients Patient[] }
 model Patient { id String @id @default(cuid()) clinicId String clinic Clinic @relation(fields: [clinicId], references: [id]) name String phone String dni String? notes String? appointments Appointment[] }
 model Appointment { id String @id @default(cuid()) clinicId String clinic Clinic @relation(fields: [clinicId], references: [id]) patientId String patient Patient @relation(fields: [patientId], references: [id]) startsAt DateTime kind String reminderSentAt DateTime? }

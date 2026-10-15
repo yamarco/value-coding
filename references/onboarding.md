@@ -97,16 +97,19 @@ history. What the evidence leaves open is asked one at a time, with choices, in 
 - Money in, pick all that apply: bootstrapped, friends and family, angels or a fund,
   a grant or a prepaying customer.
 
-At most two of these before the first output; the rest come at the first dive. For an
+At most one of these before the first output (paying, usually); the rest come at the
+first dive, and for an internal tool or a company the bands that do not apply are
+skipped. For an
 internal tool the traction is how many employees use the current thing and how many
 would switch; for a company it is revenue, customers, repeat rate, and team size; skip
 what does not apply. Say once what the numbers place them at: forty sign-ups and nobody
 paying is pre-POC with code attached; six paying strangers for three months is an MVP
 with a retention question. Write it under "Traction today" in `VALUE.md`.
 
-**4. The daily question**, once, with choices; for someone running a company, the
-Monday question instead ("how did we create value for a customer last week, and how do
-we know?"), never both on one day.
+**4. The first output, then the daily question**, once, with choices; the Monday
+question instead ("how did we create value for a customer last week, and how do we
+know?") only when running a company is among what they are building, never both on one
+day, and not for an internal tool.
 
 **5. Only what is still open**, one at a time: what are you building (a) software,
 b) a pitch or deck, c) a website or proposal, d) a company, e) running an existing
@@ -136,16 +139,24 @@ person, restate the request in that person's terms here, before climb 2.
 The first slide of everything, and the question the book opens and closes with. Do
 not build until there is a human here.
 
-1. Who is this for? One real person: full name (first name and an initial if they
-   have not consented to more), age, where they live, two lines of story. Not a
-   segment. Someone a room could imagine meeting, and imagine saying no.
+1. Who is this for? One real person: first name, an initial only if the user gave the
+   surname, age, where they live, two lines of story. Not a segment. Someone a room
+   could imagine meeting, and imagine saying no. The dive of this climb is the first
+   slice of what they asked for, in that person's terms: slide one, the offer page, the
+   request restated, plan v0.
 2. What do they need, in words they would say out loud? One sentence, theirs. A
    sentence the user reports someone else said is written as reported, never as a
    quote from that person.
 3. What do they do today instead? The spreadsheet, the group chat, the phone call
    every evening, nothing. The "instead" is the real competitor.
 4. Who pays and who decides? Choices: a) the same person who uses it, b) someone
-   else pays (who?), c) someone else decides (who?), d) other, tell me more.
+   else pays (who?), c) someone else decides (who?), d) other, tell me more. Two payers
+   (a daughter or a municipality) is an answer: pick the one reachable this week as the
+   first; for a marketplace there are two prices, what the person pays and what the
+   other side pays or gives up. Two payers
+   (a daughter or a municipality) is an answer: pick the one reachable this week as the
+   first; for a marketplace there are two prices, what the person pays and what the
+   other side pays or gives up.
 5. Do you have their picture? Choices: a) yes, b) I can ask them, c) not
    appropriate (no consent), d) other, tell me more. Skip this question when the
    person is the user's own patient, client, or employee, and say why.
@@ -206,7 +217,8 @@ usually the moment the request shrinks, and the user should see it shrink.
    When they still insist, say plainly that they are entering complexity and blind
    spots that are very hard to get through without experienced professionals, write
    it down with the date, make finding that engineer the first action item, and
-   build to one nine with the gap listed as rogue. Then: who gets hurt if it fails at
+   build to one nine with the gap recorded as decided, with the reason and the date.
+   Then: who gets hurt if it fails at
    fewer, or if the data leaks? One request can hold two builds with different
    levels; split them.
 6. Does the thing touch any of these? Pick all that apply: a) health, b) money,
@@ -220,6 +232,14 @@ contradict what the user just said; one query here has changed more sessions tha
 answer. Second, ask the north star question from climb 6 right now (which number will
 you wake up to, tested against the seven criteria), because for a running product it is
 the most useful question in the onboarding.
+
+The research below runs before the price question, not after, when web access exists;
+it stops at three sources per question, and what it could not find is said. When the
+user volunteers the fear at any point, run the three "more specifically" there.
+
+The research below runs before the price question, not after, when web access exists;
+it stops at three sources per question, and what it could not find is said. When the
+user volunteers the fear at any point, run the three "more specifically" there.
 
 **Dive.** With web access, do the research first (`evidence.md`): competitors and
 their complaints, the price band, a bottom-up size for the chosen geography, the

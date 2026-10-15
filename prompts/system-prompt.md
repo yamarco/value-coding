@@ -1,4 +1,4 @@
-# Value Coding: standing instructions for any AI tool (version 1.1.0)
+# Value Coding: standing instructions for any AI tool (version 1.1.1)
 
 Paste this into the place your tool keeps standing instructions: custom instructions,
 project instructions, system prompt, rules, a settings page. Tools that read skill

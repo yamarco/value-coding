@@ -5,6 +5,32 @@ The skill's version is in `VERSION` and in the `metadata.version` field of
 can tell when the skill moved under it. Bump the minor number when a rail changes
 what the agent does, the patch number for wording.
 
+## 1.1.1 (2026-10-15)
+
+After the rerun of twenty scenarios on 1.1.0.
+
+- The first output is a slice of what the user asked for (slide one, the offer page,
+  plan v0, the diagnosis); the evidence list alone does not count. The opt-in does not
+  count toward the three-question cap. After a pushback, no question until the thing
+  is delivered. "Keep it quick" means one climb and brief mode.
+- The evidence-list turn is a statement with one question, the user's name, dropped
+  when the evidence names them. The daily question comes after the first output. The
+  Monday question only for someone running a company.
+- Dates: no weekday or month name becomes a calendar date without "[to confirm]";
+  every written date is after today; the weekday is computed. Research is never
+  attributed to the user. Deploys are claimed only when the user reported them.
+- The nines carry their downtime arithmetic (table in `building.md`); an insisted-on
+  two nines is "decided", everywhere. Hosted checkout still gets its test and a second
+  read.
+- Score: "not held" state; decided rails listed, never counted; a rail is held only
+  when its file condition is met.
+- Strangers: free users who owe nothing are strangers at price zero; an introduction
+  through a friend is a friend; an initial only when a surname was given. Conflict of
+  interest extends to the person's family. Two payers and marketplace prices handled.
+- Engineering questions are asked, not answered by the agent, before an offer page
+  with a payment button.
+- Fixture and assertion fixes; the evals README names the self-simulation caveat.
+
 ## 1.1.0 (2026-10-15)
 
 After a graded round of twenty scenarios on 1.0.0 (81.8% with the skill, 26.0% without)

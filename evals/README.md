@@ -68,6 +68,13 @@ the three contexts stay separate.
 For a baseline, run the same scenario without the skill and grade it against the
 same expectations. The gap between the two numbers is what the skill does.
 
+A cheaper variant lets one agent play both roles, answering its own questions from the
+`simulated_user` script. It is what the rounds so far used. Its known weakness: the
+agent can leak the script's facts into its own turns before the "user" says them, which
+the facts assertion then catches as fabrication. Prefer a separate user-player when you
+can; when you cannot, tell the executor never to copy "[invented]" into project files
+and read the facts failures with that in mind.
+
 ## Results
 
 The pass rate is the number of expectations met out of the number checked, per

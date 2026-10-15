@@ -24,20 +24,42 @@ loud:
 |---|---|---|---|
 | **80%** (the default: a POC, an MVP for a handful of strangers, an internal tool, a demo) | It runs the path a stranger will see and produces the outcome; the known gaps are listed in one place. | One test for the outcome, or "manual: how". | No test suite, no abstraction for a case that does not exist, no handling for inputs nobody sends, no polish. What it does not skip: every failure that happens is logged where the agent can read it (`engineering.md`). |
 | **One nine, 90%** (strangers pay for it and use it most days) | It works for the paths people actually take; it tells someone when it breaks; it can be rolled back. | The outcome and the money path have tests; it deploys from one command. | No multi-region, no load tests, no coverage targets, no rewrite for elegance. |
-| **Two nines, 99%** (money moving, personal data, a business that stops when it stops) | Push back hard first, because most people say it without knowing what it means. Say what it is in plain words: watched around the clock, someone paged when it breaks, backups that have been restored, an engineer who has run something like it reviewing the work, about ten times the cost of one nine. Ask who gets hurt at one nine, and whether there is a team that has done this before and a budget for it. Without both, the honest answer is one nine with the dangerous part parked or handed to a human; when the user insists anyway, say that they are entering complexity and blind spots that are very hard to get through without experienced professionals, make finding one the first action item, and list the gap as rogue. With both: an engineer who has done it before reviews it; the risky paths have tests; failures are visible before customers report them; data can be recovered. | Everything in one nine, plus the review. | No heroics; the human in `humans.md` signs the release. |
+| **Two nines, 99%** (money moving, personal data, a business that stops when it stops) | Push back hard first, because most people say it without knowing what it means. Say what it is in plain words: watched around the clock, someone paged when it breaks, backups that have been restored, an engineer who has run something like it reviewing the work, about ten times the cost of one nine. Ask who gets hurt at one nine, and whether there is a team that has done this before and a budget for it. Without both, the honest answer is one nine with the dangerous part parked or handed to a human; when the user insists anyway, say that they are entering complexity and blind spots that are very hard to get through without experienced professionals, make finding one the first action item, and record the gap as decided, with the reason and the date. With both: an engineer who has done it before reviews it; the risky paths have tests; failures are visible before customers report them; data can be recovered. | Everything in one nine, plus the review. | No heroics; the human in `humans.md` signs the release. |
 | **Three nines and up** (a bank, a hospital, a plane) | Not something to build with a model and a founder. A team, a budget, regulation, and rounds of 80% with real incidents behind them. | | |
 
 The book's reference points for the top of the scale still stand (five nines is a
 bank, seven is a plane); they are there to show how far away they are, not as
 targets. When the user asks for two nines, say what it costs and ask the two
-questions. When they insist, write it down, build to one nine, and mark the gap
-rogue.
+questions. When they insist, write it down, build to one nine, and record the gap as
+decided, with the reason and the date.
 
 Write the chosen nines and what done means at that level at the top of the plan, so
 every later decision can be checked against it. When the user asks for more polish
 than the nines call for, say what it costs and which nine it buys. When the stakes
 change (money starts moving, health data arrives), the nines change, and so does the
 contract.
+
+Say the arithmetic whenever you say a level, because "pretty reliable" and "99%" mean
+nothing to most people until they are hours:
+
+| Level | Down, per month | Who it fits |
+|---|---|---|
+| 80% | about six days | a POC, a prototype, an internal tool, a demo |
+| One nine, 90% | about three days | something strangers pay for and use most days |
+| Two nines, 99% | about seven hours | money moving, a business that stops when it stops |
+| Three nines, 99.9% | about forty-three minutes | a team, a budget, rehearsed recovery |
+| Four nines, 99.99% | about four minutes | not something to build with a model and a founder |
+
+Say the arithmetic whenever you say a level, because "pretty reliable" and "99%" mean
+nothing to most people until they are hours:
+
+| Level | Down, per month | Who it fits |
+|---|---|---|
+| 80% | about six days | a POC, a prototype, an internal tool, a demo |
+| One nine, 90% | about three days | something strangers pay for and use most days |
+| Two nines, 99% | about seven hours | money moving, a business that stops when it stops |
+| Three nines, 99.9% | about forty-three minutes | a team, a budget, rehearsed recovery |
+| Four nines, 99.99% | about four minutes | not something to build with a model and a founder |
 
 ## Tests prove outcomes
 
@@ -66,7 +88,11 @@ Rules:
   nine, the outcome and the money path. At two nines, every path a human in
   `humans.md` would lose sleep over, reviewed by that human.
 - **Done means released.** A ticket is done when it is released to staging or
-  production with its test green; "written, not run" is said in those words.
+  production with its test green; "written, not run" is said in those words. A deploy
+  or release is claimed only when the user reported it.
+- **Hosted checkout still gets its test and a second read.** The engineer exception is
+  about live keys, not about the money path's correctness; an idempotency key, a
+  webhook signature, and an expired session are the three things to check by hand.
 - **Run them before you say done.** A model that reports "done" without running the
   tests has reported a feeling.
 

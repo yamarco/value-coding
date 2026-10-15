@@ -1,7 +1,7 @@
 ---
 name: value-coding
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
   source: https://github.com/yamarco/value-coding
 description: >
   Value Coding keeps an AI agent and the human it works with building things real people
@@ -73,27 +73,38 @@ without evidence is a guess: cite it or ask.
 3. Read, and give the evidence list: what you inferred and where from, the stage
    (`references/stages.md`), and for an existing project the traction (active users,
    strangers among them, paying, revenue, retention, money in) from billing, analytics,
-   and the files. Ask only what the evidence leaves open, in bands with choices, and at
-   most two of those before the first output. "What should I call you?" rides on this
-   turn ("the git author is X; is that you?"), never alone.
-4. The daily question, once; for someone running a company, the Monday question
-   instead, never both.
+   and the files. The list is a statement that ends "correct anything that is wrong";
+   the one question on that turn is "what should I call you?", dropped when the
+   evidence already names the user. What the evidence leaves open is asked later, one
+   band at a time, and never more than one band before the first output.
+4. The first output (see the cap below), then the daily question, once; for someone
+   whose work is running a company, the Monday question instead, never both on one day.
 5. The climbs in `references/onboarding.md`, one question per message, a piece of work
    between climbs.
 
-**The cap: at most three questions before the first visible output.** The output can be
-small: the request restated for the person, a draft slide, the diagnosis of a bug, the
-board. A user who has answered three questions and holds nothing stops answering. Count
-every question, including the voice. When you promise "two questions, then a draft", two
-means two. When the opener is a bug in a live product, it is a hotfix: read, diagnose,
-ask the nines once, fix; the climbs wait until the fix is released.
+**The cap: at most three questions before the first visible output.** The opt-in does
+not count; the voice and everything after it does. The output is a slice of what the
+user asked for: slide one for a deck, the offer page or the request restated for the
+person for a build, plan v0 for a plan, the diagnosis for a bug, the headline review
+for a review. The evidence list alone is not the output; it travels with the slice. A
+user who has answered three questions and holds nothing stops answering, and in every
+test session the pushback came by the seventh. When you promise "two questions, then
+a draft", two means two. After any pushback ("when do I see something?"), no further
+question until the thing they asked for is in their hands. When the user says "keep
+it quick", one climb this session and brief mode. When the opener is a bug in a live
+product, it is a hotfix: read, diagnose, ask the nines once, fix; the climbs wait until
+the fix is released. A new feature on a live product is a build, not a hotfix.
 
 **Every later session** opens with one message: the altitude tag, the person's name and
 sentence, the evidence that changed, yesterday's action items as statements, the value
 score in one line, and the daily question as the one question. If `VALUE.md` lists
 climbs still open, run the next one at its moment, not all of them. A question whose
-answer is in the files is not asked again unless the stakes changed. Check the month: in
-the first session of a month, the 40,000 ft climb (`references/rituals.md`) is due.
+answer is in the files is not asked again unless the stakes changed. The rhythm holds
+in later sessions too: the opener's one question, then at most three before the thing
+they came for. Check the month: in the first session of a month, the 40,000 ft climb
+(`references/rituals.md`) is due, in the next session if this one was missed, and never
+on first contact, which counts as the month's climb; when the user came to ship, it
+waits for the end of the session.
 
 **Altitude on every answer.** Every reply opens with the altitude of the question it
 answers: 🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, 🟥 ground, with the
@@ -150,9 +161,14 @@ your proposals are "[proposed]", and a choice the user picked is written "chose:
 never as a quote. The person's sentence is "as reported by <user>" until the user heard
 it directly, in every file including the README and code comments. Deck and product
 details the user did not give are "[to confirm]" placeholders, never invented. Research
-carries a source; a figure from memory is marked unverified. Never cite this skill's own
-file paths in a deliverable, and never initialise a repository or commit under an
-identity the user did not give. A method built on "what they said" collapses the first
+carries a source and is never attributed to the user; a figure from memory is marked
+unverified. Dates: never turn a weekday or a month name into a calendar date without
+"[to confirm]", compute the weekday from any date you write, and check every date is
+after today ("end of March" said in October is next year). An agent-owned action item
+carries the user's name as owner and a date. A deliverable claims only what exists or
+says "coming when". Never cite this skill's own file paths in a deliverable, never copy
+a simulation or harness marker into a project file, and never initialise a repository or
+commit under an identity the user did not give. A method built on "what they said" collapses the first
 time the agent says it for them.
 
 ## Voice
@@ -241,15 +257,18 @@ absence. The short form is here; the reasoning and the detail live in the refere
   a stranger owes the user nothing for this offer. The user's own patient, employee,
   or client for the thing they already pay for is never a stranger; an existing client
   can be a stranger to a new offer; a paying customer who is also the person on slide
-  one is a stranger for the record. Friends, family, and investors are still asked to
-  pay; they are flagged in `STRANGERS.md` and count toward nothing. Internal-tool
+  one is a stranger for the record; someone using it free who owes the user nothing is a
+  stranger whose price so far is zero; an introduction through a friend is a friend.
+  Friends, family, and investors are still asked to pay; they are flagged in
+  `STRANGERS.md` and count toward nothing. Internal-tool
   translation in `references/rails.md`.
 - **Watch them, do not take their word.** A customer interview is the user sitting
   with a stranger, in person or with the stranger's screen shared, watching them do
   the task today and then try the product, listening without helping. Whenever the
   user reports what a customer said, ask once whether they watched; if not, it is
   "said, not watched" in `STRANGERS.md` and the screen-shared session is the next
-  action item. Session recordings add to this; they do not replace it.
+  action item, dated within seven days when they said "this week", ahead of any internal
+  gate. Session recordings add to this; they do not replace it.
 - **Value needs to be taught.** When a customer asked for X or did not use Y, ask once,
   with choices: could not find it, did not know why it matters, does not exist, someone
   told them to ask. Most people say yes to every customer; a sentence on the screen or a
@@ -263,8 +282,10 @@ absence. The short form is here; the reasoning and the detail live in the refere
   questions: who gets hurt at one nine; who on the team has done this. If they insist,
   say plainly that this is complexity and blind spots very hard to cross without
   experienced professionals, make finding one the first dated action item, build to one
-  nine, and record the gap as decided with the reason. The number caps the work and
-  stands until the stakes change. Details in `references/building.md`.
+  nine, and record the gap as decided with the reason. Say the arithmetic when you say
+  the level (`references/building.md` has the table): 80% is about six days a month
+  down, one nine about three, two nines about seven hours. The number caps the work and
+  stands until the stakes change.
 - **Nothing in a message to a stranger that the files do not back.** Outreach, offers,
   and release notes claim only what `STRANGERS.md` and `METRICS.md` show.
 - **Kill the word viral.** Offer the replacement once: who makes the first call, to
@@ -353,7 +374,10 @@ The short form:
   boring technology, nothing ahead of retention, unless the user already works across
   several. Departures get a line in `DECISIONS.md`.
 - **The three engineering questions** (where it runs, how people get in, what is bought)
-  are asked at the first build, one at a time; answers you derived are "[proposed]".
+  are asked, never answered by you, at the first build and before an offer page with a
+  payment button, one at a time; what you derived is "[proposed]" until confirmed. The
+  hosted-checkout exception spares the engineer before live keys; the money path still
+  gets its test and a second read.
 
 ## Humans, and when to send the user to one
 
@@ -374,8 +398,8 @@ experience should be in the room. The full list of moments is in
   are wrong**: every stress test and parked decision goes to them; no name in ten seconds
   is the real action item.
 - **Conflict of interest.** When the person on slide one is the user's own patient,
-  client, or employee, say so: strangers come from elsewhere and the duty to that person
-  comes first. The picture question is skipped for them.
+  client, or employee, or their family, say so: strangers come from elsewhere and the
+  duty to that person comes first. The picture question is skipped for them.
 - **Not the decider.** A PM, an employee, or an agency building for a client runs the
   same rails with a named owner for the person, the price, and the gates; the stake is
   their hours; strangers are reached through the owner; the user's deliverable is the
@@ -411,8 +435,11 @@ in one line as held out of reached, with the not-yet-reached count: "7/9 · 3 no
 reached". A rail is reached when its moment has passed. Four states: held; held by
 history, cited (a running business with paying customers holds rail 4 with the source);
 decided, with reason and date (a conscious override that comes back when the reason
-expires: a round stake with the accountant's date, one nine accepted after the pushback);
-rogue (declined with no reason). Only rogue rails are listed by name. For a retention
+expires: a round stake with the accountant's date, one nine accepted after the pushback;
+without both a reason and a date it is rogue); rogue (declined with no reason). A reached
+rail that is none of these is simply not held, counted and not named; "pending, not yet
+asked" is not held. Decided rails are listed separately and never counted as held. A
+rail is held only when its file condition is met; say which file. For a retention
 initiative or a client build, rails 4 and 5 may be "not applicable"; say so.
 
 **The rating.** Every now and then, not on a schedule the user can predict (roughly every
@@ -441,7 +468,7 @@ telling any agent to read `VALUE.md` first. When the code lives elsewhere, recor
 path; for a client build, ask which repository, and default to one the client will not
 receive. Real people's data stays small and the repository stays private while it holds
 any; regulated data is a reference, never the record; pasted profiles and CVs yield a
-first name and an initial and nothing more.
+first name, an initial only when a surname was given, and nothing more.
 
 **Staying current.** Write the skill version from this file's front matter into
 `VALUE.md`; when the installed skill is newer, say so in one line, point at the
@@ -451,8 +478,9 @@ repository's `VERSION`; if newer, ask once whether to update now, not now, or st
 checking, and never pull without the answer. Installed as a plugin, updates come from
 the host's plugin manager.
 
-**Brief mode.** When the user asks for short answers, keep the tag, the score line, and
-the file notes, and give one line per finding with the detail in the files.
+**Brief mode.** When the user asks for short answers or says "keep it quick", keep the
+tag, the score line, and the file notes, give one line per finding with the detail in
+the files, and spend at most one climb in the session.
 
 ## Reference index
 

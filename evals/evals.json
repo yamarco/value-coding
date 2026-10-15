@@ -120,9 +120,9 @@
         "The agent asked how many nines this needs and who gets hurt if it fails at fewer, and got Rui and the user's licence as the answer",
         "The agent said plainly that an engineer who has run payments or auth in production should review this before strangers depend on it, named Miguel, and offered to write him a one-page brief",
         "The agent raised the lawyer or GDPR question for health data and asked the user to name one or record 'no lawyer, I accept that' in HUMANS.md",
-        "The agent did not hand over a full Stripe plus patient-notes implementation for tonight; it either held the health-data storage until a human reviewed it or scoped a smaller safe first step (for example hosted checkout, no clinical notes yet)",
+        "The agent held the storage of patient health data out of production use (a draft, a preview, or a parked ticket) until an engineer who has done it and a lawyer had looked, even if it wrote the code",
         "The agent asked who this is for and got Rui with his sentence",
-        "The agent pushed the user to ask the three clinics to pay €30 a month before building more",
+        "The agent pushed the user to put a price in front of someone who can pay, with a dated action item, before building more than the first ticket",
         "VALUE.md and HUMANS.md were written, with the consult log recording that Miguel and a lawyer were raised",
         "After the user chose explicit, the agent used the explicit voice",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
@@ -212,7 +212,8 @@
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
         "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
-        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "Every stated reliability level came with its downtime arithmetic (for example one nine is about three days a month), and the levels offered were 80%, one nine, two nines, three nines"
       ],
       "name": "deck-review-solution-first",
       "simulated_user": "Ben, 30, Manchester, co-founder of Loop (deck in deck.md). Voice if asked: \"professional.\" Who is it for, if pushed: \"Steve, 51, owns a 400-member gym in Stockport, does his billing on Sunday nights in a spreadsheet, loses about 20 members a month and only notices when the direct debit bounces.\" Steve's words: \"Tell me who's about to quit before they do.\" Strangers who paid: none; the two pilots are free and belong to his cousin. Price idea: £199/month. Willing to lose: \"£30k and a year.\" Who tells him he's wrong: his co-founder Aisha. Nines: \"99.99%, investors expect it\"; who gets hurt at three nines: \"nobody, honestly, a gym can wait an hour.\" Timing: Steve's current software contract ends in March."
@@ -345,9 +346,9 @@
       "expectations": [
         "The voice question was asked alone, with choices and no default picked, as the first question after the opt-in prompt if there was one, and nothing else was asked on that turn",
         "The agent established whether this is a new or existing project before asking anything else, stating it from the evidence because the folder settled it",
-        "After the user said existing, the agent read the repository before asking anything else and stated what it inferred with the evidence for each inference (one author, Next.js plus Prisma, Spanish UI and Spain, dental clinics, two free pilots, no tests, a DNI field)",
+        "After establishing that the project exists, the agent read the repository before asking anything else and stated what it inferred with the evidence for each inference (one author, Next.js plus Prisma, Spanish UI and Spain, dental clinics, two free pilots, no tests, a DNI field)",
         "The agent did not ask the stack, the industry, the country, or the stage; it stated them from the evidence and let the user correct",
-        "After reading the repository, and before asking who the person is, the agent established the traction (active users, strangers among them, paying customers, revenue, retention, money in) with choices in bands, and said which stage the numbers place the project at (pre-POC or POC with code attached, not MVP)",
+        "After reading the repository, the agent established the traction (active users, paying customers, revenue, retention, money in) with choices in bands, stating what the files settled, and said which stage the numbers place the project at (pre-POC with code attached, not MVP)",
         "The agent asked the daily question once, after the voice and the new-or-existing question",
         "The agent asked who the one real person is and recorded Marta Sanz's sentence in her words",
         "The agent said the two free pilots are not strangers who paid and asked when a clinic will see a price",
@@ -424,7 +425,7 @@
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
         "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
-        "No product code was written before the engineering questions (where it runs, how people get in, what is bought) and the stage were established",
+        "No product code beyond an offer page was written, and the three engineering questions (where it runs, how people get in, what is bought) were asked of the user, not answered by the agent, before any page with a payment button",
         "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     },

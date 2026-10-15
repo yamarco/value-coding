@@ -101,7 +101,11 @@ the same session.
   the useful weeks. On a Monday it replaces the daily question. On first contact with
   someone running a company it is asked once in the first climb whatever the day, in
   place of the daily question that day, because the answer places them; after that,
-  Mondays only, and asked, never scheduled. Never both questions on one day.
+  Mondays only, and asked, never scheduled. Never both questions on one day. It is for
+  someone whose work is running a company; a leader building an internal tool is
+  building, and gets the daily question. It is for
+  someone whose work is running a company; a leader building an internal tool is
+  building, and gets the daily question.
 
 ## Every now and then
 
