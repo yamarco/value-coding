@@ -287,17 +287,17 @@ CODE_OF_CONDUCT.md       the line between the explicit voice and how people are 
 ## Does it work
 
 The skill is tested on twenty scenarios with a simulated user, graded against
-observable expectations (`evals/`). On version 1.0.0, run on 2026-10-15:
+observable expectations (`evals/`). Two rounds on 2026-10-15:
 
-| | Expectations met |
-|---|---|
-| With the skill | 193 of 236 (81.8%) |
-| Without the skill, same scenarios | 52 of 200 (26.0%) |
+| Version | Expectations met | Without the skill, same scenarios |
+|---|---|---|
+| 1.0.0 | 193 of 236 (81.8%) | 52 of 200 (26.0%) |
+| 1.1.0 | 226 of 279 (81.0%), on a harder set | same baseline |
 
-The misses with the skill were structural and are what 1.1.0 changes: too many
-questions before the first output, questions bundled in one turn, and facts taken from
-a profile or a git log written as the user's own. The history is in
-`evals/RESULTS.md`.
+The second round added two hard checks to every scenario (no fact written that the
+user did not give; something in the user's hands within three questions) and split
+compound checks, so the bar rose by about 40 expectations; raw passes rose in 19 of 20
+scenarios. What still misses is in `evals/RESULTS.md`, and 1.1.1 is the patch for it.
 
 ## Contributing
 
