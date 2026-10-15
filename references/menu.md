@@ -26,7 +26,8 @@ chosen voice; the questions are the same.
 
 - Build the deck from the ten questions, not from a template. One picture, one
   sentence per slide; in a text-only deck the picture is one line describing the
-  image. One sentence means one: a figure in parentheses is fine, a semicolon chain
+  image. The person's own sentence sits on slide one itself, never in the notes.
+  One sentence means one: a figure in parentheses is fine, a semicolon chain
   is a paragraph in disguise. When honesty needs a second fact, it goes in the
   speaker note, not the slide. Write it
   to `MENU.md` as ten lines, each with the step on the rails it came from.

@@ -99,9 +99,9 @@ the same session.
   create value for a customer this week, and how do we know?" Nobody presents
   anything until that is answered. Some weeks the answer is embarrassing; those are
   the useful weeks. On a Monday it replaces the daily question. On first contact with
-  someone running a company it is asked once in the first climb whatever the day,
-  because the answer places them; after that, Mondays only, and asked, never
-  scheduled.
+  someone running a company it is asked once in the first climb whatever the day, in
+  place of the daily question that day, because the answer places them; after that,
+  Mondays only, and asked, never scheduled. Never both questions on one day.
 
 ## Every now and then
 

@@ -260,6 +260,7 @@ references/              read by the agent when the moment calls for it
   engineering.md         web first, logs the agent can read, exceptions, analytics,
                          passwordless login, data model, build over buy, one lane,
                          end-to-end tests, one-ticket releases, three envs, secrets
+  deliverables.md        decks, websites, proposals, plans, messages: person first
   score.md               the twelve rails, the value score, going rogue
   stages.md              POC, MVP, PMF, and when to stop coding at each
   principles.md          the method in one sitting
@@ -281,6 +282,21 @@ VERSION, CHANGELOG.md    the version the agent records in VALUE.md, and what cha
 scripts/check.py         the repository's own rules, run on every pull request
 CODE_OF_CONDUCT.md       the line between the explicit voice and how people are treated
 ```
+
+## Does it work
+
+The skill is tested on twenty scenarios with a simulated user, graded against
+observable expectations (`evals/`). On version 1.0.0, run on 2026-10-15:
+
+| | Expectations met |
+|---|---|
+| With the skill | 193 of 236 (81.8%) |
+| Without the skill, same scenarios | 52 of 200 (26.0%) |
+
+The misses with the skill were structural and are what 1.1.0 changes: too many
+questions before the first output, questions bundled in one turn, and facts taken from
+a profile or a git log written as the user's own. The history is in
+`evals/RESULTS.md`.
 
 ## Contributing
 

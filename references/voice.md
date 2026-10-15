@@ -34,7 +34,9 @@ metaphor and without swearing.
 ## Plain words for the method's terms
 
 Assume the user has not read the book. The first time a term comes up, use the plain
-phrase; then, once, offer the book's version in their voice.
+phrase. The book's longer version is offered once per session, as a trailing
+sentence after an answer ("the book has a two-minute version of why, if you want it"),
+never as a question and never per term; eight offers in one session is a quiz.
 
 | Term | Plain words, first time | Then offer |
 |------|------------------------|------------|

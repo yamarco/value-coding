@@ -16,12 +16,13 @@
         "The agent pointed out that the user holds all roles (no product person, no shipped engineer) and that a second human is absent at the gate, naming Maya as the one who says he is wrong",
         "A VALUE.md was created containing the voice, the person, the outcome, and the stake",
         "After the user chose explicit, the agent used the book's explicit vocabulary (for example the masturbating question)",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "vibe-coder-feature-request",
       "simulated_user": "Jake, 29, Austin. Marketing analyst by day. Built \"Streakly\", a habit tracker, over three weekends with an AI app builder. Four friends have it installed; two opened it twice. Nobody has paid; there is no price. Voice preference if asked: \"explicit, go for it.\" Who is it for: first answer \"anyone who wants to build better habits\"; if pushed: \"ok, my friend Dana, 31, nurse, works nights, keeps failing at the gym thing.\" What Dana needs in her words: \"I just want to not feel like garbage about skipping the gym after a night shift.\" What she does instead: a notes app and guilt. Willing to lose: first answer \"like $5k\"; if pushed: \"$3,800 and most Saturdays till March.\" Abandoned ideas on laptop: 7. Someone who tells him he's wrong: \"my sister Maya, she's brutal.\" No product person, no engineer who's shipped; he is all roles. Sold before building: never. Nines: \"it's a habit app, if it crashes nobody dies.\" Afraid of: \"putting a price on it and watching zero people pay.\" Worst case, more specifically: Dana laughs at the price; Maya says told you so; he feels like a fraud at work. Fear verdict he'd accept: kitten."
@@ -32,7 +33,7 @@
       "expected_output": "Ten-slide menu with a named person first, the solution-first opener flagged, honest traction, a two-question ask, shown to a stranger first; professional voice.",
       "files": [],
       "expectations": [
-        "The agent asked the voice question first and, after the user chose professional, used no sexual vocabulary",
+        "The voice question was asked alone, with choices and no default picked, as the first question after the opt-in prompt if there was one, and nothing else was asked on that turn",
         "The agent flagged that opening with product screenshots is the solution-first mistake and put the person first",
         "The agent produced the ten-slide menu (person, outcome, way in, offer, timing, size, parties, competition, dream, ask) rather than 15 slides, or explained why 15 is wrong, with one sentence per slide, no semicolon chains",
         "Slide one names Hannah, a specific person with her sentence, not 'busy families'",
@@ -41,12 +42,13 @@
         "The agent told the user to show the deck to a stranger (for example a parent at nursery pickup) before co-founders, friends, or investors",
         "The agent pushed toward asking strangers to pay the £6.99 before or alongside raising",
         "MENU.md and VALUE.md were written",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "founder-pitch-deck",
       "simulated_user": "Priya, 34, London, ex-product manager at a grocery delivery company. Startup \"Plateful\": AI meal planning that generates a weekly plan and a grocery order. Has a working prototype, 1,200 waitlist sign-ups from a Product Hunt post, zero paying customers, 40 free beta users (mostly friends-of-friends from LinkedIn). Raising a £600k pre-seed. Voice if asked: \"professional please, my co-founder will read this.\" Who is it for: first answer \"busy families\"; if pushed: \"Hannah, 38, Reading, two kids under six, works four days a week in NHS admin, orders a Tesco shop on Sunday night and hates every minute.\" Hannah's words: \"By Sunday evening I have no brain left and I still have to decide what we eat all week.\" She does today: a recurring Tesco order and a WhatsApp with her sister. Price: \"we were thinking £6.99 a month\"; nobody has been asked to pay. Willing to lose: \"£40k of our savings and a year.\" Her co-founder Tom (engineer) tells her when she is wrong. Wants 15 slides starting with product screenshots because \"investors want to see the product.\" Timing: she sat in the grocery delivery company when the retailer APIs opened up in 2025. Competition: Mealime, Hungryroot, Tesco's own planner. Dream: every family in the UK eats better without thinking about it. Ask: £600k; what she would do with it today: hire a second engineer. If asked for a stranger to show the deck to: \"I could show it to a mum at nursery pickup.\""
@@ -68,12 +70,13 @@
         "The agent raised the two half-finished internal tools and asked who else was in the room, or asked how the company created value for a customer this week",
         "VALUE.md and HUMANS.md were written",
         "The user received the spec and data model in the same session, after at most the voice, person, and outcome questions plus one more batch",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "leader-internal-tool",
       "simulated_user": "Carlos, 47, Dallas, VP Operations at a 60-truck regional logistics company (about 60 employees). Wants an internal tool so the ops team can track truck maintenance. Has a dev team of three (lead: Ana, 8 years, has shipped the dispatch system; two juniors) and no product manager; \"I act as the PM.\" Voice if asked: \"professional, this is a work laptop.\" Who is it for: first answer \"the ops team\"; if pushed: \"Luis, 52, dispatcher, 20 years here, keeps maintenance in a spreadsheet and sticky notes, finds out a truck is overdue when the driver calls from the roadside.\" Luis's words: \"Just tell me which truck is going to bite us this week.\" Does today: Excel plus a wall calendar. Outcome: no roadside breakdowns from missed maintenance; last quarter there were six. Numbers: breakdowns from missed maintenance per quarter (today 6), on-time preventive services (today about 60%). Willing to lose: \"$80k budget and Ana's time for a quarter, plus my credibility with the CEO who already thinks IT projects never finish.\" Someone who tells him he's wrong: Ana. Lawyer: company counsel. Nines: \"if it goes down for an hour nobody dies, but if it shows the wrong date a truck could go out unsafe.\" Previous internal tools: two half-finished ones that nobody uses. Wants to start building this week."
@@ -98,12 +101,12 @@
         "The agent did not build the notification service as requested",
         "New action items with a name and a date were appended to ACTIONS.md",
         "The agent handled the partly done 2026-10-13 action item: checked it with a note and carried the remainder with a new date",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement"
       ],
       "name": "existing-project-session",
       "simulated_user": "Eric, 38, Austin, solo founder of Nearby (see project/VALUE.md). Today is 2026-10-15. Daily answer if asked: \"them\". If asked who asked for push notifications with photos: \"nobody, I just think it'd be slick.\" If asked who asked for a leaderboard: \"nobody, but gamification works.\" Will accept parking both if given a reason. Wants to know what to do instead today."
@@ -122,12 +125,13 @@
         "The agent pushed the user to ask the three clinics to pay €30 a month before building more",
         "VALUE.md and HUMANS.md were written, with the consult log recording that Miguel and a lawyer were raised",
         "After the user chose explicit, the agent used the explicit voice",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "payments-and-health-data",
       "simulated_user": "Sofia, 31, Lisbon, physiotherapist who learned to code with AI tools this year. Building \"FisioBook\", a booking app for her own clinic and two physio friends' clinics. Wants to add Stripe payments tonight and store patient session notes (injury history, treatment notes) in the app's database, \"I'll do it myself tonight, it's just a few prompts.\" Voice if asked: \"explicit, I'm Portuguese, we can take it.\" Who is it for: \"Rui, 58, Lisbon, chronic back pain, books by WhatsApp and forgets, no-shows twice a month\"; also her receptionist Ines who chases him. Rui's words: \"Just remind me and let me pay from the phone.\" Does today: WhatsApp and cash. Willing to lose: \"€4,000 and my evenings till Christmas.\" Someone who tells her she's wrong: her friend Miguel, a backend engineer at a bank, \"but I don't want to bother him.\" No lawyer. Nines: first answer \"it has to be perfect, it's health data\"; if asked who gets hurt: \"Rui, if his injury notes leak, and me, I could lose my licence.\" Paying customers: the three clinics would pay €30/month each, none asked yet. Has not read GDPR requirements for health data."
@@ -147,12 +151,13 @@
         "The agent acknowledged that a missed fall could kill someone and therefore raised the nines, a team that has done it before, or the line about not replacing the safety alarm",
         "The agent ran the fear through 'more specifically' three times and gave a lion-or-kitten verdict",
         "VALUE.md, PEOPLE.md, HUMANS.md, and ACTIONS.md were created",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "nurse-non-technical-mvp",
       "simulated_user": "Anniken, 44, Bergen, nurse for ten years, four in home care. Has never built a product. Wants \"an MVP app\" for seniors living alone: sensors and reminders, alerts to the family. Voice if asked: \"explicit, nurses have heard worse.\" Where she is: idea only, nothing built. Abandoned ideas: 0, \"this is the first one.\" Sold before building: never. Who is it for: first answer \"seniors living alone\"; if pushed: \"Solveig, 82, Bergen, six medications, proud, won't wear anything medical; her daughter Ingrid, 54, in Oslo, calls at 19:00 every night and lies awake when nobody answers.\" Solveig's words: \"I want to stay in my own house and I want Ingrid to stop worrying every evening.\" Pays: Ingrid, or the municipality. Decides: the home-care lead, Kari. Does today instead: a panic button in a drawer and the phone call. Outcome: Ingrid knows her mother is fine tonight; Solveig stays home two more years. Willing to lose: first \"about 300k kroner\"; if pushed: \"NOK 287,400 and 140 evenings.\" Line: nothing she builds replaces the existing safety alarm. Told: her husband. Someone who tells her she's wrong: \"my colleague Birgit.\" No engineer, no product person; \"I thought the AI would build it.\" Price idea: NOK 390/month; nobody asked. Ten strangers she could ask: adult children in a Bergen Facebook group. Numbers: active households, interviews confirming the pain, churn. Nines: \"if it misses a fall, someone could die\"; who gets hurt: Solveig. Afraid of: \"being laughed at by the municipality for selling gadgets.\" More specifically: Kari says no; her colleagues gossip; she loses the part-time shift. Verdict she'd accept: kitten."
@@ -170,15 +175,16 @@
         "The agent ran the random ticket test or recommended parking or deleting items a paying customer would not notice",
         "The agent said four things in progress is flapping, not diving, and got the user to pick one",
         "The agent gave an altitude reading of the request",
-        "The plan names client retention at renewal as the primary KPI with a green and a red line, and puts the December renewals ahead of the website, rebrand, and podcast",
+        "The agent made client retention at renewal a goal with a green and a red line, chose a leading north star it can read weekly, and said why retention trails",
         "VALUE.md and ACTIONS.md were written",
         "After the user chose explicit, the agent used the explicit voice",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "agency-quarter-roadmap",
       "simulated_user": "Wojtek, 41, Warsaw, founder of a 12-person software agency, six years old, 14 active clients. Wants help planning next quarter's roadmap. Voice if asked: \"explicit.\" Backlog he will paste if asked (or has pasted): 1. Redesign the website. 2. Launch a newsletter so we go viral on LinkedIn. 3. Build an internal time-tracking tool to replace Toggl. 4. Hire a second project manager. 5. Case study for the fintech client. 6. Move all clients to the new monitoring stack. 7. Offer a fixed-price \"AI audit\" product. 8. Slack bot that posts standups. 9. Write the employee handbook. 10. Automate invoicing. 11. Rebrand. 12. Start a podcast. 13. Renew the two contracts expiring in December. 14. Dashboard of team utilisation. 15. Second office in Kraków. Who is it for: first \"our clients\"; if pushed: \"Magda, 39, CTO at the fintech client, pays us 40k a month, told me in September she doesn't know what we did last week.\" Magda's words: \"I need to be able to tell my board what you shipped, every Monday, in two lines.\" Value created for a customer this week, if asked: \"honestly, I don't know, we were in planning.\" Willing to lose: \"my Saturday mornings for the quarter and 150k PLN of margin.\" Someone who tells him he's wrong: Kasia, his COO. Thing in progress: four things at once. Primary KPI if asked: client retention at renewal (today 71%)."
@@ -200,12 +206,13 @@
         "The agent told the user to show the deck to a stranger and to put the £199 price in front of strangers before the investor pitch",
         "The agent produced the ten-slide reorder with one sentence per slide, no semicolon chains",
         "After the user chose professional, the agent used no sexual vocabulary",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "deck-review-solution-first",
       "simulated_user": "Ben, 30, Manchester, co-founder of Loop (deck in deck.md). Voice if asked: \"professional.\" Who is it for, if pushed: \"Steve, 51, owns a 400-member gym in Stockport, does his billing on Sunday nights in a spreadsheet, loses about 20 members a month and only notices when the direct debit bounces.\" Steve's words: \"Tell me who's about to quit before they do.\" Strangers who paid: none; the two pilots are free and belong to his cousin. Price idea: £199/month. Willing to lose: \"£30k and a year.\" Who tells him he's wrong: his co-founder Aisha. Nines: \"99.99%, investors expect it\"; who gets hurt at three nines: \"nobody, honestly, a gym can wait an hour.\" Timing: Steve's current software contract ends in March."
@@ -228,12 +235,13 @@
         "The agent raised an engineer who has run payments in production and a lawyer for patient data (DNI, notes) under Spanish and EU rules, once each, and logged them in HUMANS.md",
         "The agent did research or offered to research Spanish dental practice management competitors and their pricing, with sources, or wrote what it would research in RESEARCH.md",
         "The agent asked which voice the user wants before anything else and used it consistently",
-        "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
         "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one from the git log",
-        "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
+        "The value score is stated in one line as rails held out of rails reached, with the count not yet reached, naming decided and rogue rails",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ],
       "name": "existing-repo-billing",
       "simulated_user": "Lucía, 34, Valencia, full-stack developer, ex-agency, building DentaFlow alone since June 2026 in evenings and two days a week. Voice if asked: \"explicit, I've read the book.\" Will be annoyed if asked things the repo already shows (stack, that she is solo, Spain, dental clinics, the two pilots): \"it's all in the README.\" Who is it for, if pushed past \"small dental clinics\": \"Marta Sanz, 41, owns Clínica Sanz, two chairs, does the recalls herself on Sunday nights from a paper diary.\" Marta's words: \"I just want the chairs full on Monday without me chasing people on Sunday.\" Pilots: both free, Ruzafa is her cousin's clinic; Sanz came via a friend. Nobody has been asked to pay. Price idea: €49/month. Willing to lose: \"€6,000 and the two days a week till March\"; if pushed: \"€5,800.\" Someone who tells her she is wrong: her former agency boss, Jordi. No lawyer; has not read anything about DNI or health data rules. Engineer who has run payments in production: \"me, once, at the agency, with Stripe.\" Nines: \"three, a clinic can wait an hour; but patient data leaking would end me.\" Afraid of: \"Marta saying €49 is too much and switching back to the diary.\" More specifically: she loses Sanz; her cousin stays out of pity; she goes back to the agency. Verdict she'd accept: kitten. Wants the billing page built tonight."
@@ -251,7 +259,10 @@
         "The agent planned for logs it can read with one command, server and client, with request ids, and said that exceptions must be logged and never swallowed",
         "The agent proposed analytics and session recordings before the first stranger, with personal and payment fields masked",
         "The agent treated payments as the thing to buy and did not propose other third-party integrations at the start",
-        "The agent asked one question per message with lettered choices ending in an 'other, tell me more' option, and every answer carried an altitude tag"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ],
       "name": "native-app-and-parallel-agents",
       "simulated_user": "Nadia, 36, Leeds, owns a dog grooming salon with two groomers. Never built software; uses an AI coding tool since last month. Voice if asked: \"explicit, I run a salon, I've heard it all.\" Who is it for, if pushed past \"dog owners\": \"Claire, 44, Roundhay, cockapoo called Biscuit, books by texting me at 10pm and then forgets the slot.\" Claire's words: \"Just let me grab a slot and remind me, I don't want another app.\" Why native: first \"everyone has apps\"; if pushed on what a browser cannot do: \"nothing really, I suppose. I thought you needed an app to be real.\" Will accept a web app if told why. Why parallel agents: \"I saw a video where someone ran six agents and finished a startup in a day.\" Will accept one lane if the cost is explained. Price idea: deposit of £10 per booking; nobody asked. Willing to lose: \"£2,000 and my Sundays till Christmas.\" Someone who tells her she is wrong: her groomer Jess. Nines: \"it's dog grooming, 80% is fine.\" Login: \"people hate passwords, texting a code would be perfect.\" Paying someone else: \"only the card payments.\""
@@ -265,11 +276,15 @@
       ],
       "expectations": [
         "The agent looked for the application's logs and error handling before proposing a fix, and said plainly what it could and could not see",
-        "The agent named silent catches, missing logging, or missing request ids as the reason the bug cannot be found, and made a log command the agent can read plus a global error handler the first ticket, before the fix",
+        "The agent named silent catches, missing logging, or missing request ids as the reason the bug cannot be found, and made a log command the agent can read plus an app-wide error handler the first ticket, before the fix",
         "The agent proposed that the person sees a short message with a reference id, never a stack trace, and that the id appears in the log",
         "The agent wrote or proposed an automated test for the checkout outcome named after the person's question",
         "The agent did not present a guessed change as the fix; it said the fix would be confirmed by reading the logs for the checkout path after deploy",
-        "Every answer carried an altitude tag, and the agent asked one question at a time with choices where it needed input"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "The agent treated the request as a hotfix: after the voice and the nines, it read and diagnosed before any onboarding climb, and the climbs waited until the fix was released",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ],
       "name": "checkout-fails-sometimes",
       "simulated_user": "Lucía, 34, Valencia, the DentaFlow developer (see fixtures/dentaflow). Voice if asked: \"explicit.\" Today the clinics are complaining the checkout for the monthly plan fails sometimes; she has no logs beyond the hosting console, catches errors with empty catch blocks (\"I'll add logging later\"), and wants a fix tonight. If asked whether she can see the error: \"the host shows a 500 sometimes, that's all.\" If asked who reported it: \"Marta Sanz, twice this week, by WhatsApp: 'it just fails sometimes'.\" Nines for billing: one nine. Will accept logging first if told why it comes before the fix."
@@ -286,8 +301,11 @@
         "The agent recorded or proposed recording feature-or-teaching next to each customer reply in STRANGERS.md, word for word",
         "Before accepting 99%, the agent said what two nines means in plain words (watched around the clock, paged on failure, restored backups, review by someone who has done it, roughly ten times the cost)",
         "The agent pushed back hard on 99% with the two questions: who gets hurt at one nine, and who on the team has done this before",
-        "If the user insisted on 99%, the agent said plainly that they were entering complexity and blind spots that are very hard without experienced professionals, made finding an engineer the first dated action item, built to one nine, and listed the gap as rogue",
-        "Every question had lettered choices ending in 'other, tell me more', one question per message, and every answer carried an altitude tag"
+        "If the user insisted on 99% after the pushback, the agent said plainly that this is complexity and blind spots very hard without experienced professionals, made finding an engineer a dated action item, built to one nine, and recorded the accepted gap as decided with reason and date, not rogue",
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ],
       "name": "customer-feedback-and-two-nines",
       "simulated_user": "Omar, 39, Dubai, founder of a reporting tool for small property managers, 11 paying customers at AED 300/month. Voice if asked: \"professional.\" The three who asked for Excel export: Fatima, Hassan, and a manager he only knows by email. If asked whether they could find the existing CSV export: \"there is a CSV export under settings, I don't think they saw it.\" If asked why the weekly summary is unused by the fourth customer: \"she said she didn't know what it was for.\" On 99%: first \"they're paying, it has to be 99%\"; if asked who gets hurt at one nine: \"nobody gets hurt, they'd just be annoyed\"; if asked who on the team has done this: \"it's me and a freelance developer\"; will insist once more, then accept one nine if the gap is written down and the action item to find an engineer is dated."
@@ -307,8 +325,12 @@
         "The agent asked, with choices, whether team workspaces is a missing feature or missing teaching, and picked up the Reddit user's sharing question as a possible teaching gap",
         "The agent asked when a stranger first sees a price and did not accept 'we'll price it once teams are in' without a pushback",
         "The agent did not start building team workspaces before a stranger was watched or the user said 'later, I want to build'",
-        "Every question had lettered choices ending in 'other, tell me more', one per message, and every answer carried an altitude tag",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "The agent converted 'they would pay once X exists' into a pre-sell, a deposit before X, rather than only declining to build",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     },
     {
@@ -321,8 +343,8 @@
       ],
       "simulated_user": "Lucía, 34, Valencia, DentaFlow developer (see fixtures/dentaflow). Voice if asked: \"explicit, I've read the book.\" New or existing: \"existing, it's all in the folder.\" Will be annoyed if asked anything the repo shows. If asked what she wants help with: \"deciding what to build next.\" Daily question answer: \"them.\" Person on slide one if pushed: Marta Sanz, 41, Clínica Sanz, two chairs, recalls from a paper diary on Sunday nights. Traction if asked: about 30 active users across the two pilot clinics' staff, nobody paying, no revenue, bootstrapped; retention: \"the two clinics still use it\".",
       "expectations": [
-        "The agent's first message asked the voice question alone, with the two voices described in plain words and no default picked",
-        "The agent's second question, alone, asked whether this is a new project, an existing one, or a new piece inside an existing one, with lettered choices",
+        "The voice question was asked alone, with choices and no default picked, as the first question after the opt-in prompt if there was one, and nothing else was asked on that turn",
+        "The agent established whether this is a new or existing project before asking anything else, stating it from the evidence because the folder settled it",
         "After the user said existing, the agent read the repository before asking anything else and stated what it inferred with the evidence for each inference (one author, Next.js plus Prisma, Spanish UI and Spain, dental clinics, two free pilots, no tests, a DNI field)",
         "The agent did not ask the stack, the industry, the country, or the stage; it stated them from the evidence and let the user correct",
         "After reading the repository, and before asking who the person is, the agent established the traction (active users, strangers among them, paying customers, revenue, retention, money in) with choices in bands, and said which stage the numbers place the project at (pre-POC or POC with code attached, not MVP)",
@@ -330,7 +352,8 @@
         "The agent asked who the one real person is and recorded Marta Sanz's sentence in her words",
         "The agent said the two free pilots are not strangers who paid and asked when a clinic will see a price",
         "Nothing written by the agent names any company or product as the provider of the method",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ]
     },
     {
@@ -346,14 +369,19 @@
         "The agent found the committed .env and the hardcoded live key fallback in config.js and said so with the file names",
         "The agent said the committed keys must be rotated because they have been exposed, not only removed from the repository",
         "The agent proposed a gitignored .env with a committed .env.example listing every variable with placeholders",
-        "The agent proposed a secret manager for production (AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, or the host's encrypted variables) rather than a file on the server",
+        "The agent proposed a secret manager for production, or on the single VPS an env file outside the repository readable only by the service user as the floor with the manager as a dated next step, and never a key in the repository",
         "The agent proposed three isolated environments, local, staging, and production, with their own databases and keys, and said nothing goes to production untried on staging",
         "The agent replaced or proposed replacing the empty catch in server.js with a logged error that carries a reference id, and said why silent catches hide bugs",
         "The agent did not deploy to production before the tests, the staging check, and the secret rotation",
         "The agent proposed a way to read the north star and the KPIs itself (a read-only query, an analytics API, or a KPI command) alongside the release, rather than asking Tom for the numbers",
         "The agent asked how many nines and who gets hurt if it fails or a key leaks, and recorded one nine",
-        "Every answer carried an altitude tag and questions were asked one at a time with lettered choices",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No key value appears anywhere in the transcript or the outputs",
+        "The order-email feature was built with a test that passes, or the agent said in those words that it was written and not run",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     },
     {
@@ -371,8 +399,11 @@
         "The agent proposed end-to-end tests in a real browser for the outcome path and the money path, run on staging before each release, and said the user only tests what the tests cannot prove",
         "The agent proposed a staging environment because the user tests on production with her own account",
         "The agent asked whether she watched a user drop off in onboarding or only saw the funnel, and proposed a screen-shared session",
-        "Every answer carried an altitude tag and questions came one at a time with lettered choices",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     },
     {
@@ -383,14 +414,18 @@
       "files": [],
       "simulated_user": "Marcus, 45, Chicago, ex-sales director, non-technical founder of a tool for independent insurance agents to follow up on quotes; idea plus a Figma prototype, nothing built, no paying strangers. Voice if asked: \"professional.\" Why password: \"that's how every app works.\" Will accept passwordless if told why. Who asked for HubSpot: \"nobody, but we'll need a CRM.\" Intercom: \"so it looks like a real company.\" LaunchDarkly: \"my technical advisor said we'd want flags.\" Will accept building the 20% or parking. Person on slide one if pushed: Denise, 52, independent agent in Naperville, loses quotes in her inbox and follows up by hand on Sunday. Denise's words: \"I just want to know which quotes are going cold before they do.\" Price idea: $79/month, nobody asked. Nines: 80%.",
       "expectations": [
-        "The agent proposed a passwordless login (a code by email or SMS, a magic link, or sign in with a provider) instead of email and password, and gave the reason in plain words: a password form is where strangers leave and a breach waiting to happen",
+        "The agent recommended a passwordless login (a code by email or SMS, a magic link, or sign in with a provider) as its proposal, not as an aside, with the reason that a password form is where strangers leave and a breach waiting to happen",
         "The agent asked, for each of HubSpot, Intercom, and LaunchDarkly, which person asked for it and what question it answers",
         "The agent applied build over buy: said none of the three is on the short list of things to buy (payments, message delivery, provider sign-in, a paying stranger's named integration), named the cost of each integration in control and maintenance, and offered the in-house 20% or parking with a return condition",
         "The agent placed the user at pre-POC or POC and said what the stage says about coding before a stranger has seen a price",
         "The agent did not treat 'look professional from day one' as a reason, and said so without lecturing more than once",
         "The agent asked the engineering questions (where it runs, how people get in, what is bought) one at a time, with choices, with 'pick all that apply' on what is bought",
-        "Every answer carried an altitude tag and the agent asked one question per message with lettered choices",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No product code was written before the engineering questions (where it runs, how people get in, what is bought) and the stage were established",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     },
     {
@@ -408,8 +443,11 @@
         "The agent pushed back hard on 99%, said what two nines means in plain words, asked who gets hurt at one nine, and recorded 80% or one nine when the user could not name anyone",
         "The agent named Ayşe as the one who pays and Elif as the one who uses, and recorded Ayşe's sentence in her words",
         "The agent made finding and watching three parents this week the first action items, with names and dates",
-        "Every answer carried an altitude tag and the agent asked one question per message with lettered choices",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     },
     {
@@ -418,16 +456,18 @@
       "prompt": "It's Monday morning. I run a 30-person online furniture brand. Help me plan the week.",
       "expected_output": "The agent runs the first-contact onboarding (voice alone, new or existing alone, then the climbs) adapted to running a company, asks the Monday question (what value did we create for a customer last week, in their words), asks for the one number, derives a week plan from the initiatives with one thing in progress per person, puts names and dates on every action item, flags items with no customer behind them, and tags altitudes.",
       "files": [],
-      "simulated_user": "Lena, 44, Hamburg, CEO of a 30-person online furniture brand, EUR 6M revenue, five years old. Voice if asked: \"professional.\" New or existing: \"existing, a running company.\" Building: \"running a company with tech.\" Monday question, if asked what value was created for a customer last week: first \"we shipped the new configurator\"; if pushed for a customer's words: \"a customer in Munich wrote that the sofa arrived on the day we promised for once.\" One number: repeat purchase rate within 12 months, today 18%. Initiatives in flight: new configurator, a B2B line for offices, a loyalty programme, replatforming the shop, a TikTok campaign. If asked who asked for the loyalty programme: \"the agency.\" Who tells her she is wrong: her CFO, Jonas. Person on slide one if pushed: Katrin, 36, Munich, bought a sofa in March, waited nine weeks, nearly cancelled. Katrin's words: \"Tell me when it's actually coming and I'll wait.\"",
+      "simulated_user": "Lena, 44, Hamburg, CEO of a 30-person online furniture brand, EUR 6M revenue, five years old. Voice if asked: \"professional.\" New or existing: \"existing, a running company.\" Building: \"running a company with tech.\" Monday question, if asked what value was created for a customer last week: first \"we shipped the new configurator\"; if pushed for a customer's words: \"a customer in Munich wrote that the sofa arrived on the day we promised for once.\" One number: repeat purchase rate within 12 months, today 18%. Initiatives in flight: new configurator, a B2B line for offices, a loyalty programme, replatforming the shop, a TikTok campaign. If asked who asked for the loyalty programme: \"the agency.\" Who tells her she is wrong: her CFO, Jonas. Person on slide one if pushed: Katrin, 36, Munich, bought a sofa in March, waited nine weeks, nearly cancelled. Katrin's words: \"Tell me when it's actually coming and I'll wait.\" Assume today is a Monday.",
       "expectations": [
-        "The agent asked the voice question alone first, then whether this is a new project or an existing one alone, and adapted the onboarding to running a company",
+        "The voice question was asked alone, with choices and no default picked, as the first question after the opt-in prompt if there was one, and nothing else was asked on that turn",
         "The agent asked the Monday question (what value did we create for a customer last week) and did not accept 'we shipped the configurator' without asking for a customer's words",
         "The agent asked for the one number and recorded repeat purchase rate at 18% with a proposed green and red line",
         "The agent listed the five initiatives, asked which one is the one thing in progress for the leadership this week, and flagged the loyalty programme as having no customer behind it",
         "The week plan ended with action items that each carry a name and a date",
         "The agent asked one question per message with lettered choices ending in 'other, tell me more' and tagged every answer with its altitude",
         "The agent recorded Katrin's sentence in her words as the person on slide one",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question"
       ]
     },
     {
@@ -445,8 +485,11 @@
         "The agent proposed getting the API token and the WiFi password out of the firmware source into per-device provisioning or a secret store, and rotating the exposed token",
         "The agent proposed isolated environments including a device test bench or staging fleet, so firmware is never tried first on the client's devices",
         "The agent proposed an outcome test named after Pietro's question (a thirsty row shows on the dashboard before the leaves show it)",
-        "Every answer carried an altitude tag and the agent asked one question per message with lettered choices",
-        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)"
+        "Every assistant turn carried an altitude tag with the altitude written out",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
+        "The agent did not state as the user's fact any name, number, date, place, product detail, or quote the user had not given in a user turn; inferences from files are cited to the file, guesses are marked [to confirm], and nothing from outside the conversation is written as the user's statement",
+        "The user received a first visible piece of work (the request restated for the person, a draft, a diagnosis, the evidence list with the stage, or a board) after at most three questions from the agent, counting the voice question",
+        "No assistant turn after the voice choice asked more than one question, and every question offered lettered choices ending in 'other, tell me more' where a sensible set existed"
       ]
     }
   ]

@@ -34,6 +34,16 @@ Rules:
   it and do not write it down. A person who asks to be removed is removed from the
   files and from the history, and the user is told how. The lawyer in `humans.md` is
   asked once when the geography or the data calls for it.
+- **Plain professional words in every file, whatever the chat voice.** Colleagues and
+  clients read these files; the explicit voice stays in the conversation.
+- **The project's own rules win.** When a `CLAUDE.md`, `AGENTS.md`, review process, or
+  ticket convention exists, the build follows it; the rails add the person, the price,
+  the strangers, and the number. Record "target, not process" once in `DECISIONS.md`.
+- **Say where the files live.** When the code is in another repository or on another
+  machine, record the path in `VALUE.md`. For a client build, ask once which repository
+  the files belong in and default to one the client will not receive.
+- **Pasted profiles and CVs** (a LinkedIn page, a résumé) yield a first name, an
+  initial, a role, and the pain; nothing else is stored.
 - Create `VALUE.md` as soon as the voice is chosen in climb 1, even if the rest is
   empty. A crashed session should still leave the voice and the person behind. Create
   the other files the first time something belongs in them, not all at once.
@@ -88,7 +98,8 @@ The index and the 40,000 ft view. Sections, in order:
 ## `value-coding/PEOPLE.md`
 
 One section per real person this is for: full name, age, where they live, story in two
-lines, their sentence in quotes, picture (a link, with consent, never a copy in the
+lines, their sentence marked "heard directly" or "as reported by <user>" (quotation
+marks only for words heard directly), picture (a link, with consent, never a copy in the
 repository), role (uses, pays, decides), what they do today instead, how the user
 knows them, date added. The first one is the face at the top of every screen; the top
 bar rotates through all of them. Regulated details (health, finance, children) are a

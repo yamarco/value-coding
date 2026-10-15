@@ -80,6 +80,13 @@ Say, in the first dive, "this project has already answered these, here is where"
 spend the user's time on what the history left open. A user who sees a year of their
 own decisions read back correctly trusts the next question.
 
+When the project already has a strategy framework (OKRs, problem cards, a metric
+tree, PRDs, a North Star document), use it instead of mirroring it: put the person,
+the "for whom" column, and the customer's own words inside those documents, and keep
+`value-coding/` as the index that points at them. Two parallel systems is one the user
+will stop reading. When the user says "existing" but the code is not where you run,
+ask for the path or a paste in one question and proceed as a new project with history.
+
 ## What the evidence tells you
 
 | Question in onboarding | Evidence that can answer it |

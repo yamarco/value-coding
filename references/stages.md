@@ -18,7 +18,10 @@ when the keyboard closes.
 
 - **Pre-POC: do not code.** The work is the person, the outcome, the price, and the
   strangers. A pay button, a landing page, a mock-up a stranger can react to: yes.
-  A product: no. If the user insists, build with "for: nobody has paid yet" on it and
+  A product: no. The line between them: a pay button is a page with the offer, the
+  price, a payment link, and whatever the stranger needs to say yes (a slot picker, a
+  form), and nothing that runs after the payment; a mock-up is something a stranger
+  can react to that does not do the thing. Anything that does the thing is a product. If the user insists, build with "for: nobody has paid yet" on it and
   keep score.
 - **POC: code until the outcome happens once, then stop.** One path, one person, the
   thing it does, ugly. The moment it works for the person on slide one, the keyboard

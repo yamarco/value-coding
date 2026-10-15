@@ -52,7 +52,7 @@ for path in list(root.glob("*.md")) + list((root / "references").glob("*.md")) +
 
 # 4. SKILL.md stays loadable
 lines = skill.count("\n")
-limit = 750  # lowered to 520 once the SKILL.md diet lands
+limit = 520
 if lines > limit:
     fail(f"SKILL.md is {lines} lines; the limit is {limit}. Move detail into references/.")
 

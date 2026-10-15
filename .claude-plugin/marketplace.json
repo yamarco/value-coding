@@ -9,7 +9,7 @@
     {
       "name": "value-coding",
       "source": ".",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Value Coding: makes any AI agent ask who this is for and what they will pay before and while it builds. From Marco Yammine's book.",
       "category": "productivity",
       "tags": [

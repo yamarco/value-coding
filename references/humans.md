@@ -66,7 +66,12 @@ Raise the human at these points. Once each, with the reason, then offer the brie
 
 ## The gates
 
-Four gates, four signatures in `HUMANS.md`, each with a date and the reasons:
+Four gates, four signatures in `HUMANS.md`, each with a date and the reasons. When a
+request splits into two builds, each build gets its own gate rows. On a live product the
+current gate is the next release gate; the ones before it are "passed before the rails".
+The outside engineer reads the code before strangers touch money or their data, with
+one exception: hosted checkout (the provider's own page) at 80% or one nine needs no
+engineer before live keys; custom card handling, or stored health or finance data, does.
 
 0. **First gate** (step 4 on the rails). Your verdict on whether the person, the idea,
    and the user are worth a human's time, read and signed by the one who says they are

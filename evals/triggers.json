@@ -1,0 +1,23 @@
+[
+  {"query": "ok so I've been vibe coding a little app over the weekend with Lovable, it's a budgeting thing for couples, and now I want to add the ability to split a bill unevenly. can you add that? code is in ~/dev/splitwise-killer", "should_trigger": true},
+  {"query": "I need a 12 slide investor deck for my startup Fieldnote (AI for agronomists), raising a 500k seed. Start with the product screenshots on slide 1, investors want to see the product.", "should_trigger": true},
+  {"query": "I'm head of ops at a 40-person removals company in Leeds. Our dispatchers still use a whiteboard. Build me an internal tool to assign jobs to crews, we have a dev who can help.", "should_trigger": true},
+  {"query": "there's a VALUE.md in this repo from last week. let's continue, I want to work on the onboarding emails today", "should_trigger": true},
+  {"query": "Help me plan Q1 for my 8-person design agency. Backlog: new website, podcast, hire a PM, productise a 'brand sprint' offer, move to Notion, raise prices 15%.", "should_trigger": true},
+  {"query": "my beta users love the app and three of them said they'd pay once we add team workspaces, so let's build team workspaces this week", "should_trigger": true},
+  {"query": "I want to build a marketplace connecting dog walkers with owners, native iOS and Android, with matching, payments, reviews and chat. Nothing built yet. Let's start with the matching algorithm.", "should_trigger": true},
+  {"query": "Add Stripe subscriptions to my physio booking app and store patient notes in the db. I'll do it tonight, it's just a few prompts. Repo is here.", "should_trigger": true},
+  {"query": "It's Monday. I run a 30 person e-commerce brand selling ceramics. Help me plan the week for the leadership team.", "should_trigger": true},
+  {"query": "Review this landing page copy for my SaaS (it's in copy.md) and tell me how to make it convert better. We're going for viral growth through word of mouth.", "should_trigger": true},
+  {"query": "Our checkout fails sometimes and customers are complaining, I can't reproduce it. Code's in the project folder, please fix.", "should_trigger": true},
+  {"query": "write a python function that parses ISO 8601 durations like PT1H30M into seconds, with tests", "should_trigger": false},
+  {"query": "my jest tests are failing with 'Cannot find module @/lib/utils' after I moved to the src directory, here's my tsconfig and jest.config", "should_trigger": false},
+  {"query": "explain the difference between optimistic and pessimistic locking in postgres, with an example of each", "should_trigger": false},
+  {"query": "can you rename the variable `usr` to `currentUser` across the whole repo and fix the imports", "should_trigger": false},
+  {"query": "I'm reading 'The Mom Test' for a book club, summarise its main argument in 5 bullet points", "should_trigger": false},
+  {"query": "convert this CSV of 2024 sales (in ~/Downloads/sales_2024.csv) to a parquet file partitioned by month", "should_trigger": false},
+  {"query": "the deck.pptx in this folder has inconsistent fonts across slides, make them all Inter 18pt and export to PDF", "should_trigger": false},
+  {"query": "what's the market size of the european pet food industry? just need a rough number with a source for a uni assignment", "should_trigger": false},
+  {"query": "set up a github action that runs ruff and pytest on every PR to this repo", "should_trigger": false},
+  {"query": "our product team uses the term 'north star metric', what does that mean exactly and where does the term come from?", "should_trigger": false}
+]

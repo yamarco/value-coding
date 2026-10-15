@@ -19,21 +19,48 @@ daily question is one word. That is the value score.
 | 7 | A human who signs | the one who says they are wrong is named, and the current gate is signed by someone other than the user, or pending with a named human actually asked; "signed alone", "unsigned", and "not yet asked" do not hold it; "passed before the rails" holds it for that gate |
 | 8 | One thing in progress | `BACKLOG.md` shows exactly one ticket in progress per person |
 | 9 | A name and a question on every ticket | no ticket in progress or next has a question mark in both columns; later and parked tickets may carry one |
-| 10 | Tests prove outcomes | every ticket marked done at one nine or more has a test, and every ticket at 80% has one test for the outcome or "manual: how"; once anything is deployed, the agent can read its logs with the one command in `VALUE.md`; until a ticket is done this rail reads "not yet tested" and leaves the denominator, so the score is out of eleven |
+| 10 | Tests prove outcomes | every ticket marked done (released to staging or production with its test green) at one nine or more has a test, and every ticket at 80% has one test for the outcome or "manual: how"; once anything is deployed, the agent can read its logs with the one command in `VALUE.md`; show which half is missing when one is; code that was live before the rails holds it "by history" |
 | 11 | The daily question | answered today, and the last three answers are not all the bad one |
 | 12 | Action items with names and dates | last session ended with them, and yesterday's were checked |
 
-A climb skipped with "later, I want to build" leaves its rails open, not rogue; a
-rail the user was asked about and declined after the moment arrived is rogue. Both
-show in the score, only rogue ones are listed by name. The score is the number of
-rails held, out of the rails that apply (twelve, or eleven
-before anything is done; for a deck-only project say which rails are not reached
-rather than counting them against). It is first shown at the end of the first
-session, not in the opener of first contact. A rail the user was asked about and
-declined, including a round stake they insisted on, is **rogue**: write it in `VALUE.md` under "Going rogue on" with the date
-they declined and the moment it comes back (the next gate, the next session, when the
-stakes change). A rail that has simply not been reached yet is not rogue; it is open,
-and it does not count against them until its moment has passed.
+## Reached, held, decided, rogue
+
+The score is **held out of reached**, with the number not yet reached beside it:
+"7/9 · 3 not yet reached". A rail is reached when its moment has passed:
+
+| Rail | Reached when |
+|------|--------------|
+| 1, 2 | climb 2 and 3 have been asked, or the user said "later" to them |
+| 3 | the first new build, money spent, or public claim (climb 4's moment) |
+| 4 | a plan, a deck, a page, or a build exists that a stranger could see |
+| 5 | a stranger has seen the price or the thing |
+| 6 | release one is scoped, or an existing business is being planned |
+| 7 | any gate has come into view |
+| 8, 9 | a backlog exists |
+| 10 | a ticket is done |
+| 11, 12 | the second session |
+
+Each reached rail is in one of four states:
+
+- **Held.** The condition in the table above is met now.
+- **Held by history, cited.** A running business meets it with evidence that predates
+  the rails: paying customers hold rail 4, a signed proposal holds it for a client
+  build, code live with tests holds rail 10. Write the source next to it. The score
+  does not treat a running company like day one.
+- **Decided, with reason and date.** The user consciously overrode the rail and gave a
+  reason you wrote down: a round stake with the accountant's number due on a date; one
+  nine accepted after the two-nines pushback; ops-first for a dated absence. Neither
+  open nor rogue; it comes back when the reason expires, and it is listed as "decided"
+  not "rogue".
+- **Rogue.** Declined after the moment arrived, with no reason, or a reason that has
+  expired. Listed by name with the date and the moment it returns.
+
+A climb skipped with "later, I want to build" leaves its rails open, not rogue. For a
+deck-only, document-only, retention, or client-build session, rails that cannot apply
+(a stranger who sees a price in a pure retention initiative) are "not applicable", said
+once, and left out of both numbers. The score is first shown at the end of the first
+session, not in the opener of first contact. The display in `VALUE.md` matches: held,
+reached, not reached, decided (with reasons), rogue.
 
 ## The rating: how well are you value coding, 1 to 10
 
@@ -62,7 +89,8 @@ dropped two points since the last one, say so and say why. It is a reminder, sai
 once, with no lecture after it; the number and the one thing are the whole message.
 
 - **The opener, every session, one line**, right after the altitude tag:
-  "Value score 7/12 · rogue on: the stake (since 2026-10-02), the build gate."
+  "Value score 7/9 · 3 not yet reached · decided: the stake (accountant's number due
+  2026-10-31) · rogue: the build gate (since 2026-10-02)."
   In the explicit voice the book's word is allowed once: a low score is a
   masturbation score, and the user chose it.
 - **`VALUE.md`**, under its own heading, with the twelve rails as a checklist, the

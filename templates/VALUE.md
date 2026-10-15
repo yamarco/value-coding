@@ -11,7 +11,7 @@ Geography first: <...> · Who, demographically: <...> · Language, currency: <..
 
 ## The person
 **<Full name>, <age>, <where>.** <one line of story>
-> "<what they need, in their own words>"
+> "<what they need, in their own words>" (<heard directly on <date> | as reported by <user>, not yet heard>)
 Uses: <name> · Pays: <name> · Decides: <name> · Does today instead: <...>
 Others in `value-coding/PEOPLE.md`.
 
@@ -42,9 +42,9 @@ Environments: local `<cmd>` · staging `<cmd>` · production `<cmd>` (missing: <
 KPIs read via: `<read-only query | analytics API | kpi command>` (north star: <query name>) · unreadable: <which, ticket #>
 
 ## Value score
-**<n>/12** (<YYYY-MM-DD>) · Going rogue on: <rail (since date, comes back at ...)> | none
+**<held>/<reached>** · <n> not yet reached (<YYYY-MM-DD>) · Decided: <rail (reason, date, comes back when)> | none · Rogue: <rail (since date, comes back at ...)> | none · Not applicable: <rails, why> | none
 - [ ] 1 The person · [ ] 2 The outcome · [ ] 3 The stake · [ ] 4 A price in front of strangers · [ ] 5 Strangers' words · [ ] 6 Numbers with lines · [ ] 7 A human who signs · [ ] 8 One thing in progress · [ ] 9 A name and a question on every ticket · [ ] 10 Tests prove outcomes · [ ] 11 The daily question · [ ] 12 Action items with names and dates
-History: <YYYY-MM-DD> <n>/12 · ...
+History: <YYYY-MM-DD> <held>/<reached> · ...
 
 ## Open action items
 - [ ] <one sentence> — <name> — <YYYY-MM-DD>

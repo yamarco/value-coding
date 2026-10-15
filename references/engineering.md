@@ -60,7 +60,10 @@ so, build the web app, and park the native app with the condition that brings it
 (a stranger who paid asking for it, or a device that needs it).
 
 The same applies to desktop apps, browser extensions, and anything else that puts a
-store or an installer between a change and a stranger.
+store or an installer between a change and a stranger. Say the words "a web app that
+installs from the browser" so the user knows what they are getting instead of an app.
+Firmware for a device is the one allowed second language; the dashboard for it stays on
+the web.
 
 ## Logs the agent can read
 
@@ -115,8 +118,8 @@ caught and thrown away. The rules:
   surprise fail loudly rather than limping on with half a record.
 - **The person sees a sentence and a reference, never a stack.** "We could not save
   your booking, reference ab12, nothing was charged." The stack goes to the log.
-- **Unhandled is still logged.** A global handler on the server, in the browser, and
-  on the device catches whatever nobody expected, logs it with everything it can,
+- **Unhandled is still logged.** An app-wide handler on the server (not a try/catch
+  in one route), in the browser, and on the device catches whatever nobody expected, logs it with everything it can,
   and tells the person something true. The handler is the first thing built after
   the log command exists.
 - **Retries have a count, timeouts have a number.** A retry loop without a limit and
@@ -146,9 +149,10 @@ the first stranger sees it, not after:
   recording happens, and ask the lawyer in `humans.md` when the geography or the data
   (health, children, finance) calls for it. Record behaviour, not secrets.
 
-For an internal tool, the same applies with the employees as the strangers: the
-first week of recordings is where the real workflow shows up, and it is never the
-one in the spec.
+"Before the first stranger" applies to the first release; a later release into a live
+product needs the read path for its own KPI (`metrics.md`) and nothing more. For an
+internal tool with a handful of employees, sit with them instead; recordings are
+optional and the lawyer's question about employee monitoring comes first.
 
 ## Login without a password
 
@@ -368,6 +372,9 @@ untried. Each environment deploys from one command.
   history.
 - **One `.env` per environment**, never shared, never copied from production to a
   laptop.
+- **The floor on a single box.** At 80% or one nine on one server, an env file outside
+  the repository, readable only by the service user, is the floor; the manager below is
+  the dated next step, due when there is more than one box or more than one person.
 - **On the infrastructure, a secret manager**, not a file: AWS Secrets Manager, GCP
   Secret Manager, Azure Key Vault, or the platform's own encrypted variables (the
   managed hosts all have one). The application reads secrets from the environment at

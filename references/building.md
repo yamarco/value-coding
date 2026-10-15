@@ -65,6 +65,8 @@ Rules:
 - **Match the nines.** At 80%, one test for the outcome a stranger will see. At one
   nine, the outcome and the money path. At two nines, every path a human in
   `humans.md` would lose sleep over, reviewed by that human.
+- **Done means released.** A ticket is done when it is released to staging or
+  production with its test green; "written, not run" is said in those words.
 - **Run them before you say done.** A model that reports "done" without running the
   tests has reported a feeling.
 
