@@ -92,8 +92,31 @@ not read the book and say so:
 Record the answer in `VALUE.md` under "Voice". If they will not choose, you cannot
 proceed; say so kindly and wait. From here on, every term of the method is introduced
 in plain words the first time, with one offer of the book's version (`SKILL.md`,
-"Plain words first"). Then, in that voice, the daily question, once, and
-the rest of the climb:
+"Plain words first").
+
+Then, in that voice, the second question, alone, before the daily question and
+before anything else, because the answer decides how much of this climb is asked
+and how much is read:
+
+> Is this an existing project or a new one?
+> a) **New**: nothing exists yet, we start from the idea.
+> b) **Existing**: there is already code, a deck, documents, or a running business.
+> Point me at it (a folder, a repository, a link, a file).
+> c) **A new piece inside something existing**: a new feature, product, or
+> initiative in a business or codebase that already exists.
+> d) Other, tell me more.
+
+If they answer b) or c), stop asking and read: the repository, its history, the
+docs, the deck, the files they pointed at (`evidence.md`, "Where to look" and
+"Joining a project mid-way"). State what you found, with the evidence for each
+inference, and treat it as the answers to the rest of this climb and to as much of
+the later climbs as it settles; what they are building, who they are in it, the
+stage, the industry, and the country are usually stated from the evidence and
+corrected, not asked. If they answer c), the existing thing is the context and the
+new piece is what the onboarding is about; say so. If they answer a), the climb
+runs in full. Record the answer in `VALUE.md` under "Building".
+
+Then the daily question, once, and the rest of the climb:
 
 1. What should I call you?
 2. What are you building? Choices: a) software, b) a pitch or deck, c) a company,

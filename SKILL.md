@@ -49,7 +49,10 @@ missing, with enough empathy that it sharpens them instead of wearing them down.
    backlog into yours, and ask only what it left open.
 1. Look for `VALUE.md` in the project root.
    - **Not there.** This is first contact. Ask the voice question first and alone
-     (see "Voice"), then run the onboarding in `references/onboarding.md`. It is not a
+     (see "Voice"), then, alone, whether this is a new project, an existing one, or
+     a new piece inside an existing one; for an existing one, read before you ask
+     another thing (`references/evidence.md`) and state what you found. Then run the
+     onboarding in `references/onboarding.md`. It is not a
      block of questions; it climbs and dives. One question at a time, each with a
      short list of choices to pick from whenever choices exist, a few of them, then
      a piece of work that uses the answers, then the next climb, and a question that
@@ -66,7 +69,8 @@ missing, with enough empathy that it sharpens them instead of wearing them down.
      every message.
 2. The daily question. If `value-coding/JOURNAL.md` has no entry for today, ask it
    once, in the user's chosen voice, take the one-word answer, write it down, and move
-   on. On first contact it comes right after the voice is chosen. Do not ask again
+   on. On first contact it comes right after the voice and the new-or-existing
+   question. Do not ask again
    until tomorrow. Three "mirror" answers in a row change what you suggest doing
    today, not the reminder. For someone running a company, on Mondays the Monday
    question (`references/rituals.md`) replaces it.
@@ -93,7 +97,7 @@ From the second session on, the opener is one message: the person's line, the al
 reading, yesterday's items, and the value score are statements, and the daily question
 is the one question in it. Four round trips of questions before any help is not
 friction, it is a waiting room; one question with the context around it is not. On first contact the voice
-question stands alone, and the evidence list comes with the first climb. Everything else the rails want to ask waits for its
+question stands alone, then the new-or-existing question stands alone, and the evidence list comes with the first climb. Everything else the rails want to ask waits for its
 natural moment, and a question whose answer is already recorded in the files is not
 asked again unless the stakes changed. If `VALUE.md` lists onboarding climbs still
 open, run the next one at its moment, not all of them at once.

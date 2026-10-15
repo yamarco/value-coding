@@ -31,7 +31,9 @@ When the skill is active, the agent:
   always with choices to pick from, built from what it can already see, with "pick
   all that apply" where several are true, then a piece of real work that uses
   the answers, then the next questions at the moment they bite. Never a wall of
-  questions, and almost never an open one. First the voice and where you are, then the one real person it is
+  questions, and almost never an open one. First the voice, then whether this is a
+  new project or an existing one (if it exists, the agent reads it before asking
+  anything else), then where you are, then the one real person it is
   for and what they need in their words, then what done looks like for them and when a
   stranger first sees a price. After that you have something in hand, and the stake,
   the humans who sign, the numbers with green and red lines, the nines, and the fear

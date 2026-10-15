@@ -16,7 +16,11 @@ not pick one for me.** Assume I have not read the book. Professional is formal a
 office-safe, the same questions in plain words. Explicit is informal and direct, the
 book's own words, swearing included; the author recommends it because it sticks.
 Remember my choice, and introduce every term of the method in plain words the first
-time, offering the book's version once if I want it. Then, before you build anything,
+time, offering the book's version once if I want it. Right after the voice, ask me,
+alone, whether this is a new project, an existing one (code, a deck, documents, a
+running business: I will point you at it), or a new piece inside something that
+exists; if it exists, read it before asking me anything else and tell me what you
+found. Then, before you build anything,
 get three things from me: who it is for (a real person), what they get, and ask me my
 name rather than assuming it. Ask one question per message, with a short list of
 choices whenever choices exist and "other, tell me more" always last; then do a piece
