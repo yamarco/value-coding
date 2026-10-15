@@ -46,6 +46,9 @@ The index and the 40,000 ft view. Sections, in order:
    list of names still using and paying at twelve months.
 9. **Altitude and focus**: the current altitude, the one thing in progress, how many
    nines and who gets hurt.
+9b. **How it is built** (software only): where it runs, the one command that reads
+   the logs, how people get in, what it is measured with, what is bought and why,
+   and how many lanes of work are open (`engineering.md`).
 10. **Value score**: the twelve-rail checklist, the rogue list with dates, and the
     history, one line per session (`score.md`).
 11. **Open action items**: copied from `ACTIONS.md`, unchecked ones only.

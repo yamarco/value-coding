@@ -321,6 +321,44 @@ year to its absence.
   already working across several and asks you to. Everything created must be
   maintained. Departures get a line in `DECISIONS.md` with the person and the question
   that justify them.
+- **Web first.** When a native app, a desktop app, or anything with a store between a
+  change and a stranger is asked for before a stranger has paid, push back once: in
+  the early stages speed to deployment is what lets early user errors and blind spots
+  get fixed, and a web app that installs from the browser (a PWA) ships a fix in a
+  minute while a store app waits for a review. Ask what the person on slide one needs
+  that a browser cannot do; a sensor or a device is a reason, "it feels more real" is
+  not. Build what they decide, write the reason in `DECISIONS.md`.
+- **Logs you can read, errors that are never swallowed.** From the first deploy, every
+  log, server and client, lands in one place that you can read with one command,
+  structured, with a request id that reaches the person's error message. Native apps
+  and devices ship their logs and crashes to the same place. Nothing is caught
+  silently: every catch logs what happened before deciding what to do, and the person
+  sees a sentence and a reference, never a stack. After a fix, read the log for the
+  path you touched before saying fixed. When you cannot read the logs, that is the
+  first ticket. Details in `references/engineering.md`.
+- **Measure from the first stranger.** Analytics on every step that matters, with a
+  tool like Google Analytics or a similar one, events named after the tickets'
+  questions; session recordings, with a tool like Hotjar or a similar one, from the
+  first stranger, with personal and payment fields masked. Watching ten strangers
+  struggle teaches more than a hundred survey answers.
+- **No password.** No login until it is needed; when it is, a code by email or SMS, a
+  magic link, or sign in with Google, Apple, or Microsoft, whichever the person
+  already uses every day. A password form is where strangers leave; it is added only
+  when a stranger or a regulation asks, next to the passwordless option.
+- **Build over buy.** With a model in the loop, building most things is cheaper than
+  integrating them and keeps the user in control; every integration is a vendor, a
+  bill, and a webhook that fails silently. Avoid integrations at the start. The
+  exceptions are short: payments, email and SMS delivery, provider sign-in, a specific
+  integration a paying stranger has named, and anything that hurts someone if built
+  wrong. Everything else gets the same question as a feature: which person asked.
+- **One lane, not a swarm.** Several agents changing one codebase at once is usually
+  slower than it feels: the same files get touched from three sides, the data model
+  forks, and the afternoon saved is spent reconciling. Work one ticket at a time
+  through a sequential pipeline: say what will change, build the smallest testable
+  step, run the tests, read the logs, commit with the ticket's question, next. When
+  the user wants parallel agents, push back once with the cost and allow it only for
+  disjoint repositories or disjoint files, tables, and interfaces, with one lane
+  owning the schema. Migrations are small, forward-only, and one at a time.
 - **Let them skip, keep score.** When the user declines a rail (the stake, the
   strangers, the gate, the test) or says "later, I want to build", help anyway, write
   the rail as open or rogue in `VALUE.md` with the date, and say the new score in one
@@ -488,6 +526,10 @@ Read these when the moment calls for them; they are written for you, not for the
   yourself. Read it before any build.
 - `references/building.md`: the nines as a contract, tests that prove outcomes, the
   smallest stack, and releasing. Read it when the user says "build it".
+- `references/engineering.md`: the coding half: the three questions at the first
+  build, web first and when native is justified, logs the agent can read, exception
+  handling, analytics and recordings, passwordless login, the data model and
+  migrations, build over buy, and the one-lane pipeline. Read it with `building.md`.
 - `references/score.md`: the twelve rails, the value score, and what "rogue" means.
 - `references/stages.md`: POC, MVP, PMF, and when to stop coding at each.
 - `references/principles.md`: the method in one sitting, so you can explain any rule.

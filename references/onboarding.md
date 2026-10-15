@@ -199,7 +199,10 @@ If both numbers are zero, say what that means: not a business yet. Ask them to d
 today whether to raise the stakes or stop.
 
 **Dive.** Write the stake, the line, and the date to `VALUE.md`. Continue the work.
-Open `ACTIONS.md` with the first items, each with a name and a date.
+Open `ACTIONS.md` with the first items, each with a name and a date. If this is the
+first build session, the three engineering questions in `engineering.md` (where it
+runs, how people get in, what is bought) come now, one at a time, after the board is
+shown; a repository usually answers two of them.
 
 ## Climb 5: the humans
 

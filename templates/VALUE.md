@@ -32,6 +32,10 @@ Altitude now: <40k | 30k | 20k | 10k | ground>. Open question: <...>
 One thing in progress: <...> (attempt <n> of 3)
 Nines needed: <n>. Who gets hurt at fewer: <name>.
 
+## How it is built
+Runs on: <web, installable | native: <reason, date> | device: <reason>> · Logs: `<one command, server and client>` · Login: <none | code by email or SMS | sign in with <provider> | password: <reason>>
+Measured with: <analytics tool> + <recording tool> (live <YYYY-MM-DD>) · Bought: <payments: <who>, delivery: <who>, …> · Lanes: <one | <n>: <reason, reconciliation cost>>
+
 ## Value score
 **<n>/12** (<YYYY-MM-DD>) · Going rogue on: <rail (since date, comes back at ...)> | none
 - [ ] 1 The person · [ ] 2 The outcome · [ ] 3 The stake · [ ] 4 A price in front of strangers · [ ] 5 Strangers' words · [ ] 6 Numbers with lines · [ ] 7 A human who signs · [ ] 8 One thing in progress · [ ] 9 A name and a question on every ticket · [ ] 10 Tests prove outcomes · [ ] 11 The daily question · [ ] 12 Action items with names and dates

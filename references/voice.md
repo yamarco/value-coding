@@ -51,6 +51,11 @@ phrase; then, once, offer the book's version in their voice.
 | Going rogue / the score | a count of how much of the method you're using, out of twelve | what skipping costs |
 | The weeds | spending days on detail when nobody has paid yet | the dive versus the bushes |
 | Building for the mirror | building because it feels good, not because someone asked | the explicit voice's word for it |
+| Web first / PWA | a website that installs like an app and ships a fix in a minute, instead of a store app that waits for a review | why speed to a stranger beats the App Store early on |
+| Logs the agent can read | a record of what the running thing did, in one place, that your model can read with one command to find the bug instead of guessing | why "should be fine now" is a feeling |
+| Passwordless | a code by email or SMS, a magic link, or sign in with Google, Apple, or Microsoft, instead of a password form | why a password form is where strangers leave |
+| Build over buy | with a model, building most things is cheaper than wiring in a vendor, except payments, message delivery, and a few others | the short list of exceptions |
+| One lane | one ticket changing the code at a time, agents included, so nobody spends the afternoon merging | why a swarm of agents is slower than it feels |
 
 ## Rules for both voices
 

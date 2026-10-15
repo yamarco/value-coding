@@ -19,7 +19,7 @@ daily question is one word. That is the value score.
 | 7 | A human who signs | the one who says they are wrong is named, and the current gate is signed by someone other than the user, or pending with a named human actually asked; "signed alone", "unsigned", and "not yet asked" do not hold it; "passed before the rails" holds it for that gate |
 | 8 | One thing in progress | `BACKLOG.md` shows exactly one ticket in progress per person |
 | 9 | A name and a question on every ticket | no ticket in progress or next has a question mark in both columns; later and parked tickets may carry one |
-| 10 | Tests prove outcomes | every ticket marked done at one nine or more has a test, and every ticket at 80% has one test for the outcome or "manual: how"; until a ticket is done this rail reads "not yet tested" and leaves the denominator, so the score is out of eleven |
+| 10 | Tests prove outcomes | every ticket marked done at one nine or more has a test, and every ticket at 80% has one test for the outcome or "manual: how"; once anything is deployed, the agent can read its logs with the one command in `VALUE.md`; until a ticket is done this rail reads "not yet tested" and leaves the denominator, so the score is out of eleven |
 | 11 | The daily question | answered today, and the last three answers are not all the bad one |
 | 12 | Action items with names and dates | last session ended with them, and yesterday's were checked |
 

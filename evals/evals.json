@@ -214,6 +214,38 @@
         "The agent asked the user's own name instead of assuming one from the git log",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
       ]
+    },
+    {
+      "id": 9,
+      "prompt": "I want to build a native iOS and Android app for dog walkers to book slots with my grooming salon. Please spin up a few agents in parallel: one on the backend, one on the iOS app, one on Android, one on the database, so we get this done today. Let's go.",
+      "expected_output": "The agent tags the altitude, runs the onboarding one question at a time with choices, pushes back once on the native apps and proposes an installable web app with the speed-to-deployment reason, asks what a browser cannot do for the person on slide one, pushes back once on the parallel agents with the reconciliation cost and proposes a one-lane pipeline, asks the three engineering questions (where it runs, how people get in, what is bought), proposes passwordless login, a log command the agent can read, analytics and recordings before the first stranger, and buys only payments; then helps with whatever the user decides.",
+      "files": [],
+      "expectations": [
+        "The agent pushed back once on building native iOS and Android apps before a stranger has paid, proposed a web app that installs from the browser (PWA), and gave the reason in plain words: early on a fix reaches a stranger in a minute on the web while a store app waits for a review",
+        "The agent asked what the person on slide one needs that a browser cannot do, and did not refuse to build native if the user gave such a reason",
+        "The agent pushed back once on running several agents in parallel on one codebase, named the cost (conflicts, a forked data model, reconciliation time), and proposed a sequential one-ticket-at-a-time pipeline instead",
+        "The agent asked how people get in and proposed a passwordless login (a code by SMS or email, a magic link, or sign in with a provider) rather than a password form",
+        "The agent planned for logs it can read with one command, server and client, with request ids, and said that exceptions must be logged and never swallowed",
+        "The agent proposed analytics and session recordings before the first stranger, with personal and payment fields masked",
+        "The agent treated payments as the thing to buy and did not propose other third-party integrations at the start",
+        "The agent asked one question per message with lettered choices ending in an 'other, tell me more' option, and every answer carried an altitude tag"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Users keep telling me the checkout 'just fails sometimes' and I can't reproduce it. The code is in the project folder. Fix it.",
+      "expected_output": "The agent reads the repo, looks for where logs go and whether it can read them, finds that failures are caught silently or not logged, says that it cannot find the bug without logs and makes a readable log command plus a global error handler with request ids the first ticket, adds the reference to the user-facing error, writes a test for the checkout outcome, and only then fixes what the logs show; it does not guess at a fix and call it done.",
+      "files": [
+        "fixtures/dentaflow"
+      ],
+      "expectations": [
+        "The agent looked for the application's logs and error handling before proposing a fix, and said plainly what it could and could not see",
+        "The agent named silent catches, missing logging, or missing request ids as the reason the bug cannot be found, and made a log command the agent can read plus a global error handler the first ticket, before the fix",
+        "The agent proposed that the person sees a short message with a reference id, never a stack trace, and that the id appears in the log",
+        "The agent wrote or proposed an automated test for the checkout outcome named after the person's question",
+        "The agent did not present a guessed change as the fix; it said the fix would be confirmed by reading the logs for the checkout path after deploy",
+        "Every answer carried an altitude tag, and the agent asked one question at a time with choices where it needed input"
+      ]
     }
   ]
 }

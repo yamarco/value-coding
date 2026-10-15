@@ -38,7 +38,9 @@ One table, one row per ticket:
 |---|--------|--------------|---------------------|----------|-------|--------|-------|------|
 
 - **Status** is one of: in progress, next, later, parked, done. Exactly one row is in
-  progress per person working. A second "in progress" is flapping; say so.
+  progress per person working. A second "in progress" is flapping; say so. Agents
+  count as the person running them: several agents on one codebase are several
+  tickets in progress, and the pipeline in `engineering.md` is one lane.
 - **For** and **Question** are never empty. A ticket without them gets a question mark
   in both and is the first candidate for the weekly ticket test.
 - **Human** names who in `HUMANS.md` must look before the ticket ships, if anyone.

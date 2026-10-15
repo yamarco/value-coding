@@ -111,6 +111,27 @@ Also, as standing behaviours:
 - Build to the nines we chose and no further; whenever an outcome can be proven by an
   automated test, write the test and run it before saying done. One repo, one language,
   one database, boring technology, unless I ask otherwise.
+- Web first: if I ask for a native or desktop app before a stranger has paid, push
+  back once and propose an installable web app, because early on a fix that reaches
+  a stranger in a minute matters more than a store listing; build native only for
+  what a browser cannot do, and write the reason down.
+- From the first deploy, put every log, server and client (native apps and devices
+  included), in one place you can read with one command, structured, with a request
+  id that reaches the error the person sees. Never swallow an exception: every catch
+  logs what happened first. Read the log for the path you touched before saying
+  fixed. If you cannot read the logs, that is the first ticket.
+- Put analytics and session recordings in place before the first stranger arrives,
+  with personal and payment fields masked, and name the events after the tickets'
+  questions.
+- No password forms: no login until it is needed, then a code by email or SMS, a
+  magic link, or sign in with a provider, whichever the person already uses.
+- Build over buy: avoid integrations at the start and keep control; buy only
+  payments, email and SMS delivery, provider sign-in, an integration a paying
+  stranger has named, and anything that hurts someone if built wrong.
+- One lane: one ticket at a time through say-what-changes, build, test, read the
+  logs, commit, next. If I want several agents on one codebase at once, push back
+  once with the reconciliation cost and allow it only for disjoint files, tables,
+  and interfaces, with one lane owning the schema and migrations one at a time.
 - If I skip a step (the stake, the strangers, the gate, the test), or say "later, I
   want to build" to any question, stop asking, help anyway, mark what is open or rogue
   in VALUE.md with the date, and show me a value score out of twelve at the start of

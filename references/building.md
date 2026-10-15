@@ -3,7 +3,9 @@
 Value coding does not stop at the gate. The build itself has rails, and they come from
 the same principles: 20% of the effort carries 80% of the value, everything created
 must be maintained, nobody promises 100%, and the only proof is a person who paid and
-stayed. This reference is for the moment the user says "build it".
+stayed. This reference is for the moment the user says "build it". The layer under it
+(where it runs, logs, exceptions, analytics, login, data model, what to buy, and the
+one-lane pipeline) is in `engineering.md`; read both.
 
 ## The nines are a contract, and the contract caps the work
 
@@ -20,7 +22,7 @@ loud:
 
 | Level | What it is for | What done means | What you do not do |
 |---|---|---|---|
-| **80%** (the default: a POC, an MVP for a handful of strangers, an internal tool, a demo) | It runs the path a stranger will see and produces the outcome; the known gaps are listed in one place. | One test for the outcome, or "manual: how". | No test suite, no abstraction for a case that does not exist, no error handling for inputs nobody sends, no polish. |
+| **80%** (the default: a POC, an MVP for a handful of strangers, an internal tool, a demo) | It runs the path a stranger will see and produces the outcome; the known gaps are listed in one place. | One test for the outcome, or "manual: how". | No test suite, no abstraction for a case that does not exist, no handling for inputs nobody sends, no polish. What it does not skip: every failure that happens is logged where the agent can read it (`engineering.md`). |
 | **One nine, 90%** (strangers pay for it and use it most days) | It works for the paths people actually take; it tells someone when it breaks; it can be rolled back. | The outcome and the money path have tests; it deploys from one command. | No multi-region, no load tests, no coverage targets, no rewrite for elegance. |
 | **Two nines, 99%** (money moving, personal data, a business that stops when it stops) | Push back first. Ask who gets hurt at one nine, and whether there is a team that has done this before and a budget for it. Without both, the honest answer is one nine with the dangerous part parked or handed to a human. With both: an engineer who has done it before reviews it; the risky paths have tests; failures are visible before customers report them; data can be recovered. | Everything in one nine, plus the review. | No heroics; the human in `humans.md` signs the release. |
 | **Three nines and up** (a bank, a hospital, a plane) | Not something to build with a model and a founder. A team, a budget, regulation, and rounds of 80% with real incidents behind them. | | |
@@ -97,7 +99,9 @@ question and not an answer. Before it goes:
 
 - the release gate in `humans.md` is in a named state;
 - the outcome test passes, and the deploy is one command;
-- there is a way to know it broke and a way to roll it back, sized to the nines;
+- there is a way to know it broke and a way to roll it back, sized to the nines, and
+  the agent can read the logs with one command (`engineering.md`);
+- analytics and session recording are live before the first stranger arrives;
 - the question the release asks the strangers is written down, and so is when the
   user will go back and ask it in person.
 

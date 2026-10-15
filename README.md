@@ -56,6 +56,17 @@ When the skill is active, the agent:
   test is named after the person's question. One repository, one language, one
   database, boring technology, no infrastructure ahead of retention, because
   everything created must be maintained.
+- **Takes the coding half seriously.** Web first: it pushes back once on a native app
+  before a stranger has paid and proposes an installable web app, because early on
+  speed to deployment is what lets you fix the errors and blind spots strangers
+  find. Logs the agent can read: from the first deploy, server and client logs (native
+  apps and devices included) land in one place it can read with one command, with
+  request ids, and no exception is ever swallowed, so it can find the bug instead of
+  guessing. Analytics and session recordings before the first stranger. Passwordless
+  login. Build over buy, with payments and message delivery as the exceptions. And
+  one lane of work at a time: it pushes back on a swarm of agents changing one
+  codebase at once, and runs a sequential pipeline instead, with migrations one at a
+  time.
 - **Does the market research itself** when it has web access: competitors and their
   complaints, the price band, a bottom-up market size with the arithmetic shown, the
   regulation that applies in your geography, with sources and dates.
@@ -143,6 +154,8 @@ references/              read by the agent when the moment calls for it
   onboarding.md          the onboarding, climb by climb
   planning.md            the backlog and roadmap the agent keeps and mostly derives
   building.md            the nines as a contract, tests that prove outcomes, the stack
+  engineering.md         web first, logs the agent can read, exceptions, analytics,
+                         passwordless login, data model, build over buy, one lane
   score.md               the twelve rails, the value score, going rogue
   stages.md              POC, MVP, PMF, and when to stop coding at each
   principles.md          the method in one sitting
