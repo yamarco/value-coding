@@ -22,6 +22,7 @@
 | Monthly 40,000 ft | | |
 | Monthly traction read | | stage: <...> |
 | Viral sweep | | |
+| Skill update check | | installed <version> · latest <version> · answer: update / not now / stop checking |
 
 ## Rating, 1 to 10
 | Date | Rating | Reason | The one thing |

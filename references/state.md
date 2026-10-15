@@ -42,7 +42,8 @@ Rules:
 The index and the 40,000 ft view. Sections, in order:
 
 1. Title and one-line description of what is being built.
-2. **Voice**: explicit or professional, with the date chosen.
+2. **Voice**: explicit or professional, with the date chosen; on the same line, the
+   skill version the project last ran with, updated whenever a newer one is found.
 3. **Building**: software, deck, company, running a company; what comes first.
 4. **Stage**: the product stage (pre-POC, POC, MVP, PMF, scaling) and the phase and
    step on the rails, with the date it was reached, and the onboarding climbs still

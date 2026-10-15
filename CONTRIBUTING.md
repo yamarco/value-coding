@@ -35,6 +35,10 @@ are welcome. The best ones start from a session that went wrong.
   in plain words the first time; the book's version is offered once.
 - **Nothing the user did not say.** Templates and examples never put facts in the
   user's mouth or a stranger's. Quotation marks are for actual words.
+- **Bump the version.** A change to what the agent does bumps the minor number in
+  `VERSION`, in `SKILL.md`'s `metadata.version`, and in the first line of
+  `prompts/system-prompt.md`, with a dated entry in `CHANGELOG.md`; wording alone
+  bumps the patch number.
 
 ## Attribution and licence
 

@@ -128,6 +128,11 @@ the same session.
   that changed. Then test the north star again: does it still measure the value,
   still lead, still move when they act, still resist gaming? A north star that no
   longer fits the stage is replaced, with the old one kept in the history.
+- **The update check.** With network access and a git clone of the skill, compare
+  the installed version with the source repository's `VERSION`; if newer, say so in
+  one line and ask whether to update now, not now, or stop checking; never pull
+  without the answer (`SKILL.md`, "Staying current"). Record the check in the
+  rituals table.
 - **The viral sweep.** Search the deck and the plan again for viral, growth, organic,
   word of mouth. The word creeps back in when nobody is watching.
 - **The stake, again.** If the willing-to-lose number was round or refused, ask again.

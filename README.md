@@ -143,6 +143,29 @@ git clone https://github.com/yamarco/value-coding ~/.claude/skills/value-coding
 Or inside one project: clone into `.claude/skills/value-coding`. Then say "build me
 something" and watch it ask who it is for.
 
+**Updating**
+
+The version is in `VERSION` and in the front matter of `SKILL.md`; `CHANGELOG.md`
+says what changed. To see what you have and what is current:
+
+```bash
+cat ~/.claude/skills/value-coding/VERSION
+curl -s https://raw.githubusercontent.com/yamarco/value-coding/main/VERSION
+```
+
+To update:
+
+```bash
+git -C ~/.claude/skills/value-coding pull
+```
+
+The agent also writes the version it ran with into your `VALUE.md`, tells you in one
+line when the installed skill is newer than the one your project last saw, and once
+a month, when it has network access and the skill is a git clone, checks for a newer
+version and asks whether to update. It never pulls without your answer. If you pasted
+`prompts/system-prompt.md` into another tool, updating means pasting it again; the
+file's first line carries its version.
+
 Installed globally, the skill does not take over every conversation. When the agent
 judges that a request is about building, planning, pitching, or running something,
 and the project has no `VALUE.md` yet, it asks once whether you want to use Value
@@ -216,6 +239,7 @@ prompts/system-prompt.md the short version for tools without skills
 evals/                   twenty scenarios with simulated users and expectations,
                          the grader prompt, fixtures, and the results history
 CONTRIBUTING.md          how to add a scenario or a rail
+VERSION, CHANGELOG.md    the version the agent records in VALUE.md, and what changed
 ```
 
 ## Contributing

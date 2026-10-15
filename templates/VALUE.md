@@ -1,6 +1,6 @@
 # VALUE.md: <what is being built, in one line>
 
-**Voice:** explicit | professional (chosen <YYYY-MM-DD>)
+**Voice:** explicit | professional (chosen <YYYY-MM-DD>) · **Skill version:** <from SKILL.md metadata.version> (last checked for updates <YYYY-MM-DD | never>)
 **Building:** software | deck | company | running a company with tech (first: <which>)
 **Stage:** <pre-POC | POC | MVP | PMF | scaling> · placed by: <paying strangers, by name, or none>
 **Stage on the rails:** <phase> / <step n. name> (since <YYYY-MM-DD>) · Onboarding climbs still open: <none | 4 (first build), 5 (first gate), 6 (release scope), 7 (first stranger)>

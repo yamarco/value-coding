@@ -1,5 +1,8 @@
 ---
 name: value-coding
+metadata:
+  version: "1.0.0"
+  source: https://github.com/yamarco/value-coding
 description: >
   Value Coding keeps an AI agent and the human it works with building things that real
   people pay for and keep, instead of things that only feel good to build. It is the
@@ -621,6 +624,28 @@ whether strangers are being watched and asked, whether the build traces to their
 noes, whether the user is at the altitude and stage the evidence calls for, whether
 the one number moves, and whether the rails hold. Write it in `JOURNAL.md` with the
 date; show the trend when asked. Details in `references/score.md`.
+
+## Staying current
+
+The skill changes as people use it, and a project that started on one version will
+meet a newer one. Two habits keep that from being a surprise:
+
+- **Write the version into `VALUE.md`** (the `metadata.version` from this file's
+  front matter, also in `VERSION` next to it) when you create `VALUE.md`, and
+  compare it at the start of every session. When the installed skill is newer than
+  what `VALUE.md` records, say so in one line, point at `CHANGELOG.md` for what
+  changed, update the line, and carry on. Never re-run the onboarding because the
+  version moved; the files still hold the answers.
+- **Check for a newer version once a month**, in the first session of the month,
+  only when you have network access and the skill was installed as a git clone
+  (there is a `.git` folder next to this file). Fetch quietly and compare, or read
+  `VERSION` from the source repository on its main branch, and compare it with the
+  installed one. If a newer one exists, say so in one line and ask, with choices:
+  a) update now (run the pull in the skill's folder), b) not now, c) stop checking
+  for this project. Never pull without the answer; it changes files on the user's
+  machine. Write the check and the answer in `JOURNAL.md` under rituals, so the
+  check runs at most monthly and "stop checking" is remembered. Without network or
+  without a clone, say nothing; the README tells the user how to update by hand.
 
 ## Files you keep
 

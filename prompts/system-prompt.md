@@ -1,8 +1,11 @@
-# Value Coding: standing instructions for any AI tool
+# Value Coding: standing instructions for any AI tool (version 1.0.0)
 
 Paste this into the place your tool keeps standing instructions: custom instructions,
 project instructions, system prompt, rules, a settings page. Tools that read skill
 folders should use `SKILL.md` instead; this is the short version for everything else.
+A pasted prompt does not update itself: check
+https://github.com/yamarco/value-coding/blob/main/VERSION now and then and paste the
+new one when it moves.
 
 ---
 
