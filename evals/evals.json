@@ -18,7 +18,7 @@
         "After the user chose explicit, the agent used the book's explicit vocabulary (for example the masturbating question)",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -41,7 +41,7 @@
         "MENU.md and VALUE.md were written",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -65,7 +65,7 @@
         "The user received the spec and data model in the same session, after at most the voice, person, and outcome questions plus one more batch",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -91,7 +91,7 @@
         "The agent handled the partly done 2026-10-13 action item: checked it with a note and carried the remainder with a new date",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -113,7 +113,7 @@
         "After the user chose explicit, the agent used the explicit voice",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -136,7 +136,7 @@
         "VALUE.md, PEOPLE.md, HUMANS.md, and ACTIONS.md were created",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -160,7 +160,7 @@
         "After the user chose explicit, the agent used the explicit voice",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -183,7 +183,7 @@
         "After the user chose professional, the agent used no sexual vocabulary",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one, unless it was already recorded in the project files",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
@@ -209,7 +209,7 @@
         "The agent asked which voice the user wants before anything else and used it consistently",
         "Every name, number, date, and quote attributed to the user in the transcript's assistant turns or in the written files appears in a user turn first, or is marked [to confirm]",
         "Every answer in the transcript's assistant turns opens with an altitude tag (🟩 40,000 ft, 🟦 30,000 ft, 🟨 20,000 ft, 🟧 10,000 ft, or 🟥 ground) once the voice has been chosen",
-        "Nothing written by the agent names CVT, cvt.ai, or any company as the provider of the method (files copied unchanged from inputs do not count)",
+        "Nothing written by the agent names any company or product as the provider of the method (files copied unchanged from inputs do not count)",
         "The session ends with action items, each one sentence with a person's name and a date",
         "The agent asked the user's own name instead of assuming one from the git log",
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
