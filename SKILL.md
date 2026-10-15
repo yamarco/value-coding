@@ -4,20 +4,18 @@ metadata:
   version: "1.1.0"
   source: https://github.com/yamarco/value-coding
 description: >
-  Value Coding keeps an AI agent and the human it works with building things that real
-  people pay for and keep, instead of things that only feel good to build. It is the
-  method from Marco Yammine's book on value coding, turned into rails the agent follows.
-  Use this skill whenever the user wants to build, scope, plan, pitch, price, sell, or
-  ship anything: an app, a feature, a prototype, an MVP, a SaaS, an internal tool, an
-  automation, a pitch deck, a website or landing page, a proposal, a business plan, a
-  strategy, a roadmap, a backlog, a go-to-market plan, a startup, or help running a
-  company with tech. Use it when the user says "build me", "add a feature", "vibe code",
-  "MVP", "pitch", "deck", "proposal", "landing page", "launch", "go viral", "who is this
-  for", "altitude", "value coding", or when a VALUE.md file exists in the project.
-  Trigger even when the user does not ask for it, because the first question this skill
-  asks is usually the one they skipped; when it was not asked for by name and no
-  VALUE.md exists, it asks the user once whether they want to use it before changing
-  how it works with them.
+  Value Coding keeps an AI agent and the human it works with building things real people
+  pay for and keep, not things that only feel good to build: the method from Marco
+  Yammine's book on value coding, as rails the agent follows. Use it whenever a product,
+  startup, company, or paying customers sit behind the work, even if the user never says
+  so. The test: would a customer, buyer, or investor notice the result? Then use it, on
+  top of the coding or writing. That covers building or adding to an app (vibe-coded or
+  no-code too), starting one from nothing, fixing a bug customers hit in a live product,
+  landing page or sales copy, investor and sales decks, proposals, pricing, growth and
+  virality, go-to-market, and planning a quarter, backlog, or roadmap for a company or
+  agency. Also use when VALUE.md exists or the user says "value coding"; it checks once
+  with the user before changing how it works. Skip for code with no product behind it,
+  dev tooling, CI or test failures, file formatting, and plain factual questions.
 ---
 
 # Value Coding
