@@ -36,9 +36,10 @@ are welcome. The best ones start from a session that went wrong.
 - **Nothing the user did not say.** Templates and examples never put facts in the
   user's mouth or a stranger's. Quotation marks are for actual words.
 - **Bump the version.** A change to what the agent does bumps the minor number in
-  `VERSION`, in `SKILL.md`'s `metadata.version`, and in the first line of
-  `prompts/system-prompt.md`, with a dated entry in `CHANGELOG.md`; wording alone
-  bumps the patch number.
+  `VERSION`, in `SKILL.md`'s `metadata.version`, in `.claude-plugin/marketplace.json`,
+  and in the first line of `prompts/system-prompt.md`, with a dated entry in
+  `CHANGELOG.md`; wording alone bumps the patch number. `scripts/check.py` checks
+  that they agree, along with the rest of the repository's rules.
 
 ## Attribution and licence
 

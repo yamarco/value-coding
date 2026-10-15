@@ -1,0 +1,25 @@
+{
+  "name": "yamarco",
+  "description": "Value Coding, the skill from Marco Yammine's book: who is this for, what will they pay, before and while you build.",
+  "owner": {
+    "name": "Marco Yammine",
+    "url": "https://github.com/yamarco"
+  },
+  "plugins": [
+    {
+      "name": "value-coding",
+      "source": ".",
+      "version": "1.0.0",
+      "description": "Value Coding: makes any AI agent ask who this is for and what they will pay before and while it builds. From Marco Yammine's book.",
+      "category": "productivity",
+      "tags": [
+        "value-coding",
+        "product",
+        "startup",
+        "founder",
+        "vibe-coding",
+        "skill"
+      ]
+    }
+  ]
+}

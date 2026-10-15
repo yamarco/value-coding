@@ -143,6 +143,18 @@ git clone https://github.com/yamarco/value-coding ~/.claude/skills/value-coding
 Or inside one project: clone into `.claude/skills/value-coding`. Then say "build me
 something" and watch it ask who it is for.
 
+Or as a plugin, which gives you install and updates from inside Claude Code:
+
+```
+/plugin marketplace add yamarco/value-coding
+/plugin install value-coding@yamarco
+```
+
+Updates then come from `/plugin` (Installed tab, "Update now"), or automatically if
+you enable auto-update for the marketplace in the same place; it is off by default
+for marketplaces outside Anthropic's own. Each release bumps the plugin version, so
+an update appears when the skill changes, not on every commit.
+
 **Updating**
 
 The version is in `VERSION` and in the front matter of `SKILL.md`; `CHANGELOG.md`
@@ -159,7 +171,7 @@ To update:
 git -C ~/.claude/skills/value-coding pull
 ```
 
-The agent also writes the version it ran with into your `VALUE.md`, tells you in one
+Plugin installs update from `/plugin` instead. The agent also writes the version it ran with into your `VALUE.md`, tells you in one
 line when the installed skill is newer than the one your project last saw, and once
 a month, when it has network access and the skill is a git clone, checks for a newer
 version and asks whether to update. It never pulls without your answer. If you pasted
@@ -197,6 +209,31 @@ Put the contents of `SKILL.md` at the top of the system prompt and make the
 `references/` files available for retrieval. Nothing in the skill depends on a
 specific model or tool; it only needs the model to read and write Markdown files in
 the project.
+
+## Privacy: what gets written into your repository
+
+The skill writes real people into plain-text files that get committed: the person it
+is for, with a name, an age, a place, and their words; strangers and what they said;
+sometimes a link to a picture. Git history does not forget, so:
+
+- **Keep the repository private while those files hold real people.** The agent says
+  this once when the first person is written down, and asks before writing a real
+  person into a public repository.
+- **Only what the method needs.** A first name and an initial are enough for a
+  stranger. Full names and pictures only with consent; pictures are linked, never
+  copied in.
+- **Regulated data never goes in.** Health, children, finance, or anything a law in
+  your country covers is written as a reference ("patient 14, back pain"), never as
+  the record. The record stays in the system that is allowed to hold it. If you paste
+  such a record into the chat, the agent uses it and does not write it down.
+- **Removal.** Someone who asks to be removed is removed from the files and from the
+  history; the agent tells you how.
+- **Your lawyer.** When the geography or the data calls for it, the agent sends you
+  to one, once.
+
+The skill also puts analytics and session recordings in front of your strangers
+early. The same rules apply there: say on the site that recording happens, mask
+personal and payment fields, and ask the lawyer when the data calls for it.
 
 ## What a session looks like
 
@@ -240,6 +277,9 @@ evals/                   twenty scenarios with simulated users and expectations,
                          the grader prompt, fixtures, and the results history
 CONTRIBUTING.md          how to add a scenario or a rail
 VERSION, CHANGELOG.md    the version the agent records in VALUE.md, and what changed
+.claude-plugin/          the marketplace file for installing as a Claude Code plugin
+scripts/check.py         the repository's own rules, run on every pull request
+CODE_OF_CONDUCT.md       the line between the explicit voice and how people are treated
 ```
 
 ## Contributing

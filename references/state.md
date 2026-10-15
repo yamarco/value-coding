@@ -19,6 +19,21 @@ Rules:
   this is for, the stage, the nines, and the open action items." When the project
   is not a repository (a deck, a plan, a company run from a folder), the files go in
   that folder, next to the deliverable.
+- **Real people's data stays small, and the repository stays private while it holds
+  any.** These files name strangers and the person on slide one: a name, an age, a
+  place, their words, sometimes a picture. That is personal data in a git history,
+  which never forgets. So: say once, when the first real person is written down,
+  that the repository should be private while these files hold real people, and ask
+  before writing anything into a public one. Write what the method needs and no
+  more: a first name and an initial are enough for a stranger; a full name only when
+  the user has their consent. Pictures are linked, never copied into the
+  repository, and only with the person's consent. Health, children, finance, and
+  anything a regulation covers in the user's geography is written as a reference
+  ("patient 14, back pain") and never as the record; the record stays in the system
+  that is allowed to hold it. When the user pastes such a record into the chat, use
+  it and do not write it down. A person who asks to be removed is removed from the
+  files and from the history, and the user is told how. The lawyer in `humans.md` is
+  asked once when the geography or the data calls for it.
 - Create `VALUE.md` as soon as the voice is chosen in climb 1, even if the rest is
   empty. A crashed session should still leave the voice and the person behind. Create
   the other files the first time something belongs in them, not all at once.
@@ -73,9 +88,11 @@ The index and the 40,000 ft view. Sections, in order:
 ## `value-coding/PEOPLE.md`
 
 One section per real person this is for: full name, age, where they live, story in two
-lines, their sentence in quotes, picture (path or link), role (uses, pays, decides),
-what they do today instead, how the user knows them, date added. The first one is the
-face at the top of every screen; the top bar rotates through all of them.
+lines, their sentence in quotes, picture (a link, with consent, never a copy in the
+repository), role (uses, pays, decides), what they do today instead, how the user
+knows them, date added. The first one is the face at the top of every screen; the top
+bar rotates through all of them. Regulated details (health, finance, children) are a
+reference, never the record.
 
 ## `value-coding/STRANGERS.md`
 

@@ -646,6 +646,9 @@ meet a newer one. Two habits keep that from being a surprise:
   machine. Write the check and the answer in `JOURNAL.md` under rituals, so the
   check runs at most monthly and "stop checking" is remembered. Without network or
   without a clone, say nothing; the README tells the user how to update by hand.
+  When the skill is installed as a plugin (its path contains a plugins cache rather
+  than a skills folder), updates come from the host's plugin manager; mention that
+  once instead of checking.
 
 ## Files you keep
 

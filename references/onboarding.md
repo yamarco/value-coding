@@ -199,9 +199,15 @@ not build until there is a human here.
    time, each with "other, tell me more".
 
 Ask for a picture, or the reason there is none (a patient, a client's employee,
-someone who did not consent). If the person is the user's own patient, client, or
-employee, say now that they can be the person on slide one but not the stranger, and
-that the user's duty to them comes first.
+someone who did not consent). A picture is linked from `PEOPLE.md`, never copied into
+the repository, and only with the person's consent; without it, the user keeps the
+picture where they look at it every day and the file says "picture: with the user,
+not stored". If the person is the user's own patient, client, or employee, say now
+that they can be the person on slide one but not the stranger, and that the user's
+duty to them comes first; their health, finance, or employment details are written
+as a reference, never as the record (`state.md`). The first time a real person is
+written down, say once that the repository should be private while it holds real
+people.
 
 **Dive.** Write `PEOPLE.md` and the person's line at the top of `VALUE.md`. Restate
 the user's original request in that person's terms, in two or three lines. This is
