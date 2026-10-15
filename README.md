@@ -131,19 +131,26 @@ When the skill is active, the agent:
 
 ## Install
 
-The skill is a folder with a `SKILL.md` and references, in the open Agent Skills
-layout. Any tool that reads skill folders can use it directly.
+Any tool that reads skill folders in the open Agent Skills format can use it. One line
+installs it for every coding agent on the machine (Claude Code, Codex, Gemini CLI,
+Antigravity, Grok, Cursor, Windsurf, Cline, Copilot) and tells you what to do for Aider:
 
-**Claude Code**
+```sh
+curl -fsSL https://raw.githubusercontent.com/yamarco/value-coding/main/install/install.sh | sh
+```
+
+Read the script first; it is forty lines, makes one clone under `~/.agents/skills` and
+links it where the other tools look. `install/README.md` has the per-tool paths and
+commands, verified against each tool's documentation, and the per-project variant.
+
+**Claude Code only**
 
 ```bash
 git clone https://github.com/yamarco/value-coding ~/.claude/skills/value-coding
 ```
 
-Or inside one project: clone into `.claude/skills/value-coding`. Then say "build me
-something" and watch it ask who it is for.
-
-Or as a plugin, which gives you install and updates from inside Claude Code:
+Or inside one project: clone into `.claude/skills/value-coding`. Or as a plugin, which
+gives you install and updates from inside Claude Code:
 
 ```
 /plugin marketplace add yamarco/value-coding
@@ -154,6 +161,10 @@ Updates then come from `/plugin` (Installed tab, "Update now"), or automatically
 you enable auto-update for the marketplace in the same place; it is off by default
 for marketplaces outside Anthropic's own. Each release bumps the plugin version, so
 an update appears when the skill changes, not on every commit.
+
+**Tools without skill folders** (Aider, a chat product with a system prompt field):
+paste `prompts/system-prompt.md` into the standing instructions. It is the short
+version and carries its version on the first line.
 
 **Updating**
 
@@ -184,17 +195,6 @@ and the project has no `VALUE.md` yet, it asks once whether you want to use Valu
 Coding here. "Not for this project" writes one line to the project's agent
 instructions file so nobody asks again. Call it by name (`/value-coding`) and it
 starts without asking.
-
-**Codex, Cursor, Windsurf, Cline, Aider, and other agents that read repo
-instructions**
-
-Clone the repo somewhere in your project (for example `skills/value-coding`) and add
-one line to the file your tool reads (`AGENTS.md`, `.cursorrules`,
-`.windsurfrules`, `CONVENTIONS.md`):
-
-```
-Before any work, read skills/value-coding/SKILL.md and follow it.
-```
 
 **ChatGPT, Gemini, Claude.ai, Mistral, Llama, or any chat tool with custom
 instructions**
@@ -274,6 +274,7 @@ references/              read by the agent when the moment calls for it
   state.md               the state files and how to keep them
 templates/               VALUE.md and the value-coding/ files, empty
 prompts/system-prompt.md the short version for tools without skills
+install/                 one-line install for every coding agent, and the per-tool paths
 evals/                   twenty scenarios with simulated users and expectations,
                          the grader prompt, fixtures, and the results history
 CONTRIBUTING.md          how to add a scenario or a rail
