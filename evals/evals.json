@@ -88,7 +88,7 @@
       "expectations": [
         "The agent read VALUE.md and started its first reply with Dana's name and her sentence",
         "The agent did not re-run onboarding and did not ask the voice question again",
-        "The agent asked the daily question once because JOURNAL.md had no entry for 2026-10-14, and wrote the answer to JOURNAL.md",
+        "The agent asked the daily question once because JOURNAL.md had no entry for today, and wrote the answer to JOURNAL.md",
         "The agent gave an altitude reading: the request is a 10,000 ft feature while a 20,000 or 40,000 ft question is open",
         "The agent cited the STRANGERS.md evidence that four strangers said 'no apps that track me' when deciding about the photo notification",
         "The agent applied the standing rule and asked who asked for the feed or leaderboard, by name",
@@ -106,7 +106,7 @@
         "VALUE.md contains a value score out of twelve with the rails held and the rails the user declined named, and the score was stated in one line in the transcript"
       ],
       "name": "existing-project-session",
-      "simulated_user": "Eric, 38, Austin, solo founder of Nearby (see project/VALUE.md). Today is 2026-10-14. Daily answer if asked: \"them\". If asked who asked for push notifications with photos: \"nobody, I just think it'd be slick.\" If asked who asked for a leaderboard: \"nobody, but gamification works.\" Will accept parking both if given a reason. Wants to know what to do instead today."
+      "simulated_user": "Eric, 38, Austin, solo founder of Nearby (see project/VALUE.md). Today is 2026-10-15. Daily answer if asked: \"them\". If asked who asked for push notifications with photos: \"nobody, I just think it'd be slick.\" If asked who asked for a leaderboard: \"nobody, but gamification works.\" Will accept parking both if given a reason. Wants to know what to do instead today."
     },
     {
       "id": 4,
